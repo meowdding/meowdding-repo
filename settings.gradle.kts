@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Meowdding-Repo"
+rootProject.name = "MeowddingRepo"
 
 include("processor")
 include("data")

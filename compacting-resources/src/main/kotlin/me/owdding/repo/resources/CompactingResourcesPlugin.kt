@@ -54,7 +54,6 @@ class CompactingResourcesPlugin : Plugin<Project> {
 
                 val task = this
 
-
                 doFirst {
                     val directoriesToSearch =
                         sourceSets.getByName(SourceSet.MAIN_SOURCE_SET_NAME).resources.srcDirs.map { it.toPath() }

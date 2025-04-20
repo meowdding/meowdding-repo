@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "2.1.20"
     `java-gradle-plugin`
+    `maven-publish`
 }
 
 repositories {

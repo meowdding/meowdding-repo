@@ -1,12 +1,58 @@
 plugins {
     id("me.owdding.resources")
     id("com.google.devtools.ksp") version "2.1.20-2.0.0"
+    `java-gradle-plugin`
 }
 
 project.layout.buildDirectory.set(rootProject.layout.buildDirectory.dir("meowdding_data"))
 
 tasks {
     compileJava { enabled = false }
+}
+
+compactingResources {
+    basePath = "data"
+    compactToArray("hotmperks", "hotm")
+}
+
+tasks {
+    afterEvaluate {
+        getByName("kspKotlin") {
+            outputs.upToDateWhen { false }
+        }
+    }
+
+    afterEvaluate {
+        listOf(
+            "processTestResources",
+            "test",
+            "testClasses",
+            "compileTestJava",
+            "compileTestKotlin",
+            "pluginUnderTestMetadata",
+            "kspTestKotlin"
+        ).forEach {
+            named(it) {
+                enabled = false
+            }
+        }
+    }
+
+    withType<ProcessResources> {
+        exclude("build.gradle.kts")
+        exclude("definitions/**")
+        exclude("src/**")
+        include("data/**")
+    }
+}
+
+dependencies {
+    ksp(project(":processor"))
+    implementation(libs.gson)
+}
+
+ksp {
+    arg("meowdding.processor.definitions", projectDir.resolve("definitions").toPath().toAbsolutePath().toString())
 }
 
 sourceSets {
@@ -17,20 +63,9 @@ sourceSets {
         kotlin.srcDir(projectDir.resolve("src"))
         resources.srcDir(projectDir)
     }
-}
-
-compactingResources {
-    basePath = "data"
-}
-
-tasks {
-    withType<ProcessResources>().configureEach {
-        exclude("build.gradle.kts")
-        exclude("definitions/**")
-        exclude("src/**")
+    test {
+        resources.setSrcDirs(emptyList<Any>())
+        java.setSrcDirs(emptyList<Any>())
+        kotlin.setSrcDirs(emptyList<Any>())
     }
-}
-
-dependencies {
-    ksp(project(":processor"))
 }

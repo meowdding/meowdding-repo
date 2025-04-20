@@ -3,6 +3,7 @@ plugins {
 }
 
 dependencies {
+    implementation(libs.gson)
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.google.devtools.ksp:symbol-processing-api:2.1.20-2.0.0")
 
