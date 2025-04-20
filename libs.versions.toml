@@ -1,0 +1,6 @@
+[versions]
+gson = "2.12.1"
+
+[libraries]
+
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
