@@ -1,6 +1,6 @@
 plugins {
     id("me.owdding.resources")
-    id("com.google.devtools.ksp") version "2.1.20-2.0.0"
+    alias(libs.plugins.ksp)
     `java-gradle-plugin`
 }
 

@@ -1,12 +1,11 @@
 plugins {
-    kotlin("jvm")
+    alias(libs.plugins.kotlin)
 }
 
 dependencies {
     implementation(libs.gson)
-    implementation(kotlin("stdlib-jdk8"))
-    implementation("com.google.devtools.ksp:symbol-processing-api:2.1.20-2.0.0")
+    implementation(libs.kotlin.std)
+    implementation(libs.ksp)
 
-    implementation("com.squareup:kotlinpoet:1.13.0")
-    implementation("com.squareup:kotlinpoet-ksp:1.13.0")
+    implementation(libs.bundles.kotlin.poet)
 }

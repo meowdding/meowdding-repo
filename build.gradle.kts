@@ -1,9 +1,11 @@
 plugins {
-    kotlin("jvm") version "2.1.20"
+    alias(libs.plugins.kotlin)
     `java-gradle-plugin`
     `maven-publish`
     id("me.owdding.resources") apply false
 }
+
+version = libs.versions.repo.get()
 
 allprojects {
     version = rootProject.version
@@ -53,6 +55,32 @@ publishing {
         create<MavenPublication>("data") {
             artifactId = "data"
             from(project(":data").components["java"])
+        }
+
+        // Gradle plugin development plugin automatically creates publications
+        afterEvaluate {
+            named<MavenPublication>("pluginMaven") {
+                pom {
+                    name.set("Meowdding-Repo")
+                    url.set("https://github.com/meowdding/meowdding-repo")
+
+                    scm {
+                        connection.set("git:https://github.com/meowdding/meowdding-repo.git")
+                        developerConnection.set("git:https://github.com/meowdding/meowdding-repo.git")
+                        url.set("https://github.com/meowdding/meowdding-repo")
+                    }
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "TeamResourceful"
+            setUrl("https://maven.teamresourceful.com/repository/thatgravyboat/")
+            credentials {
+                username = System.getenv("MAVEN_USER") ?: providers.gradleProperty("maven_username").orNull
+                password = System.getenv("MAVEN_PASS") ?: providers.gradleProperty("maven_password").orNull
+            }
         }
     }
 }

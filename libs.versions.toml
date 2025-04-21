@@ -1,6 +1,35 @@
 [versions]
+
+# This section controlls the actual release versions
+
+compacting_resources = "1.0.0"
+repo = "1.0.0"
+
+# End of release versions
+
 gson = "2.12.1"
+
+kotlin_poet = "1.13.0"
+
+# Keep kt version in sync with first segment of ksp version
+kotlin = "2.1.20"
+ksp = "2.1.20-2.0.0"
 
 [libraries]
 
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+kotlin_poet = { module = "com.squareup:kotlinpoet", version.ref = "kotlin_poet" }
+kotlin_poet_ksp = { module = "com.squareup:kotlinpoet-ksp", version.ref = "kotlin_poet" }
+
+ksp = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "ksp" }
+
+kotlin_std = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8" }
+
+[bundles]
+
+kotlin_poet = ["kotlin_poet", "kotlin_poet_ksp"]
+
+[plugins]
+
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
