@@ -3,7 +3,7 @@
 # This section controlls the actual release versions
 
 compacting_resources = "1.0.0"
-repo = "1.0.0"
+repo = "1.0.1"
 
 # End of release versions
 

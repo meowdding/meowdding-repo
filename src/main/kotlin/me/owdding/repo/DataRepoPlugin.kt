@@ -16,15 +16,15 @@ import kotlin.io.path.writeText
 class DataRepoPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         target.extensions.create("repo", RepoExtension::class.java)
+        val outDirectory = target.layout.buildDirectory.dir("generated/meowdding/repo").toPath()
+        val sourceSets = target.extensions.getByType<SourceSetContainer>()
+        sourceSets.getResources().srcDir(outDirectory)
         target.afterEvaluate {
-            val outDirectory = target.layout.buildDirectory.dir("generated/meowdding/repo").toPath()
-            outDirectory.createDirectories()
-            val sourceSets = target.extensions.getByType<SourceSetContainer>()
-            sourceSets.getResources().srcDir(outDirectory)
             val extension = target.extensions.getByType<RepoExtension>()
             val collectInitialized = extension.collectInitialized()
             it.tasks.withType<ProcessResources> {
                 doFirst {
+                    outDirectory.createDirectories()
                     collectInitialized.forEach { createData(outDirectory, it, extension) }
                 }
             }

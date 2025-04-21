@@ -18,12 +18,11 @@ data class ConfigContext(
     private val data = mutableMapOf<String, Boolean>().apply {
         putAll(exclude.associateWith { false })
         putAll(include.associateWith { true })
-        println("Exclusions: $this")
+        println("Exclusions: ${this.mapKeys { if (it.key == all) "<default>" else it }}")
     }
 
     fun isExcluded(path: String) = !isIncluded(path)
     fun isIncluded(path: String): Boolean {
-        println("Testing $path")
         return data.getOrDefault(path, !excludeByDefault)
     }
 

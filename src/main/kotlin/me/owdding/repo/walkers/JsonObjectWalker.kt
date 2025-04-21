@@ -16,12 +16,10 @@ class JsonObjectWalker(
         origin.entrySet().forEach { (key, value) ->
             fun path() = (list.joinToString(".", postfix = ".").takeUnless { it.length == 1 } ?: "") + key
             if (configContext.isIncluded(path())) {
-                println(path() + " is included!")
                 output.add(key, value)
                 return@forEach
             }
             if (configContext.isExcluded(path())) {
-                println(path() + " is excluded!")
                 return@forEach
             }
             when (value) {
