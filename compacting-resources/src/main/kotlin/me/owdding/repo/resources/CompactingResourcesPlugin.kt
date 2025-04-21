@@ -1,5 +1,6 @@
 package me.owdding.repo.resources
 
+
 import com.google.gson.JsonParser
 import me.owdding.repo.DEFAULT_CACHE_DIRECTORY
 import me.owdding.repo.FileCache
@@ -13,6 +14,7 @@ import org.gradle.api.tasks.SourceSetContainer
 import org.gradle.api.tasks.TaskContainer
 import org.gradle.language.jvm.tasks.ProcessResources
 import java.nio.file.StandardOpenOption
+import kotlin.io.path.ExperimentalPathApi
 import kotlin.io.path.createDirectories
 import kotlin.io.path.writeText
 import kotlin.time.Duration.Companion.hours
@@ -25,6 +27,7 @@ class CompactingResourcesPlugin : Plugin<Project> {
 
     inline fun Project.tree(baseDir: Any, config: ConfigurableFileTree.() -> Unit) = this.fileTree(baseDir).config()
 
+    @OptIn(ExperimentalPathApi::class)
     override fun apply(target: Project) {
         val cache = FileCache(target.gradle.gradleUserHomeDir.toPath().resolve(DEFAULT_CACHE_DIRECTORY), 1.hours)
         target.extensions.create<CompactingResourcesExtension>("compactingResources")
@@ -44,9 +47,11 @@ class CompactingResourcesPlugin : Plugin<Project> {
                 val outputBaseDirectory = outDirectory.resolve(configuration.basePath!!)
 
                 exclude {
-                    sourceSets.getByName(SourceSet.MAIN_SOURCE_SET_NAME).resources.srcDirs.any { path ->
-                        it.file.toPath().toAbsolutePath()
-                            .equals(path.toPath().resolve(configuration.basePath!!).toAbsolutePath())
+                    configuration.sourceSets.any { sourceSet ->
+                        sourceSets.getByName(sourceSet).resources.srcDirs.any { path ->
+                            it.file.toPath().toAbsolutePath()
+                                .equals(path.toPath().resolve(configuration.basePath!!).toAbsolutePath())
+                        }
                     }
                 }
                 from(project.layout.buildDirectory.dir("generated/meowdding/compacted_resources/").get())
@@ -56,8 +61,10 @@ class CompactingResourcesPlugin : Plugin<Project> {
 
                 doFirst {
                     val directoriesToSearch =
-                        sourceSets.getByName(SourceSet.MAIN_SOURCE_SET_NAME).resources.srcDirs.map { it.toPath() }
-                            .toMutableList().apply { add(outDirectory) }
+                        configuration.sourceSets.map {
+                            sourceSets.getByName(it).resources.srcDirs.map { it.toPath() }.toMutableList()
+                                .apply { add(outDirectory) }
+                        }.flatten()
 
                     configuration.externalResources.forEach { resource ->
                         val orDownload = cache.getOrDownload(resource.url)

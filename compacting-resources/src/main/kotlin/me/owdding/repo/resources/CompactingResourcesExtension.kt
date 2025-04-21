@@ -4,11 +4,15 @@ import me.owdding.repo.resources.types.CompactToArray
 import me.owdding.repo.resources.types.CompactToObject
 import me.owdding.repo.resources.types.ExternalResource
 import me.owdding.repo.resources.types.SubstituteFromDifferentFile
+import org.gradle.api.tasks.SourceSet
 
 open class CompactingResourcesExtension {
     internal val compactors: MutableList<ResourceType<*>> = mutableListOf()
     internal val externalResources: MutableList<ExternalResource> = mutableListOf()
     var basePath: String? = null
+    var sourceSets: MutableList<String> = mutableListOf<String>().apply {
+        add(SourceSet.MAIN_SOURCE_SET_NAME)
+    }
 
     fun compactToArray(folder: String, output: String = folder) {
         compactors.add(CompactToArray(folder, output))
