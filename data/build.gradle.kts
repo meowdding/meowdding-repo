@@ -39,12 +39,7 @@ tasks {
     }
 
     withType<ProcessResources> {
-        inputs.dir(projectDir)
-
-        exclude("build.gradle.kts")
-        exclude("definitions/**")
-        exclude("src/**")
-        include("data/**")
+        include { it.path.startsWith("data") }
     }
 }
 
@@ -59,13 +54,11 @@ ksp {
 
 sourceSets {
     main {
-        afterEvaluate {
-            this@main.resources.srcDir(projectDir)
-        }
         resources.setSrcDirs(emptyList<Any>())
         java.setSrcDirs(emptyList<Any>())
         kotlin.setSrcDirs(emptyList<Any>())
         kotlin.srcDir(projectDir.resolve("src"))
+        resources.srcDir(projectDir)
     }
     test {
         resources.setSrcDirs(emptyList<Any>())
