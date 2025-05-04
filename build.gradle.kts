@@ -34,7 +34,9 @@ allprojects {
 }
 
 dependencies {
-    implementation(project(":data"))!!
+    implementation(project(":data")) {
+        isTransitive = false
+    }
     implementation(libs.gson)
 }
 

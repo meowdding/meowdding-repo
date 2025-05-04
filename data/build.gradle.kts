@@ -38,8 +38,11 @@ tasks {
         }
     }
 
-    withType<ProcessResources> {
-        include { it.path.startsWith("data") }
+    beforeEvaluate {
+        withType<ProcessResources> {
+            from(projectDir)
+            include { it.path.startsWith("data") }
+        }
     }
 }
 
