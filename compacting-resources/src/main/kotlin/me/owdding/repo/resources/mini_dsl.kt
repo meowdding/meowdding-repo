@@ -16,3 +16,6 @@ internal inline fun Project.tree(baseDir: Any, config: ConfigurableFileTree.() -
 
 internal inline fun <reified T : Task> TaskContainer.register(name: String, vararg args: Any) =
     this.register(name, T::class.java, args)
+
+internal inline fun <reified T : Task> TaskContainer.getByName(name: String, config: T.() -> Unit) =
+    (this.getByName(name) as T).config()
