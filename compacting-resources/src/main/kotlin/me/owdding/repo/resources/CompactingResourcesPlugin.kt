@@ -61,7 +61,9 @@ class CompactingResourcesPlugin : Plugin<Project> {
 
 
                     doFirst {
-                        val directoriesToSearch = sourceSet.resources.srcDirs.toMutableList().map { it.toPath() }
+                        val directoriesToSearch = sourceSet.resources.srcDirs.toMutableList().apply {
+                            this.add(outDirectory.toFile())
+                        }.distinct().map { it.toPath() }
 
                         configuration.externalResources.forEach { resource ->
                             val orDownload = cache.getOrDownload(resource.url)
