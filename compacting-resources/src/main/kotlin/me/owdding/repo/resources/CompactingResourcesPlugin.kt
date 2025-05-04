@@ -6,12 +6,8 @@ import me.owdding.repo.DEFAULT_CACHE_DIRECTORY
 import me.owdding.repo.FileCache
 import org.gradle.api.Plugin
 import org.gradle.api.Project
-import org.gradle.api.Task
-import org.gradle.api.file.ConfigurableFileTree
-import org.gradle.api.plugins.ExtensionContainer
 import org.gradle.api.tasks.SourceSet
 import org.gradle.api.tasks.SourceSetContainer
-import org.gradle.api.tasks.TaskContainer
 import org.gradle.language.jvm.tasks.ProcessResources
 import java.nio.file.StandardOpenOption
 import kotlin.io.path.ExperimentalPathApi
@@ -20,13 +16,6 @@ import kotlin.io.path.writeText
 import kotlin.time.Duration.Companion.hours
 
 class CompactingResourcesPlugin : Plugin<Project> {
-    inline fun <reified T> ExtensionContainer.create(name: String) = this.create(name, T::class.java)
-    inline fun <reified T> ExtensionContainer.getByType() = this.getByType(T::class.java)
-    inline fun <reified T : Task> TaskContainer.withType(config: T.() -> Unit) =
-        this.withType(T::class.java).forEach { it.config() }
-
-    inline fun Project.tree(baseDir: Any, config: ConfigurableFileTree.() -> Unit) = this.fileTree(baseDir).config()
-
     @OptIn(ExperimentalPathApi::class)
     override fun apply(target: Project) {
         val cache = FileCache(target.gradle.gradleUserHomeDir.toPath().resolve(DEFAULT_CACHE_DIRECTORY), 1.hours)
@@ -42,7 +31,8 @@ class CompactingResourcesPlugin : Plugin<Project> {
                     configuration.compactors.flatMap { it.getPath().toList() }.map { "${configuration.basePath}/$it" }
 
                 val outDirectory =
-                    project.layout.buildDirectory.file("generated/meowdding/compacted_resources/").get().asFile.toPath()
+                    project.layout.buildDirectory.file("generated/meowdding/compacted_resources/${this.name}")
+                        .get().asFile.toPath()
                 outDirectory.parent.createDirectories()
                 val outputBaseDirectory = outDirectory.resolve(configuration.basePath!!)
 
