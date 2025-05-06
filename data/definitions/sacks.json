@@ -1,0 +1,14 @@
+[
+  {
+    "name": "sack",
+    "contains": [
+      "sack"
+    ]
+  },
+  {
+    "name": "items",
+    "contains": [
+      "items"
+    ]
+  }
+]
