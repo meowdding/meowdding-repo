@@ -14,7 +14,9 @@ import kotlin.io.path.createDirectories
 import kotlin.io.path.writeText
 import kotlin.time.Duration.Companion.hours
 
+val jsonExtensions = arrayOf("json", "jsonc", "json5")
 class CompactingResourcesPlugin : Plugin<Project> {
+
     @OptIn(ExperimentalPathApi::class)
     override fun apply(target: Project) {
         val cache = FileCache(target.gradle.gradleUserHomeDir.toPath().resolve(DEFAULT_CACHE_DIRECTORY), 1.hours)
@@ -96,6 +98,10 @@ class CompactingResourcesPlugin : Plugin<Project> {
                                         .toTypedArray())
 
                                     forEach {
+                                        if (it.name.substringAfterLast(".") !in jsonExtensions) {
+                                            return@forEach
+                                        }
+
                                         task.exclude(file.relativize(it.toPath()).toString())
                                         println("Excluding ${file.relativize(it.toPath())}")
                                         compactor.add(it.nameWithoutExtension, JsonParser.parseString(it.readText()))
@@ -120,6 +126,9 @@ class CompactingResourcesPlugin : Plugin<Project> {
                                 forEach {
                                     val toRelativeString =
                                         it.toRelativeString(file.resolve(configuration.basePath!!).toFile())
+                                    if (toRelativeString.substringAfterLast(".") !in jsonExtensions) {
+                                        return@forEach
+                                    }
                                     logger.warn("Compacting file {}", toRelativeString)
                                     val parseString = JsonParser.parseString(it.readText())
                                     val path = outputBaseDirectory.resolve(toRelativeString)
