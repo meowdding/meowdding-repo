@@ -1,9 +1,6 @@
 package me.owdding.repo.resources
 
-import me.owdding.repo.resources.types.CompactToArray
-import me.owdding.repo.resources.types.CompactToObject
-import me.owdding.repo.resources.types.ExternalResource
-import me.owdding.repo.resources.types.SubstituteFromDifferentFile
+import me.owdding.repo.resources.types.*
 import org.gradle.api.tasks.SourceSet
 
 open class CompactingResourcesExtension {
@@ -28,5 +25,9 @@ open class CompactingResourcesExtension {
 
     fun substituteFromDifferentFile(folder: String, mainFile: String, output: String = folder) {
         compactors.add(SubstituteFromDifferentFile(folder, mainFile, output))
+    }
+
+    fun processFile(file: String) {
+        compactors.add(FileProcessor(file))
     }
 }
