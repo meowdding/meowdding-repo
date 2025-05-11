@@ -2,7 +2,7 @@
 
 # This section controlls the actual release versions
 
-compacting_resources = "1.0.8"
+compacting_resources = "1.0.9"
 repo = "1.0.5"
 
 # End of release versions
