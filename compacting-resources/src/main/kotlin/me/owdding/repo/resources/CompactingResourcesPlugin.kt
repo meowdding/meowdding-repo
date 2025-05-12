@@ -96,8 +96,6 @@ class CompactingResourcesPlugin : Plugin<Project> {
                                 target.tree(file) {
 
                                     include(*pathsToCompact.toTypedArray())
-                                    exclude(*listOfPaths.toMutableList().apply { this.removeAll(pathsToCompact) }
-                                        .toTypedArray())
 
                                     forEach {
                                         if (it.name.substringAfterLast(".") !in jsonExtensions) {

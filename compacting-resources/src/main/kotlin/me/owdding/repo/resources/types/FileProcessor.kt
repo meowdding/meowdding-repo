@@ -105,5 +105,5 @@ class FileProcessor(val file: String, output: String) : ResourceType<JsonElement
         }
     }
 
-    override fun getPath() = arrayOf("${file}.json", "${file}.jsonc")
+    override fun getPath() = arrayOf("$file.json", "$file.jsonc")
 }
