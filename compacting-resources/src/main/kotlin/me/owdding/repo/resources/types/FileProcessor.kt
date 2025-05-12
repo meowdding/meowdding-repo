@@ -5,7 +5,7 @@ import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import me.owdding.repo.resources.ResourceType
 
-class FileProcessor(file: String) : ResourceType<JsonElement>(::JsonArray, file) {
+class FileProcessor(val file: String, output: String) : ResourceType<JsonElement>(::JsonArray, output) {
     var hasInited = false
 
     override fun add(fileName: String, element: JsonElement) {
@@ -105,5 +105,5 @@ class FileProcessor(file: String) : ResourceType<JsonElement>(::JsonArray, file)
         }
     }
 
-    override fun getPath() = arrayOf("$output.json", "$output.jsonc")
+    override fun getPath() = arrayOf("${file}.json", "${file}.jsonc")
 }

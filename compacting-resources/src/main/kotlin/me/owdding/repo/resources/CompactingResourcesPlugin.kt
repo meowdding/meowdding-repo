@@ -11,6 +11,7 @@ import org.gradle.language.jvm.tasks.ProcessResources
 import java.nio.file.StandardOpenOption
 import kotlin.io.path.ExperimentalPathApi
 import kotlin.io.path.createDirectories
+import kotlin.io.path.deleteRecursively
 import kotlin.io.path.writeText
 import kotlin.time.Duration.Companion.hours
 
@@ -63,6 +64,7 @@ class CompactingResourcesPlugin : Plugin<Project> {
 
 
                     doFirst {
+                        outputBaseDirectory.deleteRecursively()
                         val directoriesToSearch = sourceSet.resources.srcDirs.toMutableList().apply {
                             this.add(outDirectory.toFile())
                         }.distinct().map { it.toPath() }

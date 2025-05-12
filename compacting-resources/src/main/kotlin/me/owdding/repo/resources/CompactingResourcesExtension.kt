@@ -27,7 +27,7 @@ open class CompactingResourcesExtension {
         compactors.add(SubstituteFromDifferentFile(folder, mainFile, output))
     }
 
-    fun processFile(file: String) {
-        compactors.add(FileProcessor(file))
+    fun processFile(file: String, output: String = file) {
+        compactors.add(FileProcessor(file, output))
     }
 }
