@@ -11,6 +11,6 @@
   "reward_formula": "level * 5",
   "name": "Metal Head",
   "tooltip": [
-    "<gray>Grants <gold>+%reward%☘ Dwarven Metal Fortune<gr"
+    "<gray>Grants <gold>+%reward%☘ Dwarven Metal Fortune<gray>."
   ]
 }
