@@ -61,7 +61,7 @@ sourceSets {
         java.setSrcDirs(emptyList<Any>())
         kotlin.setSrcDirs(emptyList<Any>())
         kotlin.srcDir(projectDir.resolve("src"))
-        resources.srcDir(projectDir)
+        resources.srcDir(projectDir.resolve("resources"))
     }
     test {
         resources.setSrcDirs(emptyList<Any>())
