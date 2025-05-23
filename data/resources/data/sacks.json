@@ -40,6 +40,15 @@
   {
     "sack": "LARGE_MINING_SACK",
     "items": [
+      "COAL",
+      "COBBLESTONE",
+      "DIAMOND",
+      "EMERALD",
+      "ENDER_STONE",
+      "FLINT",
+      "GLACITE",
+      "GLOSSY_GEMSTONE",
+      "GLOWSTONE_DUST",
       "GOLD_INGOT",
       "GRAVEL",
       "HARD_STONE",
@@ -70,6 +79,15 @@
   {
     "sack": "LARGE_ENCHANTED_MINING_SACK",
     "items": [
+      "CONCENTRATED_STONE",
+      "ENCHANTED_COAL",
+      "ENCHANTED_COAL_BLOCK",
+      "ENCHANTED_COBBLESTONE",
+      "ENCHANTED_DIAMOND",
+      "ENCHANTED_DIAMOND_BLOCK",
+      "ENCHANTED_EMERALD",
+      "ENCHANTED_EMERALD_BLOCK",
+      "ENCHANTED_ENDSTONE",
       "ENCHANTED_FLINT",
       "ENCHANTED_GLACITE",
       "ENCHANTED_GLOWSTONE",
@@ -234,8 +252,7 @@
       "JACOBS_TICKET",
       "PLANT_MATTER",
       "SQUASH",
-      "CHEESE_FUEL",
-      "COMPOST"
+      "CHEESE_FUEL"
     ]
   },
   {
@@ -260,8 +277,7 @@
       "SUPERBOOM_TNT",
       "THORN_FRAGMENT",
       "DUNGEON_TRAP",
-      "WITHER_CATALYST",
-      "ARCHITECT_FIRST_DRAFT"
+      "WITHER_CATALYST"
     ]
   },
   {
@@ -302,10 +318,7 @@
       "FINE_CITRINE_GEM",
       "ROUGH_PERIDOT_GEM",
       "FLAWED_PERIDOT_GEM",
-      "FINE_PERIDOT_GEM",
-      "ROUGH_SAPPHIRE_GEM",
-      "FLAWED_SAPPHIRE_GEM",
-      "FINE_SAPPHIRE_GEM"
+      "FINE_PERIDOT_GEM"
     ]
   },
   {
@@ -325,8 +338,7 @@
       "ENCHANTED_RAW_SALMON",
       "ENCHANTED_SHARK_FIN",
       "ENCHANTED_SPONGE",
-      "ENCHANTED_WET_SPONGE",
-      "ENCHANTED_INK_SACK"
+      "ENCHANTED_WET_SPONGE"
     ]
   },
   {
@@ -359,8 +371,7 @@
       "SPONGE",
       "TIGER_SHARK_TOOTH",
       "TORN_CLOTH",
-      "WORM_MEMBRANE",
-      "BUSTED_BELT_BUCKLE"
+      "WORM_MEMBRANE"
     ]
   },
   {
@@ -382,25 +393,7 @@
       "SPIDER_CATALYST",
       "TARANTULA_WEB",
       "UNDEAD_CATALYST",
-      "WOLF_TOOTH",
-      "BLAZE_ROD_DISTILLATE",
-      "CRUDE_GABAGOOL",
-      "DERELICT_ASHE",
-      "CRUDE_GABAGOOL_DISTILLATE",
-      "GLOWSTONE_DUST_DISTILLATE",
-      "MAGMA_CREAM_DISTILLATE",
-      "NETHER_STALK_DISTILLATE",
-      "NULL_ATOM",
-      "NULL_SPHERE",
-      "RAW_SOULFLOW",
-      "REVENANT_CATALYST",
-      "REVENANT_FLESH",
-      "SOULFLOW",
-      "SPIDER_CATALYST",
-      "TARANTULA_WEB",
-      "UNDEAD_CATALYST",
-      "WOLF_TOOTH",
-      "SOULFLOW"
+      "WOLF_TOOTH"
     ]
   },
   {
@@ -437,13 +430,21 @@
       "SUPERLITE_MOTOR",
       "SYNTHETIC_HEART",
       "WISHING_COMPASS",
-      "YOGGIE",
-      "OIL_BARREL"
+      "YOGGIE"
     ]
   },
   {
     "sack": "LARGE_NETHER_SACK",
     "items": [
+      "BEZOS",
+      "BLAZE_ASHES",
+      "BLAZE_ROD",
+      "BURNING_EYE",
+      "COMPACT_OOZE",
+      "CORRUPTED_FRAGMENT",
+      "DIGESTED_MUSHROOMS",
+      "FLAMES",
+      "GAZING_PEARL",
       "GHAST_TEAR",
       "GLOWSTONE_DUST",
       "HALLOWED_SKULL",
@@ -472,8 +473,7 @@
       "WITHER_SOUL",
       "X",
       "Y",
-      "Z",
-      "MILLENIA_OLD_BLAZE_ASHES"
+      "Z"
     ]
   },
   {
@@ -496,8 +496,7 @@
       "VOLCANIC_STONEFISH_BRONZE",
       "OBFUSCATED_FISH_1_BRONZE",
       "OBFUSCATED_FISH_2_BRONZE",
-      "OBFUSCATED_FISH_3_BRONZE",
-      "SLUGFISH_BRONZE"
+      "OBFUSCATED_FISH_3_BRONZE"
     ]
   },
   {
@@ -520,8 +519,7 @@
       "VOLCANIC_STONEFISH_SILVER",
       "OBFUSCATED_FISH_1_SILVER",
       "OBFUSCATED_FISH_2_SILVER",
-      "OBFUSCATED_FISH_3_SILVER",
-      "SOUL_FISH_SILVER"
+      "OBFUSCATED_FISH_3_SILVER"
     ]
   },
   {
@@ -545,13 +543,21 @@
       "SCORCHED_CRAB_STICK",
       "MAGMA_FISH_SILVER",
       "SINGED_POWDER",
-      "THUNDER_SHARDS",
-      "MOOGMA_PELT"
+      "THUNDER_SHARDS"
     ]
   },
   {
     "sack": "LARGE_EVENTS_SACK",
     "items": [
+      "ANCIENT_CLAW",
+      "BLUE_SHARK_TOOTH",
+      "CARNIVAL_TICKET",
+      "DARK_CANDY",
+      "ECTOPLASM",
+      "ENCHANTED_SHARK_FIN",
+      "FISHY_TREAT",
+      "GLACIAL_FRAGMENT",
+      "GLOSSY_GEMSTONE",
       "GREEN_CANDY",
       "GREEN_GIFT",
       "GRIFFIN_FEATHER",
@@ -571,8 +577,7 @@
       "WHITE_GIFT",
       "WINTER_FRAGMENT",
       "RED_GIFT",
-      "VOLCANIC_ROCK",
-      "WHITE_GIFT"
+      "VOLCANIC_ROCK"
     ]
   },
   {
