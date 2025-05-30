@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Custom Scoreboard",
+    "mod_id": "customscoreboard",
+    "config_id": "customscoreboard",
+    "modrinth_slug": "skyblock-custom-scoreboard",
+    "github_repo": "meowdding/CustomScoreboard",
+    "icon": "https://raw.githubusercontent.com/meowdding/CustomScoreboard/refs/heads/main/src/main/resources/assets/customscoreboard/icon.png"
+  }
+]
