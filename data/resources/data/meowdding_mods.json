@@ -6,5 +6,13 @@
     "modrinth_slug": "skyblock-custom-scoreboard",
     "github_repo": "meowdding/CustomScoreboard",
     "icon": "https://raw.githubusercontent.com/meowdding/CustomScoreboard/refs/heads/main/src/main/resources/assets/customscoreboard/icon.png"
+  },
+  {
+    "name": "SkyCubed",
+    "mod_id": "skycubed",
+    "config_id": "skycubed",
+    "modrinth_slug": "skycubed",
+    "github_repo": "meowdding/SkyCubed",
+    "icon": "https://raw.githubusercontent.com/meowdding/SkyCubed/refs/heads/master/src/client/resources/assets/skycubed/icon.png"
   }
 ]
