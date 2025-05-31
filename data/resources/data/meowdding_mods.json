@@ -14,5 +14,21 @@
     "modrinth_slug": "skycubed",
     "github_repo": "meowdding/SkyCubed",
     "icon": "https://raw.githubusercontent.com/meowdding/SkyCubed/refs/heads/master/src/client/resources/assets/skycubed/icon.png"
+  },
+  {
+    "name": "SkyOcean",
+    "mod_id": "skyocean",
+    "config_id": "skyocean",
+    "modrinth_slug": "skyocean",
+    "github_repo": "meowdding/SkyOcean",
+    "icon": "https://raw.githubusercontent.com/meowdding/SkyOcean/refs/heads/main/src/client/resources/assets/skyocean/skyocean.png"
+  },
+  {
+    "name": "SkyBlock Profile Viewer",
+    "mod_id": "skyblockpv",
+    "config_id": "sbpv",
+    "modrinth_slug": "skyblock-profile-viewer",
+    "github_repo": "meowdding/skyblock-pv",
+    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
   }
 ]
