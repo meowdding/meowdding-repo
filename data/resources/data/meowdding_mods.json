@@ -30,5 +30,13 @@
     "modrinth_slug": "skyblock-profile-viewer",
     "github_repo": "meowdding/skyblock-pv",
     "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
+  },
+  {
+    "name": "SkyBlock RPC",
+    "mod_id": "skyblockrpc",
+    "config_id": "sbrpc",
+    "modrinth_slug": "qESHWJ0N",
+    "github_repo": "meowdding/skyblock-rpc",
+    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-rpc/refs/heads/master/src/main/resources/assets/skyblock-rpc/logo/logo_sky.png"
   }
 ]
