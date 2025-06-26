@@ -159,19 +159,25 @@
   {
     "sack": "LARGE_FORAGING_SACK",
     "items": [
-      "SAPLING:4",
       "LOG_2",
+      "SAPLING:4",
       "APPLE",
-      "SAPLING:2",
       "LOG:2",
-      "SAPLING:5",
+      "SAPLING:2",
       "LOG_2:1",
-      "SAPLING:3",
+      "SAPLING:5",
+      "FIG_LOG",
       "LOG:3",
-      "SAPLING",
+      "SAPLING:3",
+      "LUSHLILAC",
+      "MANGROVE_LOG",
       "LOG",
+      "SAPLING",
+      "SEA_LUMIES",
+      "LOG:1",
       "SAPLING:1",
-      "LOG:1"
+      "TENDER_WOOD",
+      "VINESAP"
     ]
   },
   {
@@ -180,9 +186,16 @@
       "ENCHANTED_ACACIA_LOG",
       "ENCHANTED_BIRCH_LOG",
       "ENCHANTED_DARK_OAK_LOG",
+      "ENCHANTED_FIG_LOG",
       "ENCHANTED_JUNGLE_LOG",
+      "ENCHANTED_MANGROVE_LOG",
       "ENCHANTED_OAK_LOG",
-      "ENCHANTED_SPRUCE_LOG"
+      "ENCHANTED_SEA_LUMIES",
+      "ENCHANTED_SPRUCE_LOG",
+      "ENCHANTED_TENDER_WOOD",
+      "ENCHANTED_VINESAP",
+      "FIGSTONE",
+      "MANGCORE"
     ]
   },
   {
@@ -549,6 +562,7 @@
   {
     "sack": "LARGE_EVENTS_SACK",
     "items": [
+      "AGATHA_COUPON",
       "ANCIENT_CLAW",
       "BLUE_SHARK_TOOTH",
       "CARNIVAL_TICKET",
@@ -563,6 +577,7 @@
       "GRIFFIN_FEATHER",
       "BLUE_ICE_HUNK",
       "ICE_HUNK",
+      "JACOBS_TICKET",
       "NURSE_SHARK_TOOTH",
       "PARTY_GIFT",
       "PUMPKIN_GUTS",
