@@ -5,8 +5,6 @@ plugins {
     id("me.owdding.resources") apply false
 }
 
-version = libs.versions.repo.get()
-
 allprojects {
     version = rootProject.version
     group = rootProject.group

@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-version = libs.versions.compacting.resources.get()
+version = rootProject.properties["compaction.resources.version"].toString()
 
 repositories {
     mavenCentral()
