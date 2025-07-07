@@ -1,0 +1,21 @@
+{
+  "type": "ability",
+  "id": "maniac_slicer",
+  "name": "Maniac Slicer",
+  "location": [
+    6,
+    5
+  ],
+  "reward_formula": {
+    "cooldown": "60 - effectiveLevel * 2",
+    "duration": "15 + effectiveLevel * 5"
+  },
+  "tooltip": [
+    "<gold>Axe Ability: Maniac Slicer</gold>",
+    "<gray>Throwing your axe consumes </gray><green>100%</green>",
+    "<gray>of your total mana. You gain </gray><dark_green>1∮</dark_green>",
+    "<dark_green>Sweep </dark_green><gray>for every </gray><aqua>100 Mana </aqua><gray>used, for</gray>",
+    "<green>%duration% </green><gray>seconds.</gray>",
+    "<dark_gray>Cooldown: </dark_gray><green>%cooldown%s</green>"
+  ]
+}

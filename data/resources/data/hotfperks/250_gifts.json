@@ -1,0 +1,18 @@
+{
+  "type": "perk",
+  "id": "250_gifts",
+  "location": [
+    5,
+    2
+  ],
+  "max_level": 40,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^3.07)",
+  "reward_formula": "level",
+  "name": "250 Gifts",
+  "tooltip": [
+    "<gray>Your first </gray><green>250 </green><gray>Tree Gifts of the day</gray>",
+    "<gray>grant </gray><green>%reward%% </green><gray>more loot and </gray><green>20 </green><gray>extra</gray>",
+    "<dark_aqua>Forest Whispers</dark_aqua><gray>.</gray>"
+  ]
+}

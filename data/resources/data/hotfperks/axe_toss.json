@@ -1,0 +1,16 @@
+{
+  "type": "ability",
+  "id": "axe_toss",
+  "name": "Axe Toss",
+  "location": [
+    5,
+    1
+  ],
+  "reward_formula": "120 - effectiveLevel * 4",
+  "tooltip": [
+    "<gold>Axe Ability: Axe Toss</gold>",
+    "<gray>Throwing your Axe has no </gray><dark_green>∮ Sweep</dark_green>",
+    "<gray>penalty for </gray><green>10s</green><gray>.</gray>",
+    "<dark_gray>Cooldown: </dark_gray><green>%reward%s</green>"
+  ]
+}

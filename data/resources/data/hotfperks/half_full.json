@@ -1,0 +1,21 @@
+{
+  "type": "perk",
+  "id": "half_full",
+  "location": [
+    3,
+    6
+  ],
+  "max_level": 10,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^4.1)",
+  "reward_formula": {
+    "foraging_fortune": "level * 2",
+    "sweep": "level"
+  },
+  "name": "Half Full",
+  "tooltip": [
+    "<gray>Gain </gray><green>%foraging_fortune% </green><gold>☘ Foraging Fortune </gold><gray>and </gray><green>%sweep% </green><dark_green>∮</dark_green>",
+    "<dark_green>Sweep </dark_green><gray>when within </gray><green>16 </green><gray>Blocks of a</gray>",
+    "<gray>player with Half Empty enabled.</gray>"
+  ]
+}

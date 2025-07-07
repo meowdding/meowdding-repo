@@ -1,0 +1,70 @@
+{
+  "type": "core",
+  "id": "special_0",
+  "name": "Center of the Forest",
+  "location": [
+    3,
+    4
+  ],
+  "level": [
+    {
+      "cost": {},
+      "reward": [
+        "<dark_gray>+</dark_gray><red>1 Axe Ability Level</red>",
+        "<dark_gray>+</dark_gray><green>1 Token of the Forest</green>"
+      ]
+    },
+    {
+      "include": [
+        1
+      ],
+      "cost": {
+        "type": "WHISPER",
+        "amount": 50000
+      },
+      "reward": "<dark_gray>+</dark_gray><dark_green>5% ∮ Sweep</dark_green><gray>.</gray>"
+    },
+    {
+      "include": [
+        1,
+        2
+      ],
+      "cost": {
+        "type": "MITHRIL",
+        "amount": 100000
+      },
+      "reward": [
+        "<dark_gray>+</dark_gray><dark_aqua>20 Forest Whispers </dark_aqua><gray>per Tree Gift.</gray>",
+        "<dark_gray>+</dark_gray><dark_aqua>2 Forest Whispers </dark_aqua><gray>per</gray>",
+        "<gray>Fig/Mangrove logs cut.</gray>"
+      ]
+    },
+    {
+      "include": [
+        1,
+        2,
+        3
+      ],
+      "cost": {
+        "type": "WHISPER",
+        "amount": 200000
+      },
+      "reward": "<dark_gray>+</dark_gray><dark_green>10% ∮ Sweep</dark_green><gray>.</gray>"
+    },
+    {
+      "cost": {
+        "type": "WHISPER",
+        "amount": 300000
+      },
+      "reward": [
+        "<dark_gray>+</dark_gray><red>1 Axe Ability Level</red>",
+        "<dark_gray>+</dark_gray><dark_green>5% ∮ Sweep</dark_green><gray>.</gray>",
+        "<dark_gray>+</dark_gray><dark_aqua>20 Forest Whispers </dark_aqua><gray>per Tree Gift.</gray>",
+        "<dark_gray>+</dark_gray><dark_aqua>2 Forest Whispers </dark_aqua><gray>per</gray>",
+        "<gray>Fig/Mangrove logs cut.</gray>",
+        "<dark_gray>+</dark_gray><dark_green>10% ∮ Sweep</dark_green><gray>.</gray>",
+        "<dark_gray>+</dark_gray><green>2 Token of the Forest</green>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "perk",
+  "id": "luck_of_the_forest",
+  "location": [
+    1,
+    2
+  ],
+  "max_level": 40,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^3.07)",
+  "reward_formula": "level * 0.5",
+  "name": "Luck of the Forest",
+  "tooltip": [
+    "<gray>Tree Gifts grant </gray><green>%reward%% </green><gray>more loot.</gray>"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "unlevelable",
+  "id": "lottery",
+  "name": "Lottery",
+  "location": [
+    0,
+    2
+  ],
+  "tooltip": [
+    "<gray>Every SkyBlock day, you receive a</gray>",
+    "<gray>random effect.</gray>",
+    "",
+    "<gray>Possible Buffs</gray>",
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold>☘ Fig Fortune</gold><gray>.</gray>",
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold>☘ Mangrove Fortune</gold><gray>.</gray>",
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+5% </green><dark_green>∮ Sweep</dark_green><gray>.</gray>"
+  ]
+}

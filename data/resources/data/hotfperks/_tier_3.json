@@ -1,0 +1,11 @@
+{
+  "type": "tier",
+  "location": [
+    -2,
+    2
+  ],
+  "name": "Tier 3",
+  "rewards": [
+    "<dark_gray>+<green>2 Token of the Forest"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "ability",
+  "id": "damage_boost",
+  "name": "Damage Boost",
+  "location": [
+    1,
+    1
+  ],
+  "reward_formula": "120 - effectiveLevel * 5",
+  "tooltip": [
+    "<gold>Axe Ability: Damage Boost</gold>",
+    "<gray>Your axe deals double </gray><red>❁ Damage </red><gray>to</gray>",
+    "<gray>creatures on </gray><dark_green>Galatea </dark_green><gray>for </gray><green>10s</green><gray>.</gray>",
+    "<dark_gray>Cooldown: </dark_gray><green>%reward%s</green>"
+  ]
+}

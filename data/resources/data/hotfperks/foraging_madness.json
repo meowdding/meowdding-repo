@@ -1,0 +1,13 @@
+{
+  "type": "unlevelable",
+  "id": "foraging_madness",
+  "name": "Foraging Madness",
+  "location": [
+    1,
+    2
+  ],
+  "tooltip": [
+    "<gray>Increase </gray><dark_green>∮ Sweep </dark_green><gray>by </gray><green>10</green><gray> and </gray><gold>☘</gold>",
+    "<gold>Foraging Fortune </gold><gray>by </gray><green>50</green><gray>.</gray>"
+  ]
+}

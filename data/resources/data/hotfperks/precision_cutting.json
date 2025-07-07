@@ -1,0 +1,14 @@
+{
+  "type": "unlevelable",
+  "id": "precision_cutting",
+  "name": "Precision Cutting",
+  "location": [
+    6,
+    2
+  ],
+  "tooltip": [
+    "<gray>A particle appears on every nearby</gray>",
+    "<gray>tree. Cutting the marked log grants</gray>",
+    "<gray>you a </gray><green>+10</green><gray> </gray><dark_green>∮ Sweep </dark_green><gray>on that hit.</gray>"
+  ]
+}

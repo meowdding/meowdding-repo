@@ -1,0 +1,14 @@
+{
+  "type": "unlevelable",
+  "id": "homing_axe",
+  "name": "Homing Axe",
+  "location": [
+    5,
+    0
+  ],
+  "tooltip": [
+    "<gray>Your Throwing Axes gain permanent</gray>",
+    "<gray>homing abilities towards trees on</gray>",
+    "<dark_green>Galatea</dark_green><gray>.</gray>"
+  ]
+}

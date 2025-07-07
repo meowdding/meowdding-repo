@@ -1,0 +1,17 @@
+{
+  "type": "perk",
+  "id": "ricochet",
+  "location": [
+    3,
+    6
+  ],
+  "max_level": 10,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^5.5)",
+  "reward_formula": "level",
+  "name": "Ricochet",
+  "tooltip": [
+    "<gray>Your Axe has a </gray><green>%reward%% </green><gray>chance to bounce</gray>",
+    "<gray>to a nearby tree when thrown.</gray>"
+  ]
+}

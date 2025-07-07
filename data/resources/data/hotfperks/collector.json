@@ -1,0 +1,18 @@
+{
+  "type": "perk",
+  "id": "collector",
+  "location": [
+    4,
+    3
+  ],
+  "max_level": 50,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^2.9)",
+  "reward_formula": "level * 2",
+  "name": "Collector",
+  "tooltip": [
+    "<gray>Berries and Island Resources have</gray>",
+    "<gray>a </gray><green>%reward%% </green><gray>chance to drop double</gray>",
+    "<gray>resource.</gray>"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "perk",
+  "id": "galateas_might",
+  "location": [
+    5,
+    3
+  ],
+  "max_level": 50,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^3.2)",
+  "reward_formula": "level * 0.5",
+  "name": "Glatea's Might",
+  "tooltip": [
+    "<gray>Gain </gray><green>%reward%% </green><gray>Combat Stats on </gray><dark_green>Galatea</dark_green><gray>.</gray>"
+  ]
+}

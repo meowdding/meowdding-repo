@@ -1,0 +1,16 @@
+{
+  "type": "perk",
+  "id": "sweep",
+  "location": [
+    3,
+    0
+  ],
+  "max_level": 50,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^3)",
+  "reward_formula": "level",
+  "name": "Sweep",
+  "tooltip": [
+    "<gray>Increase <dark_green>∮ Sweep</dark_green> by <green>%reward%</green>.</gray>"
+  ]
+}

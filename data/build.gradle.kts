@@ -13,6 +13,7 @@ tasks {
 compactingResources {
     basePath = "data"
     compactToArray("hotmperks", "hotm")
+    compactToArray("hotfperks", "hotf")
 }
 
 tasks {

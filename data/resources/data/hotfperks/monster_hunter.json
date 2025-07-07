@@ -1,0 +1,13 @@
+{
+  "type": "unlevelable",
+  "id": "monster_hunter",
+  "name": "Monster Hunter",
+  "location": [
+    4,
+    1
+  ],
+  "tooltip": [
+    "<gray>Hunting a monster grants </gray><green>+40 </green><gray>extra</gray>",
+    "<dark_aqua>Forest Whispers</dark_aqua><gray>.</gray>"
+  ]
+}

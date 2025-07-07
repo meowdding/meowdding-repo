@@ -1,0 +1,18 @@
+{
+  "type": "perk",
+  "id": "essence_fortune",
+  "location": [
+    5,
+    4
+  ],
+  "max_level": 50,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^3.2)",
+  "reward_formula": "level * 0.5",
+  "name": "Essence Fortune",
+  "tooltip": [
+    "<gray>Every time you obtain </gray><light_purple>Forest</light_purple>",
+    "<light_purple>Essence</light_purple><gray>, there is a </gray><green>%reward%%</green><gray> chance for</gray>",
+    "<gray>it to double.</gray>"
+  ]
+}

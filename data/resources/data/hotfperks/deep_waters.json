@@ -1,0 +1,16 @@
+{
+  "type": "perk",
+  "id": "deep_waters",
+  "location": [
+    2,
+    3
+  ],
+  "max_level": 50,
+  "powder_type": "WHISPER",
+  "cost_formula": "floor((nextLevel + 1)^2.9)",
+  "reward_formula": "level",
+  "name": "Deep Waters",
+  "tooltip": [
+    "<gray>You gain </gray><green>%reward% </green><blue>❍ Pressure Resistance</blue><gray>.</gray>"
+  ]
+}
