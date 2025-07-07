@@ -26,7 +26,7 @@
   {
     "name": "SkyBlock Profile Viewer",
     "mod_id": "skyblockpv",
-    "config_id": "sbpv",
+    "config_id": "skyblockpv",
     "modrinth_slug": "skyblock-profile-viewer",
     "github_repo": "meowdding/skyblock-pv",
     "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
