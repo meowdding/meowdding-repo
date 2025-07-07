@@ -9,7 +9,7 @@
   "powder_type": "WHISPER",
   "cost_formula": "floor((nextLevel + 1)^3.2)",
   "reward_formula": "level",
-  "name": "Hunters Luck",
+  "name": "Hunter's Luck",
   "tooltip": [
     "<gray>You gain </gray><green>%reward% </green><light_purple>☘ Hunter Fortune</light_purple><gray>.</gray>"
   ]
