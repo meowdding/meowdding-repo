@@ -5,7 +5,7 @@
     3,
     6
   ],
-  "max_level": 10,
+  "max_level": 25,
   "powder_type": "WHISPER",
   "cost_formula": "floor((nextLevel + 1)^4.1)",
   "reward_formula": {
