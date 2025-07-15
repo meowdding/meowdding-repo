@@ -17,4 +17,6 @@ abstract class ResourceType<T : JsonElement>(private val factory: () -> T, val o
         value = null
         return data
     }
+
+    abstract fun serialize(): String
 }

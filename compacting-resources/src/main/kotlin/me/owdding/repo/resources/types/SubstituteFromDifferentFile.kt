@@ -9,6 +9,16 @@ class SubstituteFromDifferentFile(private val folder: String, val mainFile: Stri
     ResourceType<JsonElement>({ JsonArray() }, outputFile) {
     val loadedJsons = mutableMapOf<String, JsonElement>()
 
+    override fun serialize(): String = buildString {
+        append("type:substitute")
+        append(",")
+        append("folder:$folder")
+        append(",")
+        append("mainFile:$mainFile")
+        append(",")
+        append("output:$output")
+    }
+
     override fun setup() {}
 
     override fun complete(): JsonElement {

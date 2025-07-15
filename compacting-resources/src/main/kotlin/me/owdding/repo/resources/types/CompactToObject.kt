@@ -10,4 +10,13 @@ class CompactToObject(val folder: String, outputFile: String) : ResourceType<Jso
     override fun add(fileName: String, element: JsonElement) {
         value!!.add(fileName, element)
     }
+
+    override fun serialize(): String = buildString {
+        append("type:object")
+        append(",")
+        append("folder:$folder")
+        append(",")
+        append("output:$output")
+    }
+
 }

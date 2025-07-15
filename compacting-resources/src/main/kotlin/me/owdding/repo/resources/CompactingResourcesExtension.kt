@@ -1,14 +1,26 @@
 package me.owdding.repo.resources
 
 import me.owdding.repo.resources.types.*
-import org.gradle.api.tasks.SourceSet
+import org.gradle.api.tasks.AbstractCopyTask
 
 open class CompactingResourcesExtension {
     internal val compactors: MutableList<ResourceType<*>> = mutableListOf()
     internal val externalResources: MutableList<ExternalResource> = mutableListOf()
-    var basePath: String? = null
-    var sourceSets: MutableList<String> = mutableListOf<String>().apply {
-        add(SourceSet.MAIN_SOURCE_SET_NAME)
+    var basePath: String = "repo"
+    internal val tasks: MutableList<AbstractCopyTask> = mutableListOf()
+
+    fun configureTask(task: AbstractCopyTask) {
+        task.project.tasks.getByName("compactResources") { compactResources ->
+            task.dependsOn(compactResources)
+            task.mustRunAfter(compactResources)
+
+            task.with(
+                task.project.copySpec { spec ->
+                    spec.from(compactResources.outputs)
+                    spec.into(basePath)
+                },
+            )
+        }
     }
 
     fun compactToArray(folder: String, output: String = folder) {

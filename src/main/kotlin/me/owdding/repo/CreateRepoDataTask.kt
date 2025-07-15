@@ -13,7 +13,7 @@ import kotlin.io.path.writeText
 open class CreateRepoDataTask : DefaultTask() {
 
     init {
-        group = "repo"
+        group = "meowdding"
         doFirst {
             val outDirectory = project.layout.buildDirectory.dir("generated/meowdding/repo").toPath()
 

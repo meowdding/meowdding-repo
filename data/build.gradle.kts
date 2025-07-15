@@ -12,6 +12,7 @@ tasks {
 
 compactingResources {
     basePath = "data"
+    configureTask(project.tasks.getByName<ProcessResources>("processResources"))
     compactToArray("hotmperks", "hotm")
     compactToArray("hotfperks", "hotf")
 }
@@ -21,9 +22,7 @@ tasks {
         getByName("kspKotlin") {
             outputs.upToDateWhen { false }
         }
-    }
 
-    afterEvaluate {
         listOf(
             "processTestResources",
             "test",
@@ -36,13 +35,6 @@ tasks {
             named(it) {
                 enabled = false
             }
-        }
-    }
-
-    beforeEvaluate {
-        withType<ProcessResources> {
-            from(projectDir)
-            include { it.path.startsWith("data") }
         }
     }
 }
@@ -61,7 +53,7 @@ sourceSets {
         resources.setSrcDirs(emptyList<Any>())
         java.setSrcDirs(emptyList<Any>())
         kotlin.setSrcDirs(emptyList<Any>())
-        kotlin.srcDir(projectDir.resolve("src"))
+        kotlin.srcDir(projectDir.resolve("src/kotlin"))
         resources.srcDir(projectDir.resolve("resources"))
     }
     test {

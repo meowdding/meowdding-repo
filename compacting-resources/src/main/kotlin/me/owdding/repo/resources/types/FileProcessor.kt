@@ -8,6 +8,14 @@ import me.owdding.repo.resources.ResourceType
 class FileProcessor(val file: String, output: String) : ResourceType<JsonElement>(::JsonArray, output) {
     var hasInited = false
 
+    override fun serialize(): String = buildString {
+        append("type:processor")
+        append(",")
+        append("file:$file")
+        append(",")
+        append("output:$output")
+    }
+
     override fun add(fileName: String, element: JsonElement) {
         if (hasInited) return
         hasInited = true
