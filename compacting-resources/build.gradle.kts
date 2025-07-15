@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-version = rootProject.properties["compaction.resources.version"].toString()
+version = file("../gradle.properties").readText().substringAfterLast("compaction.resources.version=").split("\n")[0]
 
 repositories {
     mavenCentral()
