@@ -5,7 +5,7 @@
     "config_id": "customscoreboard",
     "modrinth_slug": "skyblock-custom-scoreboard",
     "github_repo": "meowdding/CustomScoreboard",
-    "icon": "https://raw.githubusercontent.com/meowdding/CustomScoreboard/refs/heads/main/src/main/resources/assets/customscoreboard/icon.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/CustomScoreboard/refs/heads/main/src/common/main/resources/assets/customscoreboard/icon.png"
   },
   {
     "name": "SkyCubed",
@@ -13,7 +13,7 @@
     "config_id": "skycubed",
     "modrinth_slug": "skycubed",
     "github_repo": "meowdding/SkyCubed",
-    "icon": "https://raw.githubusercontent.com/meowdding/SkyCubed/refs/heads/master/src/client/resources/assets/skycubed/icon.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/SkyCubed/refs/heads/master/src/main/resources/assets/skycubed/icon.png"
   },
   {
     "name": "SkyOcean",
@@ -21,7 +21,7 @@
     "config_id": "skyocean",
     "modrinth_slug": "skyocean",
     "github_repo": "meowdding/SkyOcean",
-    "icon": "https://raw.githubusercontent.com/meowdding/SkyOcean/refs/heads/main/src/client/resources/assets/skyocean/skyocean.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/SkyOcean/refs/heads/main/src/common/main/resources/assets/skyocean/skyocean-big.png"
   },
   {
     "name": "SkyBlock Profile Viewer",
@@ -29,14 +29,14 @@
     "config_id": "skyblockpv",
     "modrinth_slug": "skyblock-profile-viewer",
     "github_repo": "meowdding/skyblock-pv",
-    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/common/main/resources/assets/skyblock-pv/skyblock-pv.png"
   },
   {
     "name": "SkyBlock RPC",
     "mod_id": "skyblockrpc",
-    "config_id": "sbrpc",
+    "config_id": "skyblockrpc",
     "modrinth_slug": "qESHWJ0N",
     "github_repo": "meowdding/skyblock-rpc",
-    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-rpc/refs/heads/master/src/main/resources/assets/skyblock-rpc/logo/logo_sky.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-rpc/refs/heads/master/src/main/resources/assets/skyblockrpc/logo/logo_sky.png"
   }
 ]
