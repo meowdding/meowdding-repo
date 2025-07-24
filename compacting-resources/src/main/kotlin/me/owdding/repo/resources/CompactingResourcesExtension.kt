@@ -10,7 +10,7 @@ open class CompactingResourcesExtension {
     internal val tasks: MutableList<AbstractCopyTask> = mutableListOf()
 
     fun configureTask(task: AbstractCopyTask) {
-        task.project.tasks.getByName("compactResources") { compactResources ->
+        task.project.tasks.named("compactResources").configure { compactResources ->
             task.dependsOn(compactResources)
             task.mustRunAfter(compactResources)
 
