@@ -42,4 +42,8 @@ open class CompactingResourcesExtension {
     fun processFile(file: String, output: String = file) {
         compactors.add(FileProcessor(file, output))
     }
+
+    fun removeComments(file: String, output: String = file) {
+        compactors.add(RemoveComments(file, output))
+    }
 }
