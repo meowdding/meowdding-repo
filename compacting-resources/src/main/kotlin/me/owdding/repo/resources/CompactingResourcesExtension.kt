@@ -10,17 +10,16 @@ open class CompactingResourcesExtension {
     internal val tasks: MutableList<AbstractCopyTask> = mutableListOf()
 
     fun configureTask(task: AbstractCopyTask) {
-        task.project.tasks.named("compactResources").configure { compactResources ->
-            task.dependsOn(compactResources)
-            task.mustRunAfter(compactResources)
+        val compactResources = task.project.tasks.named("compactResources").get()
+        task.dependsOn(compactResources)
+        task.mustRunAfter(compactResources)
 
-            task.with(
-                task.project.copySpec { spec ->
-                    spec.from(compactResources.outputs)
-                    spec.into(basePath)
-                },
-            )
-        }
+        task.with(
+            task.project.copySpec { spec ->
+                spec.from(compactResources.outputs)
+                spec.into(basePath)
+            },
+        )
     }
 
     fun compactToArray(folder: String, output: String = folder) {
