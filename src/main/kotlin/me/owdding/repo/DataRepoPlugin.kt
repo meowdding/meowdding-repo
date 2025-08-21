@@ -16,7 +16,7 @@ class DataRepoPlugin : Plugin<Project> {
             it.tasks.withType<ProcessResources> {
                 dependsOn(task)
                 mustRunAfter(task)
-                with(target.copySpec().from(task.get().outputs))
+                with(target.copySpec().from(outDirectory))
             }
         }
     }
