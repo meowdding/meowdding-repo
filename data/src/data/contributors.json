@@ -1,7 +1,7 @@
 {
     "e90ea9ec-080a-401b-8d10-6a53c407ac53": {
         "symbol": "§dᴜᴡᴜ",
-        "cape": "skyocean:textures/capes/trans.png",
+        "cape": "meowdding-lib:textures/capes/trans.png",
         "pvCosmetics": {
             "title": "§dɢᴀʏ",
             "parrot": {
@@ -16,7 +16,7 @@
     },
     "b75d7e0a-03d0-4c2a-ae47-809b6b808246": {
         "symbol": "§dɢᴀʏ",
-        "cape": "skyocean:textures/capes/trans.png",
+        "cape": "meowdding-lib:textures/capes/trans.png",
         "pvCosmetics": {
             "title": "§dɢᴀʏ",
             "parrot": {
@@ -51,7 +51,7 @@
     },
     "503450fc-72c2-4e87-8243-94e264977437": {
         "symbol": "§dᴍᴇᴏᴡ",
-        "cape": "skyocean:textures/capes/trans.png",
+        "cape": "meowdding-lib:textures/capes/trans.png",
         "pvCosmetics": {
             "title": "Super cool person",
             "cat": {
@@ -68,9 +68,9 @@
         }
     },
     "add71246-c46e-455c-8345-c129ea6f146c": {
-        "cape": "skyocean:textures/capes/pink.png"
+        "cape": "meowdding-lib:textures/capes/pink.png"
     },
     "b491990d-53fd-4c5f-a61e-19d58cc7eddf": {
-        "cape": "skyocean:textures/capes/pink.png"
+        "cape": "meowdding-lib:textures/capes/pink.png"
     }
 }
