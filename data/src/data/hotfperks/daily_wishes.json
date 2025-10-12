@@ -7,7 +7,7 @@
   ],
   "max_level": 100,
   "powder_type": "WHISPER",
-  "cost_formula": "floor((nextLevel + 1)^1.73152)",
+  "cost_formula": "floor(200 + (nextLevel * 18))",
   "reward_formula": "level * 400",
   "name": "Daily Wishes",
   "tooltip": [
