@@ -23,7 +23,7 @@ tasks.register("buildRepo") {
         fileTree(compactingResourcesOutputDir) {
             include { true }
             forEach { file ->
-                val relative = compactingResourcesOutputPath.relativize(file.toPath()).toString().substringBeforeLast(".")
+                val relative = compactingResourcesOutputPath.relativize(file.toPath()).toString()
                 val hash = Hashing.sha256().hashBytes(file.readBytes()).toString()
                 map[relative] = hash
             }
