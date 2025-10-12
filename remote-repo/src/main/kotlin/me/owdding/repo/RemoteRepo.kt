@@ -39,6 +39,9 @@ object RemoteRepo {
         callback()
     }
 
+    fun invalidate() {
+        isInitialized = false
+    }
     fun isInitialized() = isInitialized
     fun getFileContent(file: String) = cacheDirectory.resolve(file).takeIf { it.exists() }?.readText(Charsets.UTF_8)
     fun getFileContentAsJson(file: String) = getFileContent(file)?.let { gson.fromJson(it, JsonElement::class.java) }
