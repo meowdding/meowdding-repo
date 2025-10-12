@@ -3,6 +3,8 @@ on:
         paths:
             - '!repo/**'
     push:
+        paths:
+            - '!repo/**'
 
 concurrency:
     group: deploy-${{ github.ref }}
