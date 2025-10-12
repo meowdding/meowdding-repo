@@ -10,6 +10,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "MeowddingRepo"
 
-include("processor")
-include("data")
+include("repo")
+project(":repo").buildFileName = "../repo.gradle.kts"
+include("remote-repo")
 includeBuild("compacting-resources")
