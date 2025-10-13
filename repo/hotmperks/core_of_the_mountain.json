@@ -16,7 +16,8 @@
         1
       ],
       "cost": {
-        "type": "MITHRIL",
+        "type": "powder",
+        "kind": "mithril",
         "amount": 50000
       },
       "reward": "<dark_gray>+<red>1 Pickaxe Ability Level"
@@ -27,7 +28,8 @@
         2
       ],
       "cost": {
-        "type": "MITHRIL",
+        "type": "powder",
+        "kind": "mithril",
         "amount": 100000
       },
       "reward": "<green>+1 Commission Slot"
@@ -39,7 +41,8 @@
         3
       ],
       "cost": {
-        "type": "GEMSTONE",
+        "type": "powder",
+        "kind": "gemstone",
         "amount": 200000
       },
       "reward": [
@@ -54,7 +57,8 @@
         4
       ],
       "cost": {
-        "type": "GEMSTONE",
+        "type": "powder",
+        "kind": "gemstone",
         "amount": 300000
       },
       "reward": "<dark_gray>+<dark_purple>2 Token of the Mountain"
@@ -67,7 +71,8 @@
         5
       ],
       "cost": {
-        "type": "GEMSTONE",
+        "type": "powder",
+        "kind": "gemstone",
         "amount": 400000
       },
       "reward": [
@@ -83,7 +88,8 @@
         6
       ],
       "cost": {
-        "type": "GEMSTONE",
+        "type": "powder",
+        "kind": "gemstone",
         "amount": 500000
       },
       "reward": "<dark_gray>+<dark_purple>3 Token of the Mountain"
@@ -97,7 +103,8 @@
         7
       ],
       "cost": {
-        "type": "GLACITE",
+        "type": "powder",
+        "kind": "glacite",
         "amount": 750000
       },
       "reward": [
@@ -115,7 +122,8 @@
         8
       ],
       "cost": {
-        "type": "GLACITE",
+        "type": "powder",
+        "kind": "glacite",
         "amount": 1000000
       },
       "reward": [
@@ -133,7 +141,8 @@
         9
       ],
       "cost": {
-        "type": "GLACITE",
+        "type": "powder",
+        "kind": "glacite",
         "amount": 1250000
       },
       "reward": "<dark_gray>+<dark_purple>5 Token of the Mountain"

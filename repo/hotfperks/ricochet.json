@@ -6,7 +6,10 @@
     6
   ],
   "max_level": 10,
-  "powder_type": "WHISPER",
+  "cost": {
+    "type": "whisper",
+    "kind": "forest"
+  },
   "cost_formula": "floor((nextLevel + 1)^5.5)",
   "reward_formula": "level",
   "name": "Ricochet",

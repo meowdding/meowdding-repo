@@ -6,7 +6,10 @@
     2
   ],
   "max_level": 40,
-  "powder_type": "WHISPER",
+  "cost": {
+    "type": "whisper",
+    "kind": "forest"
+  },
   "cost_formula": "floor((nextLevel + 1)^3.07)",
   "reward_formula": "level * 0.5",
   "name": "Luck of the Forest",

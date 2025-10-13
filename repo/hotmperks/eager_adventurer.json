@@ -6,7 +6,10 @@
     8
   ],
   "max_level": 100,
-  "powder_type": "GLACITE",
+  "cost": {
+    "type": "powder",
+    "kind": "glacite"
+  },
   "cost_formula": "floor((nextLevel + 1)^2.3)",
   "reward_formula": "level * 4",
   "name": "Eager Adventurer",

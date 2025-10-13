@@ -6,7 +6,10 @@
     2
   ],
   "max_level": 100,
-  "powder_type": "WHISPER",
+  "cost": {
+    "type": "whisper",
+    "kind": "forest"
+  },
   "cost_formula": "floor(200 + (nextLevel * 18))",
   "reward_formula": "level * 400",
   "name": "Daily Wishes",

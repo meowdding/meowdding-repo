@@ -19,7 +19,8 @@
         1
       ],
       "cost": {
-        "type": "WHISPER",
+        "type": "whisper",
+        "kind": "forest",
         "amount": 50000
       },
       "reward": "<dark_gray>+</dark_gray><dark_green>5% ∮ Sweep</dark_green><gray>.</gray>"
@@ -30,7 +31,8 @@
         2
       ],
       "cost": {
-        "type": "MITHRIL",
+        "type": "whisper",
+        "kind": "forest",
         "amount": 100000
       },
       "reward": [
@@ -46,14 +48,16 @@
         3
       ],
       "cost": {
-        "type": "WHISPER",
+        "type": "whisper",
+        "kind": "forest",
         "amount": 200000
       },
       "reward": "<dark_gray>+</dark_gray><dark_green>10% ∮ Sweep</dark_green><gray>.</gray>"
     },
     {
       "cost": {
-        "type": "WHISPER",
+        "type": "whisper",
+        "kind": "forest",
         "amount": 300000
       },
       "reward": [
