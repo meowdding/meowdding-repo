@@ -67,6 +67,17 @@
             ]
         }
     },
+    "ecdf4cc9-0487-4d6f-bf09-8497deaf8b33": {
+        "symbol": "§dᴍᴇᴏᴡ",
+        "cape": "meowdding-lib:textures/capes/trans.png",
+        "pvCosmetics": {
+          "title": "§dᴍᴇᴏᴡ",
+          "cat": {
+            "asset_id": "skyblock-pv:cat/trans",
+            "left_shoulder": true
+          }
+        }
+    },
     "add71246-c46e-455c-8345-c129ea6f146c": {
         "cape": "meowdding-lib:textures/capes/pink.png"
     },
@@ -75,5 +86,5 @@
     },
     "ecb01af3-ca09-4378-9d32-e71eac808c5a": {
         "cape": "meowdding-lib:textures/capes/lesbian.png"
-  }
+    }
 }
