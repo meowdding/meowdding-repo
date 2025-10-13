@@ -6,7 +6,10 @@
     3
   ],
   "max_level": 100,
-  "powder_type": "GEMSTONE",
+  "cost": {
+    "type": "powder",
+    "kind": "gemstone"
+  },
   "cost_formula": "floor((nextLevel + 1)^2.3)",
   "reward_formula": "5 + (level * 0.1)",
   "name": "Seasoned Mineman",

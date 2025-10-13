@@ -6,7 +6,10 @@
     9
   ],
   "max_level": 10,
-  "powder_type": "GLACITE",
+  "cost": {
+    "type": "powder",
+    "kind": "glacite"
+  },
   "cost_formula": "floor((nextLevel + 7)^5)",
   "reward_formula": "level * 0.1",
   "name": "Mining Master",

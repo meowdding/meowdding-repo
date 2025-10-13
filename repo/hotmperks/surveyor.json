@@ -6,7 +6,10 @@
     7
   ],
   "max_level": 20,
-  "powder_type": "GLACITE",
+  "cost": {
+    "type": "powder",
+    "kind": "glacite"
+  },
   "cost_formula": "floor((nextLevel + 1)^4)",
   "reward_formula": "level * 0.75",
   "name": "Surveyor",

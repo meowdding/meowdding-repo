@@ -6,7 +6,10 @@
     5
   ],
   "max_level": 50,
-  "powder_type": "WHISPER",
+  "cost": {
+    "type": "whisper",
+    "kind": "forest"
+  },
   "cost_formula": "floor((nextLevel + 1)^3.4)",
   "reward_formula": "level * 0.2",
   "name": "Forest Speed",

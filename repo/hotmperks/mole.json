@@ -6,7 +6,10 @@
     3
   ],
   "max_level": 200,
-  "powder_type": "GEMSTONE",
+  "cost": {
+    "type": "powder",
+    "kind": "gemstone"
+  },
   "cost_formula": "floor((nextLevel + 1)^2.17883)",
   "reward_formula": "50 + ((level - 1) * (350/199))",
   "name": "Mole",

@@ -6,7 +6,10 @@
     3
   ],
   "max_level": 50,
-  "powder_type": "WHISPER",
+  "cost": {
+    "type": "whisper",
+    "kind": "forest"
+  },
   "cost_formula": "floor((nextLevel + 1)^2.9)",
   "reward_formula": "level",
   "name": "Deep Waters",

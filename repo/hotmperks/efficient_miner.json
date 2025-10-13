@@ -6,7 +6,10 @@
     2
   ],
   "max_level": 100,
-  "powder_type": "MITHRIL",
+  "cost": {
+    "type": "powder",
+    "kind": "mithril"
+  },
   "cost_formula": "floor((nextLevel + 1)^2.6)",
   "reward_formula": "level * 3",
   "name": "Efficient Miner",

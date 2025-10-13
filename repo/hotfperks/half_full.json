@@ -6,7 +6,10 @@
     6
   ],
   "max_level": 25,
-  "powder_type": "WHISPER",
+  "cost": {
+    "type": "whisper",
+    "kind": "forest"
+  },
   "cost_formula": "floor((nextLevel + 1)^4.1)",
   "reward_formula": {
     "foraging_fortune": "level * 2",

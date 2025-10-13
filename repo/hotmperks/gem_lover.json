@@ -6,7 +6,10 @@
     3
   ],
   "max_level": 20,
-  "powder_type": "GEMSTONE",
+  "cost": {
+    "type": "powder",
+    "kind": "gemstone"
+  },
   "cost_formula": "floor((nextLevel + 1)^4)",
   "reward_formula": "20 + (level * 4)",
   "name": "Gem Lover",

@@ -6,7 +6,10 @@
     5
   ],
   "max_level": 50,
-  "powder_type": "GEMSTONE",
+  "cost": {
+    "type": "powder",
+    "kind": "gemstone"
+  },
   "cost_formula": "floor((nextLevel + 1)^3.07)",
   "reward_formula": "level * 0.4",
   "name": "Keep It Cool",

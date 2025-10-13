@@ -6,7 +6,10 @@
     5
   ],
   "max_level": 20,
-  "powder_type": "GEMSTONE",
+  "cost": {
+    "type": "powder",
+    "kind": "gemstone"
+  },
   "cost_formula": "floor((nextLevel + 1)^4)",
   "reward_formula": "level * 5",
   "name": "Blockhead",
