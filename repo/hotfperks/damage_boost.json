@@ -1,5 +1,5 @@
 {
-  "type": "ability",
+  "type": "ABILITY",
   "id": "damage_boost",
   "name": "Damage Boost",
   "location": [

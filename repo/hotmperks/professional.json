@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "professional",
   "location": [
     2,
@@ -7,8 +7,8 @@
   ],
   "max_level": 140,
   "cost": {
-    "type": "powder",
-    "kind": "gemstone"
+    "type": "POWDER",
+    "kind": "GEMSTONE"
   },
   "cost_formula": "floor((nextLevel + 1)^2.3)",
   "reward_formula": "50 + (level * 5)",

@@ -1,5 +1,5 @@
 {
-  "type": "ability",
+  "type": "ABILITY",
   "id": "axe_toss",
   "name": "Axe Toss",
   "location": [

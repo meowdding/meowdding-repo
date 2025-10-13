@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "collector",
   "location": [
     4,
@@ -7,8 +7,8 @@
   ],
   "max_level": 50,
   "cost": {
-    "type": "whisper",
-    "kind": "forest"
+    "type": "FOREST",
+    "kind": "FOREST"
   },
   "cost_formula": "floor((nextLevel + 1)^2.9)",
   "reward_formula": "level * 2",

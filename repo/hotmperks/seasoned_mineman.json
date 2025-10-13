@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "mining_experience",
   "location": [
     5,
@@ -7,8 +7,8 @@
   ],
   "max_level": 100,
   "cost": {
-    "type": "powder",
-    "kind": "gemstone"
+    "type": "POWDER",
+    "kind": "GEMSTONE"
   },
   "cost_formula": "floor((nextLevel + 1)^2.3)",
   "reward_formula": "5 + (level * 0.1)",

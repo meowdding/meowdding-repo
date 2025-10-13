@@ -1,5 +1,5 @@
 {
-  "type": "ability",
+  "type": "ABILITY",
   "id": "gemstone_infusion",
   "name": "Gemstone Infusion",
   "location": [

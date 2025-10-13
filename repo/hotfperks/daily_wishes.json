@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "daily_wishes",
   "location": [
     3,
@@ -7,8 +7,8 @@
   ],
   "max_level": 100,
   "cost": {
-    "type": "whisper",
-    "kind": "forest"
+    "type": "WHISPER",
+    "kind": "FOREST"
   },
   "cost_formula": "floor(200 + (nextLevel * 18))",
   "reward_formula": "level * 400",

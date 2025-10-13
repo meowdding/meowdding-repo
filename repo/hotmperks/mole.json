@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "mole",
   "location": [
     3,
@@ -7,8 +7,8 @@
   ],
   "max_level": 200,
   "cost": {
-    "type": "powder",
-    "kind": "gemstone"
+    "type": "POWDER",
+    "kind": "GEMSTONE"
   },
   "cost_formula": "floor((nextLevel + 1)^2.17883)",
   "reward_formula": "50 + ((level - 1) * (350/199))",

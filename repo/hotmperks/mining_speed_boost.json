@@ -1,5 +1,5 @@
 {
-  "type": "ability",
+  "type": "ABILITY",
   "id": "mining_speed_boost",
   "name": "Mining Speed Boost",
   "location": [

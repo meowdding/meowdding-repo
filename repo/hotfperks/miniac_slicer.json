@@ -1,5 +1,5 @@
 {
-  "type": "ability",
+  "type": "ABILITY",
   "id": "maniac_slicer",
   "name": "Maniac Slicer",
   "location": [

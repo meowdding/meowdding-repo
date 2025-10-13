@@ -16,8 +16,8 @@
         1
       ],
       "cost": {
-        "type": "powder",
-        "kind": "mithril",
+        "type": "POWDER",
+        "kind": "MITHRIL",
         "amount": 50000
       },
       "reward": "<dark_gray>+<red>1 Pickaxe Ability Level"
@@ -28,8 +28,8 @@
         2
       ],
       "cost": {
-        "type": "powder",
-        "kind": "mithril",
+        "type": "POWDER",
+        "kind": "MITHRIL",
         "amount": 100000
       },
       "reward": "<green>+1 Commission Slot"
@@ -41,8 +41,8 @@
         3
       ],
       "cost": {
-        "type": "powder",
-        "kind": "gemstone",
+        "type": "POWDER",
+        "kind": "GEMSTONE",
         "amount": 200000
       },
       "reward": [
@@ -57,8 +57,8 @@
         4
       ],
       "cost": {
-        "type": "powder",
-        "kind": "gemstone",
+        "type": "POWDER",
+        "kind": "GEMSTONE",
         "amount": 300000
       },
       "reward": "<dark_gray>+<dark_purple>2 Token of the Mountain"
@@ -71,8 +71,8 @@
         5
       ],
       "cost": {
-        "type": "powder",
-        "kind": "gemstone",
+        "type": "POWDER",
+        "kind": "GEMSTONE",
         "amount": 400000
       },
       "reward": [
@@ -88,8 +88,8 @@
         6
       ],
       "cost": {
-        "type": "powder",
-        "kind": "gemstone",
+        "type": "POWDER",
+        "kind": "GEMSTONE",
         "amount": 500000
       },
       "reward": "<dark_gray>+<dark_purple>3 Token of the Mountain"
@@ -103,8 +103,8 @@
         7
       ],
       "cost": {
-        "type": "powder",
-        "kind": "glacite",
+        "type": "POWDER",
+        "kind": "GLACITE",
         "amount": 750000
       },
       "reward": [
@@ -122,8 +122,8 @@
         8
       ],
       "cost": {
-        "type": "powder",
-        "kind": "glacite",
+        "type": "POWDER",
+        "kind": "GLACITE",
         "amount": 1000000
       },
       "reward": [
@@ -141,8 +141,8 @@
         9
       ],
       "cost": {
-        "type": "powder",
-        "kind": "glacite",
+        "type": "POWDER",
+        "kind": "GLACITE",
         "amount": 1250000
       },
       "reward": "<dark_gray>+<dark_purple>5 Token of the Mountain"

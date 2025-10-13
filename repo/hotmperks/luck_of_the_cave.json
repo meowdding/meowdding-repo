@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "random_event",
   "location": [
     1,
@@ -7,8 +7,8 @@
   ],
   "max_level": 45,
   "cost": {
-    "type": "powder",
-    "kind": "mithril"
+    "type": "POWDER",
+    "kind": "MITHRIL"
   },
   "cost_formula": "floor((nextLevel + 1)^3.07)",
   "reward_formula": "5 + level",

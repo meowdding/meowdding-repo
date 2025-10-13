@@ -1,5 +1,5 @@
 {
-  "type": "perk",
+  "type": "PERK",
   "id": "mining_master",
   "location": [
     3,
@@ -7,8 +7,8 @@
   ],
   "max_level": 10,
   "cost": {
-    "type": "powder",
-    "kind": "glacite"
+    "type": "POWDER",
+    "kind": "GLACITE"
   },
   "cost_formula": "floor((nextLevel + 7)^5)",
   "reward_formula": "level * 0.1",
