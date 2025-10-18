@@ -7,8 +7,6 @@ on:
             - 'repo/**'
     workflow_dispatch:
 
-permissions: { }
-
 concurrency:
     group: deploy-${{ github.ref }}
     cancel-in-progress: true
@@ -43,6 +41,8 @@ jobs:
                     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
                     command: pages deploy build/repo --project-name="mewodding-repo" --commit-hash=${{ github.sha }} --branch=${{ github.ref_name }}
     update:
+        permissions:
+            contents: write
         name: Update list thing
         runs-on: ubuntu-latest
         needs: publish
