@@ -39,3 +39,23 @@ tasks.register("buildRepo") {
     }
 }
 
+tasks.register("updateList") {
+    val buildRepo by tasks.getting
+    dependsOn(buildRepo)
+    mustRunAfter(buildRepo)
+    val targetFile = project.layout.projectDirectory.file("repo-list.txt")
+    outputs.file(targetFile)
+    doLast {
+        val targetPath = buildRepo.outputs.files.first().toPath()
+        val lines = buildList {
+            targetPath.walk().forEach { path ->
+                if (path.toFile().isFile) {
+                    add(targetPath.relativize(path).toString())
+                }
+            }
+        }.toMutableList()
+        lines.sort()
+        targetFile.asFile.writeText(lines.joinToString("\n"))
+    }
+}
+
