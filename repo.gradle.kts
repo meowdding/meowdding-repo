@@ -9,6 +9,7 @@ project.layout.buildDirectory.set(rootProject.layout.buildDirectory)
 compactingResources {
     basePath = ".."
 
-    compactToArray("hotmperks", "hotm")
-    compactToArray("hotfperks", "hotf")
+    compactToArray("foraging/hotfperks", "foraging/hotf")
+    compactToArray("mining/hotmperks", "mining/hotm")
+    substituteFromDifferentFile("mining/mineshaft_corpses", "mineshaft_corpses")
 }
