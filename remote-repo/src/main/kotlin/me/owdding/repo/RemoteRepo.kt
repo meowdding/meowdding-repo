@@ -72,6 +72,7 @@ object RemoteRepo {
                 println("Bad key found! Skipping $key!")
                 return@forEach
             }
+            key.createParentDirectories()
             key.writeText(value, Charsets.UTF_8)
         }
     }
