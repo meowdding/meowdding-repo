@@ -1,5 +1,5 @@
 {
-  "type": "core",
+  "type": "CORE",
   "id": "special_0",
   "name": "Core of the Mountain",
   "location": [
@@ -8,7 +8,6 @@
   ],
   "level": [
     {
-      "cost": {},
       "reward": "<dark_gray>+<purple>1 Token of the Mountain"
     },
     {
