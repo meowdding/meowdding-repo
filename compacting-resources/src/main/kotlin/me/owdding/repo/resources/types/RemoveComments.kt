@@ -6,7 +6,7 @@ import me.owdding.repo.resources.ResourceType
 
 class RemoveComments(val file: String, output: String) : ResourceType<JsonElement>(::JsonArray, output) {
     override fun add(fileName: String, element: JsonElement) {
-        if (fileName == file) value = element
+        if (fileName == file.substringAfterLast("/")) value = element
     }
 
     override fun getPath() = arrayOf("$file.jsonc")
