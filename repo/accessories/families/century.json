@@ -1,0 +1,7 @@
+{
+  "family": "century",
+  "tiers": [
+    "item:century_talisman",
+    "item:century_ring"
+  ]
+}

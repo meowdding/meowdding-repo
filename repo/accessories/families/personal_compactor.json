@@ -1,0 +1,9 @@
+{
+  "family": "personal_compactor",
+  "tiers": [
+    "item:personal_compactor_4000",
+    "item:personal_compactor_5000",
+    "item:personal_compactor_6000",
+    "item:personal_compactor_7000"
+  ]
+}

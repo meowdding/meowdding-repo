@@ -1,0 +1,7 @@
+{
+  "family": "kuudra_follower",
+  "tiers": [
+    "item:kuudra_follower_artifact",
+    "item:kuudra_follower_relic"
+  ]
+}

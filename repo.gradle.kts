@@ -11,5 +11,6 @@ compactingResources {
 
     compactToArray("foraging/hotfperks", "foraging/hotf")
     compactToArray("mining/hotmperks", "mining/hotm")
+    compactToArray("accessories/families", "accessories/families")
     substituteFromDifferentFile("mining/mineshaft_corpses", "mineshaft_corpses")
 }

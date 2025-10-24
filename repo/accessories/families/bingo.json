@@ -1,0 +1,10 @@
+{
+  "family": "bingo",
+  "tiers": [
+    "item:bingo_talisman",
+    "item:bingo_ring",
+    "item:bingo_artifact",
+    "item:bingo_relic",
+    "item:bingo_heirloom"
+  ]
+}

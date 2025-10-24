@@ -1,0 +1,8 @@
+{
+  "family": "potion_affinity",
+  "tiers": [
+    "item:potion_affinity_talisman",
+    "item:ring_potion_affinity",
+    "item:artifact_potion_affinity"
+  ]
+}

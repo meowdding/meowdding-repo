@@ -1,0 +1,8 @@
+{
+  "family": "emperor",
+  "tiers": [
+    "item:emperor_talisman",
+    "item:emperor_ring",
+    "item:emperor_artifact"
+  ]
+}

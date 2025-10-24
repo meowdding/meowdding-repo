@@ -1,0 +1,9 @@
+{
+  "family": "piggy_bank",
+  "tiers": [
+    [
+      "item:piggy_bank",
+      "item:broken_piggy_bank"
+    ]
+  ]
+}
