@@ -12,4 +12,6 @@ compactingResources {
     compactToArray("foraging/hotfperks", "foraging/hotf")
     compactToArray("mining/hotmperks", "mining/hotm")
     substituteFromDifferentFile("mining/mineshaft_corpses", "mineshaft_corpses")
+    compactToArray("skyocean/recipes")
+    removeComments("skyocean/illegal_ingredients")
 }

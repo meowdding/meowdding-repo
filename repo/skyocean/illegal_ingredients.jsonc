@@ -1,0 +1,24 @@
+// A list of items that should be filtered in the skyocean recipe evaluation
+[
+    "item:diamond_block",
+    "item:iron_block",
+    "item:emerald_block",
+    "item:coal_block",
+    "item:redstone_block",
+    "item:gold_block",
+    "item:lapis_block",
+    "item:hay_block",
+    "item:slime_block",
+    "item:leather",
+    "item:blaze_powder",
+    "item:magma_cream",
+    "item:stick",
+    "item:wood_sword",
+    "item:wood_pickaxe",
+    "item:wood_spade",
+    "item:wood_hoe",
+    "item:wood_axe",
+    "item:fishing_rod",
+    "item:golden_carrot",
+    "item:jack_o_lantern"
+]
