@@ -1,0 +1,8 @@
+{
+  "family": "cropie",
+  "tiers": [
+    "item:cropie_talisman",
+    "item:squash_ring",
+    "item:fermento_artifact"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "family": "pesthunter",
+  "tiers": [
+    "item:pesthunter_badge",
+    "item:pesthunter_ring",
+    "item:pesthunter_artifact"
+  ]
+}

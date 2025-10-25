@@ -1,0 +1,8 @@
+{
+  "family": "speed",
+  "tiers": [
+    "item:speed_talisman",
+    "item:speed_ring",
+    "item:speed_artifact"
+  ]
+}

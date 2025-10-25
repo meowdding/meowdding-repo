@@ -1,0 +1,7 @@
+{
+  "family": "frozen_chicken",
+  "tiers": [
+    "item:frozen_chicken",
+    "item:fried_frozen_chicken"
+  ]
+}

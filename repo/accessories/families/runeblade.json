@@ -1,0 +1,8 @@
+{
+  "family": "runeblade",
+  "tiers": [
+    "item:runeblade_talisman",
+    "item:runeblade_ring",
+    "item:runeblade_artifact"
+  ]
+}

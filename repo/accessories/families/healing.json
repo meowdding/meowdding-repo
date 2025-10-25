@@ -1,0 +1,7 @@
+{
+  "family": "healing",
+  "tiers": [
+    "item:healing_talisman",
+    "item:healing_ring"
+  ]
+}

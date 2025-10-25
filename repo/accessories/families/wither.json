@@ -1,0 +1,7 @@
+{
+  "family": "wither",
+  "tiers": [
+    "item:wither_artifact",
+    "item:wither_relic"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "family": "bat_person",
+  "tiers": [
+    "item:bat_person_talisman",
+    "item:bat_person_ring",
+    "item:bat_person_artifact"
+  ]
+}

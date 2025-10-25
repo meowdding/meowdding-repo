@@ -1,0 +1,43 @@
+[
+  {
+    "item": "item:pulse_ring",
+    "rarities": [
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ]
+  },
+  {
+    "item": "item:runebook",
+    "rarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ]
+  },
+  {
+    "item": "item:book_of_progression",
+    "rarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ]
+  },
+  {
+    "item": "item:pandoras_box",
+    "rarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ]
+  }
+]

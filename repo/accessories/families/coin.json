@@ -1,0 +1,9 @@
+{
+  "family": "coin",
+  "tiers": [
+    "item:coin_talisman",
+    "item:ring_of_coins",
+    "item:artifact_of_coins",
+    "item:relic_of_coins"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "family": "vaccine",
+  "tiers": [
+    "item:vaccine_talisman",
+    "item:vaccine_ring",
+    "item:vaccine_artifact"
+  ]
+}

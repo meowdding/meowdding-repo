@@ -1,0 +1,8 @@
+{
+  "family": "kuudra_core",
+  "tiers": [
+    "item:burning_kuudra_core",
+    "item:fiery_kuudra_core",
+    "item:infernal_kuudra_core"
+  ]
+}

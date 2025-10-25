@@ -1,0 +1,7 @@
+{
+  "family": "emerald",
+  "tiers": [
+    "item:emerald_ring",
+    "item:emerald_artifact"
+  ]
+}

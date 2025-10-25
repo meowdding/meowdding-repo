@@ -1,0 +1,8 @@
+{
+  "family": "agarimoo",
+  "tiers": [
+    "item:agarimoo_talisman",
+    "item:agarimoo_ring",
+    "item:agarimoo_artifact"
+  ]
+}

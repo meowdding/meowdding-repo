@@ -1,0 +1,8 @@
+{
+  "family": "soulflow",
+  "tiers": [
+    "item:soulflow_pile",
+    "item:soulflow_battery",
+    "item:soulflow_supercell"
+  ]
+}

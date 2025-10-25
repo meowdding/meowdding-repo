@@ -1,0 +1,9 @@
+{
+  "family": "power",
+  "tiers": [
+    "item:power_talisman",
+    "item:power_ring",
+    "item:power_artifact",
+    "item:power_relic"
+  ]
+}

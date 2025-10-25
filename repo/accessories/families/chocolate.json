@@ -1,0 +1,10 @@
+{
+  "family": "chocolate",
+  "tiers": [
+    "item:nibble_chocolate_stick",
+    "item:smooth_chocolate_bar",
+    "item:rich_chocolate_chunk",
+    "item:ganache_chocolate_slab",
+    "item:prestige_chocolate_realm"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "family": "candy",
+  "tiers": [
+    "item:candy_talisman",
+    "item:candy_ring",
+    "item:candy_artifact",
+    "item:candy_relic"
+  ]
+}

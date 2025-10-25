@@ -1,0 +1,9 @@
+{
+  "family": "dante",
+  "tiers": [
+    [
+      "item:dante_talisman",
+      "item:dante_ring"
+    ]
+  ]
+}

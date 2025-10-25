@@ -1,0 +1,8 @@
+{
+  "family": "spider",
+  "tiers": [
+    "item:spider_talisman",
+    "item:spider_ring",
+    "item:spider_artifact"
+  ]
+}

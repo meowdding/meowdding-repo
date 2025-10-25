@@ -1,0 +1,8 @@
+{
+  "family": "moonglade",
+  "tiers": [
+    "item:moonglade_talisman",
+    "item:moonglade_ring",
+    "item:moonglade_artifact"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "family": "haste",
+  "tiers": [
+    "item:haste_ring",
+    "item:haste_artifact"
+  ]
+}

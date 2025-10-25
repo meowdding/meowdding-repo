@@ -1,0 +1,9 @@
+{
+  "family": "titanium",
+  "tiers": [
+    "item:titanium_talisman",
+    "item:titanium_ring",
+    "item:titanium_artifact",
+    "item:titanium_relic"
+  ]
+}

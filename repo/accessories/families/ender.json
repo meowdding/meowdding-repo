@@ -1,0 +1,7 @@
+{
+  "family": "ender",
+  "tiers": [
+    "item:ender_artifact",
+    "item:ender_relic"
+  ]
+}

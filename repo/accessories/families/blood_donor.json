@@ -1,0 +1,8 @@
+{
+  "family": "blood_donor",
+  "tiers": [
+    "item:blood_donor_talisman",
+    "item:blood_donor_ring",
+    "item:blood_donor_artifact"
+  ]
+}

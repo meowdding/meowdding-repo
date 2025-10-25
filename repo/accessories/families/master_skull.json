@@ -1,0 +1,12 @@
+{
+  "family": "master_skull",
+  "tiers": [
+    "item:master_skull_tier_1",
+    "item:master_skull_tier_2",
+    "item:master_skull_tier_3",
+    "item:master_skull_tier_4",
+    "item:master_skull_tier_5",
+    "item:master_skull_tier_6",
+    "item:master_skull_tier_7"
+  ]
+}

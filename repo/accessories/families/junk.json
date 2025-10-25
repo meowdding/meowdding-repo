@@ -1,0 +1,8 @@
+{
+  "family": "junk",
+  "tiers": [
+    "item:junk_talisman",
+    "item:junk_ring",
+    "item:junk_artifact"
+  ]
+}

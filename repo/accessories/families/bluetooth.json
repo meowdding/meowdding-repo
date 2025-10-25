@@ -1,0 +1,7 @@
+{
+  "family": "bluetooth",
+  "tiers": [
+    "item:bluetooth_ring",
+    "item:bluertooth_ring"
+  ]
+}

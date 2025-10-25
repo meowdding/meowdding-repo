@@ -1,0 +1,15 @@
+{
+  "family": "abicase",
+  "tiers": [
+    [
+      "item:abicase_blue_aqua",
+      "item:abicase_blue_blue",
+      "item:abicase_blue_green",
+      "item:abicase_blue_red",
+      "item:abicase_blue_yellow",
+      "item:abicase_rezar",
+      "item:abicase_sumsung_1",
+      "item:abicase_sumsung_2"
+    ]
+  ]
+}

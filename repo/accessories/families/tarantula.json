@@ -1,0 +1,7 @@
+{
+  "family": "tarantula",
+  "tiers": [
+    "item:tarantula_talisman",
+    "item:tarantula_ring"
+  ]
+}

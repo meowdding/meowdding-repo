@@ -1,0 +1,7 @@
+{
+  "family": "mineral",
+  "tiers": [
+    "item:mineral_talisman",
+    "item:glossy_mineral_talisman"
+  ]
+}

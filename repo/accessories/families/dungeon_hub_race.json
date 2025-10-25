@@ -1,0 +1,8 @@
+{
+  "family": "dungeon_hub_race",
+  "tiers": [
+    "item:cat_talisman",
+    "item:lynx_talisman",
+    "item:cheetah_talisman"
+  ]
+}
