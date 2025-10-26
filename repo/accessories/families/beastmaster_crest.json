@@ -1,0 +1,10 @@
+{
+  "family": "beastmaster_crest",
+  "tiers": [
+    "item:beastmaster_crest_common",
+    "item:beastmaster_crest_uncommon",
+    "item:beastmaster_crest_rare",
+    "item:beastmaster_crest_epic",
+    "item:beastmaster_crest_legendary"
+  ]
+}

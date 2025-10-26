@@ -1,0 +1,8 @@
+{
+  "family": "anita",
+  "tiers": [
+    "item:anita_talisman",
+    "item:anita_ring",
+    "item:anita_artifact"
+  ]
+}

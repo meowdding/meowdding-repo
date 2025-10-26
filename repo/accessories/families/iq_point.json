@@ -1,0 +1,7 @@
+{
+  "family": "iq_point",
+  "tiers": [
+    "item:iq_point",
+    "item:two_iq_point"
+  ]
+}

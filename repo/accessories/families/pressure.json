@@ -1,0 +1,8 @@
+{
+  "family": "pressure",
+  "tiers": [
+    "item:pressure_talisman",
+    "item:pressure_ring",
+    "item:pressure_artifact"
+  ]
+}

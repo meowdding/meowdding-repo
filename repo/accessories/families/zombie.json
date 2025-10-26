@@ -1,0 +1,8 @@
+{
+  "family": "zombie",
+  "tiers": [
+    "item:zombie_talisman",
+    "item:zombie_ring",
+    "item:zombie_artifact"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "family": "lush",
+  "tiers": [
+    "item:lush_talisman",
+    "item:lush_ring",
+    "item:lush_artifact"
+  ]
+}

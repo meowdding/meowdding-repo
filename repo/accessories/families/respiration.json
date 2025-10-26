@@ -1,0 +1,8 @@
+{
+  "family": "respiration",
+  "tiers": [
+    "item:respiration_talisman",
+    "item:respiration_ring",
+    "item:respiration_artifact"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "family": "jerry",
+  "tiers": [
+    "item:jerry_talisman_green",
+    "item:jerry_talisman_blue",
+    "item:jerry_talisman_purple",
+    "item:jerry_talisman_golden"
+  ]
+}
