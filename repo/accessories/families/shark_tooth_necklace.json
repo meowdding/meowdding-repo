@@ -1,0 +1,10 @@
+{
+  "family": "shark_tooth_necklace",
+  "tiers": [
+    "item:raggedy_shark_tooth_necklace",
+    "item:dull_shark_tooth_necklace",
+    "item:honed_shark_tooth_necklace",
+    "item:sharp_shark_tooth_necklace",
+    "item:razor_sharp_shark_tooth_necklace"
+  ]
+}

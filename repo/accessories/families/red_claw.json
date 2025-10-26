@@ -1,0 +1,8 @@
+{
+  "family": "red_claw",
+  "tiers": [
+    "item:red_claw_talisman",
+    "item:red_claw_ring",
+    "item:red_claw_artifact"
+  ]
+}

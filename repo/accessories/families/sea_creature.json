@@ -1,0 +1,8 @@
+{
+  "family": "sea_creature",
+  "tiers": [
+    "item:sea_creature_talisman",
+    "item:sea_creature_ring",
+    "item:sea_creature_artifact"
+  ]
+}

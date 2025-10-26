@@ -1,0 +1,10 @@
+{
+  "family": "gift",
+  "tiers": [
+    "item:white_gift_talisman",
+    "item:green_gift_talisman",
+    "item:blue_gift_talisman",
+    "item:purple_gift_talisman",
+    "item:gold_gift_talisman"
+  ]
+}

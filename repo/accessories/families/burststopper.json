@@ -1,0 +1,7 @@
+{
+  "family": "burststopper",
+  "tiers": [
+    "item:burststopper_talisman",
+    "item:burststopper_artifact"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "family": "scavenger",
+  "tiers": [
+    "item:scavenger_talisman",
+    "item:scavenger_ring",
+    "item:scavenger_artifact"
+  ]
+}

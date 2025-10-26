@@ -1,0 +1,7 @@
+{
+  "family": "hunter",
+  "tiers": [
+    "item:hunter_talisman",
+    "item:hunter_ring"
+  ]
+}

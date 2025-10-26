@@ -1,0 +1,8 @@
+{
+  "family": "fish_bowl",
+  "tiers": [
+    "item:small_fish_bowl",
+    "item:medium_fish_bowl",
+    "item:large_fish_bowl"
+  ]
+}

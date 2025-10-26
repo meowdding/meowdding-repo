@@ -1,0 +1,8 @@
+{
+  "family": "scarf_studies",
+  "tiers": [
+    "item:scarf_studies",
+    "item:scarf_thesis",
+    "item:scarf_grimoire"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "family": "great_spook",
+  "tiers": [
+    "item:great_spook_talisman",
+    "item:great_spook_ring",
+    "item:great_spook_artifact"
+  ]
+}

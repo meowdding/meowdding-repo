@@ -1,0 +1,8 @@
+{
+  "family": "draconic",
+  "tiers": [
+    "item:draconic_talisman",
+    "item:draconic_ring",
+    "item:draconic_artifact"
+  ]
+}

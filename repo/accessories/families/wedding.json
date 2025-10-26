@@ -1,0 +1,15 @@
+{
+  "family": "wedding",
+  "tiers": [
+    "item:wedding_ring_0",
+    "item:wedding_ring_1",
+    "item:wedding_ring_2",
+    "item:wedding_ring_3",
+    "item:wedding_ring_4",
+    "item:wedding_ring_5",
+    "item:wedding_ring_6",
+    "item:wedding_ring_7",
+    "item:wedding_ring_8",
+    "item:wedding_ring_9"
+  ]
+}

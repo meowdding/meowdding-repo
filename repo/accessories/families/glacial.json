@@ -1,0 +1,8 @@
+{
+  "family": "glacial",
+  "tiers": [
+    "item:glacial_talisman",
+    "item:glacial_ring",
+    "item:glacial_artifact"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "family": "crux",
+  "tiers": [
+    "item:crux_talisman_1",
+    "item:crux_talisman_2",
+    "item:crux_talisman_3",
+    "item:crux_talisman_4",
+    "item:crux_talisman_5",
+    "item:crux_talisman_6",
+    "item:crux_talisman_7"
+  ]
+}

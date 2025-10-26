@@ -1,0 +1,8 @@
+{
+  "family": "feather",
+  "tiers": [
+    "item:feather_talisman",
+    "item:feather_ring",
+    "item:feather_artifact"
+  ]
+}

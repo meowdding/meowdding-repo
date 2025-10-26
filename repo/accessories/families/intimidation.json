@@ -1,0 +1,9 @@
+{
+  "family": "intimidation",
+  "tiers": [
+    "item:intimidation_talisman",
+    "item:intimidation_ring",
+    "item:intimidation_artifact",
+    "item:intimidation_relic"
+  ]
+}
