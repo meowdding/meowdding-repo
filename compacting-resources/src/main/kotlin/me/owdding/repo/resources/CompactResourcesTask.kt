@@ -17,7 +17,7 @@ open class CompactResourcesTask : DefaultTask() {
         val cache = FileCache(project.gradle.gradleUserHomeDir.toPath().resolve(DEFAULT_CACHE_DIRECTORY), 1.hours)
         group = "meowdding"
         val extension = project.extensions.getByType<CompactingResourcesExtension>()
-        val basePath = project.layout.projectDirectory.dir("src/${extension.basePath}")
+        val basePath = project.layout.projectDirectory.dir("${extension.pathDirectory}/${extension.basePath}")
         val workPath = project.layout.buildDirectory.dir("tmp/meowdding/compacting-resources").get()
         val inputDirs = listOf(basePath, workPath)
 
