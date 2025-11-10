@@ -44,7 +44,7 @@ object RemoteRepo {
     }
     fun isInitialized() = isInitialized
     fun getFileContent(file: String) = cacheDirectory.resolve(file).takeIf { it.exists() }?.readText(Charsets.UTF_8)
-    fun getFileContentAsJson(file: String) = getFileContent(file)?.let { gson.fromJson(it, JsonElement::class.java) }
+    fun getFileContentAsJson(file: String) = getFileContent("${file.removeSuffix(".json")}.json")?.let { gson.fromJson(it, JsonElement::class.java) }
 
     private fun HttpClient.downloadOrUpdate(remoteHash: String) {
         cacheDirectory.createDirectories()
