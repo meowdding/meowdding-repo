@@ -19,6 +19,7 @@ object RemoteRepo {
     private lateinit var cacheDirectory: Path
     private var version: String? = null
     private var isInitialized = false
+    var forceBackupRepo: Boolean = false
 
     fun initialize(cacheDirectory: Path, version: String = "main", callback: () -> Unit) {
         if (isInitialized) return
@@ -29,7 +30,7 @@ object RemoteRepo {
         val currentRepoHash = cacheDirectory.resolve("index.json.sha").takeIf { it.exists() }?.readText(Charsets.UTF_8)
         val remoteRepoHash = httpClient.get("index.json.sha")
 
-        if (remoteRepoHash == null) {
+        if (remoteRepoHash == null || forceBackupRepo) {
             loadBackupRepo()
         } else if (currentRepoHash != remoteRepoHash) {
             httpClient.downloadOrUpdate(remoteRepoHash)
@@ -41,7 +42,9 @@ object RemoteRepo {
 
     fun invalidate() {
         isInitialized = false
+        cacheDirectory.deleteRecursively()
     }
+
     fun isInitialized() = isInitialized
     fun getFileContent(file: String) = cacheDirectory.resolve(file).takeIf { it.exists() }?.readText(Charsets.UTF_8)
     fun getFileContentAsJson(file: String) = getFileContent("${file.removeSuffix(".json")}.json")?.let { gson.fromJson(it, JsonElement::class.java) }
@@ -58,6 +61,7 @@ object RemoteRepo {
         val cache = mutableMapOf<String, String>()
         cache["index.json"] = remoteIndex.toString()
         cache["index.json.sha"] = remoteHash
+
         remoteIndex.entrySet().forEach { (key, hash) ->
             if (currentIndex.has(key) && currentIndex[key].asString.equals(hash.asString)) return@forEach
             cache[key] = get(key) ?: run {
