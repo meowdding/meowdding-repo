@@ -1,0 +1,8 @@
+{
+    "families": [
+        "cake_bag", // Some people collect multiple cake bags with different years
+        "hatcessory", // There are multiple hatcessories given, and some people like to collect them
+        "personal_compactor", // Multiple personal compactors are a nice thing to have
+        "personal_deletor" // Multiple personal deletors are a nice thing to have
+    ]
+}
