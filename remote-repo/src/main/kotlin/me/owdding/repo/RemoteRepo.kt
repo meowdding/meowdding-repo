@@ -1,5 +1,6 @@
 package me.owdding.repo
 
+import com.google.common.hash.Hashing
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonElement
@@ -40,6 +41,10 @@ object RemoteRepo {
         callback()
     }
 
+    fun uninitialize() {
+        isInitialized = false
+    }
+
     fun invalidate() {
         isInitialized = false
         cacheDirectory.deleteRecursively()
@@ -63,7 +68,17 @@ object RemoteRepo {
         cache["index.json.sha"] = remoteHash
 
         remoteIndex.entrySet().forEach { (key, hash) ->
-            if (currentIndex.has(key) && currentIndex[key].asString.equals(hash.asString)) return@forEach
+
+            val expectedHash = hash.asString
+
+            if (currentIndex.has(key)) {
+                val storedHash = currentIndex[key].asString
+
+                val path = cacheDirectory.resolve(key)
+                val realHash = if (path.exists()) Hashing.sha256().hashBytes(path.toFile().readBytes()).toString() else null
+                if (storedHash == expectedHash && realHash == expectedHash) return@forEach
+            }
+            cacheDirectory.resolve(key)
             cache[key] = get(key) ?: run {
                 println("Failed to load repo data, falling back to backup repo!")
                 loadBackupRepo()
@@ -94,6 +109,7 @@ object RemoteRepo {
         this.deleteIfExists()
     }
 
+    // TODO: fix backup repo not working
     private fun loadBackupRepo() {
         cacheDirectory.deleteRecursively()
         cacheDirectory.createDirectories()
