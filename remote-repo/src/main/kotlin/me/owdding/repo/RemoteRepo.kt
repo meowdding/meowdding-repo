@@ -10,6 +10,7 @@ import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 import java.nio.file.Path
+import java.nio.file.StandardOpenOption
 import kotlin.io.path.*
 
 private const val REMOTE_URL = "repo.owdding.me"
@@ -28,7 +29,7 @@ object RemoteRepo {
         RemoteRepo.version = version.takeUnless { it == "main" }
         val httpClient = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.ALWAYS).build()
 
-        val currentRepoHash = cacheDirectory.resolve("index.json.sha").takeIf { it.exists() }?.readText(Charsets.UTF_8)
+        val currentRepoHash = "a" + cacheDirectory.resolve("index.json.sha").takeIf { it.exists() }?.readText(Charsets.UTF_8)
         val remoteRepoHash = httpClient.get("index.json.sha")
 
         if (remoteRepoHash == null || forceBackupRepo) {
@@ -64,9 +65,6 @@ object RemoteRepo {
         }
 
         val cache = mutableMapOf<String, String>()
-        cache["index.json"] = remoteIndex.toString()
-        cache["index.json.sha"] = remoteHash
-
         remoteIndex.entrySet().forEach { (key, hash) ->
 
             val expectedHash = hash.asString
@@ -85,6 +83,10 @@ object RemoteRepo {
                 return
             }
         }
+
+        cache["index.json"] = remoteIndex.toString()
+        cache["index.json.sha"] = remoteHash
+
         cache.forEach { (key, value) ->
             val key = cacheDirectory.resolve(key).normalize()
             if (!key.startsWith(cacheDirectory)) {
@@ -92,7 +94,7 @@ object RemoteRepo {
                 return@forEach
             }
             key.createParentDirectories()
-            key.writeText(value, Charsets.UTF_8)
+            key.writeText(value, Charsets.UTF_8, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
         }
     }
 
@@ -117,11 +119,11 @@ object RemoteRepo {
         val indexData = getFromBackup("index.json") ?: error()
         val index = indexData.toString(Charsets.UTF_8).toJsonObject()
 
+        index.entrySet().forEach { (key) ->
+            cacheDirectory.resolve(key).createParentDirectories().writeBytes(getFromBackup(key) ?: error(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
+        }
         cacheDirectory.resolve("index.json").writeBytes(indexData)
         cacheDirectory.resolve("index.json.sha").writeBytes(getFromBackup("index.json.sha") ?: error())
-        index.entrySet().forEach { (key) ->
-            cacheDirectory.resolve(key).writeBytes(getFromBackup(key) ?: error())
-        }
     }
 
     private fun HttpClient.getJsonObject(path: String) = get(path)?.let { gson.fromJson(it, JsonObject::class.java) }
