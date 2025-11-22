@@ -29,7 +29,7 @@ object RemoteRepo {
         RemoteRepo.version = version.takeUnless { it == "main" }
         val httpClient = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.ALWAYS).build()
 
-        val currentRepoHash = "a" + cacheDirectory.resolve("index.json.sha").takeIf { it.exists() }?.readText(Charsets.UTF_8)
+        val currentRepoHash = cacheDirectory.resolve("index.json.sha").takeIf { it.exists() }?.readText(Charsets.UTF_8)
         val remoteRepoHash = httpClient.get("index.json.sha")
 
         if (remoteRepoHash == null || forceBackupRepo) {
