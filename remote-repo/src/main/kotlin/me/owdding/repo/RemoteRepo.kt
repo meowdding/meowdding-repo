@@ -1,5 +1,6 @@
 package me.owdding.repo
 
+import com.google.common.hash.Hashing
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonElement
@@ -9,6 +10,7 @@ import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 import java.nio.file.Path
+import java.nio.file.StandardOpenOption
 import kotlin.io.path.*
 
 private const val REMOTE_URL = "repo.owdding.me"
@@ -40,6 +42,10 @@ object RemoteRepo {
         callback()
     }
 
+    fun uninitialize() {
+        isInitialized = false
+    }
+
     fun invalidate() {
         isInitialized = false
         cacheDirectory.deleteRecursively()
@@ -59,17 +65,28 @@ object RemoteRepo {
         }
 
         val cache = mutableMapOf<String, String>()
-        cache["index.json"] = remoteIndex.toString()
-        cache["index.json.sha"] = remoteHash
-
         remoteIndex.entrySet().forEach { (key, hash) ->
-            if (currentIndex.has(key) && currentIndex[key].asString.equals(hash.asString)) return@forEach
+
+            val expectedHash = hash.asString
+
+            if (currentIndex.has(key)) {
+                val storedHash = currentIndex[key].asString
+
+                val path = cacheDirectory.resolve(key)
+                val realHash = if (path.exists()) Hashing.sha256().hashBytes(path.toFile().readBytes()).toString() else null
+                if (storedHash == expectedHash && realHash == expectedHash) return@forEach
+            }
+            cacheDirectory.resolve(key)
             cache[key] = get(key) ?: run {
                 println("Failed to load repo data, falling back to backup repo!")
                 loadBackupRepo()
                 return
             }
         }
+
+        cache["index.json"] = remoteIndex.toString()
+        cache["index.json.sha"] = remoteHash
+
         cache.forEach { (key, value) ->
             val key = cacheDirectory.resolve(key).normalize()
             if (!key.startsWith(cacheDirectory)) {
@@ -77,7 +94,7 @@ object RemoteRepo {
                 return@forEach
             }
             key.createParentDirectories()
-            key.writeText(value, Charsets.UTF_8)
+            key.writeText(value, Charsets.UTF_8, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
         }
     }
 
@@ -94,6 +111,7 @@ object RemoteRepo {
         this.deleteIfExists()
     }
 
+    // TODO: fix backup repo not working
     private fun loadBackupRepo() {
         cacheDirectory.deleteRecursively()
         cacheDirectory.createDirectories()
@@ -101,11 +119,11 @@ object RemoteRepo {
         val indexData = getFromBackup("index.json") ?: error()
         val index = indexData.toString(Charsets.UTF_8).toJsonObject()
 
+        index.entrySet().forEach { (key) ->
+            cacheDirectory.resolve(key).createParentDirectories().writeBytes(getFromBackup(key) ?: error(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
+        }
         cacheDirectory.resolve("index.json").writeBytes(indexData)
         cacheDirectory.resolve("index.json.sha").writeBytes(getFromBackup("index.json.sha") ?: error())
-        index.entrySet().forEach { (key) ->
-            cacheDirectory.resolve(key).writeBytes(getFromBackup(key) ?: error())
-        }
     }
 
     private fun HttpClient.getJsonObject(path: String) = get(path)?.let { gson.fromJson(it, JsonObject::class.java) }

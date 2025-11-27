@@ -7,6 +7,7 @@ evaluationDependsOn(":repo")
 
 dependencies {
     implementation(libs.gson)
+    implementation(libs.guava)
 }
 
 tasks.processResources {
