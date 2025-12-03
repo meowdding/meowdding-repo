@@ -3,6 +3,7 @@
   "tiers": [
     "item:pesthunter_badge",
     "item:pesthunter_ring",
-    "item:pesthunter_artifact"
+    "item:pesthunter_artifact",
+    "item:pesthunter_relic"
   ]
 }

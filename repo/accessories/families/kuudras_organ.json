@@ -1,0 +1,8 @@
+{
+  "family": "organ",
+  "tiers": [
+    "item:kuudras_heart",
+    "item:kuudras_lung",
+    "item:kuudras_kidney"
+  ]
+}

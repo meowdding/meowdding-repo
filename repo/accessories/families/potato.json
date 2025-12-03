@@ -1,4 +1,7 @@
 {
   "family": "potato",
-  "tiers": "item:potato_talisman"
+  "tiers": [
+    "item:potato_talisman",
+    "item:potato_ring"
+  ]
 }

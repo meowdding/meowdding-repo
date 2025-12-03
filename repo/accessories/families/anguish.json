@@ -1,0 +1,8 @@
+{
+  "family": "anguish",
+  "tiers": [
+    "item:anguish_talisman",
+    "item:anguish_ring",
+    "item:anguish_artifact"
+  ]
+}

@@ -1,4 +1,7 @@
 {
   "family": "blood_god_crest",
-  "tiers": "item:blood_god_crest"
+  "tiers": [
+    "item:blood_god_crest",
+    "item:blood_god_sigil"
+  ]
 }

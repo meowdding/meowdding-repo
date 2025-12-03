@@ -3,6 +3,7 @@
   "tiers": [
     [
       "item:piggy_bank",
+      "item:cracked_piggy_bank",
       "item:broken_piggy_bank"
     ]
   ]
