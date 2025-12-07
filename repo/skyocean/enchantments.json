@@ -628,7 +628,7 @@
       "Gauntlet"
     ],
     "name": "Ender Slayer",
-    "max_level": 8
+    "max_level": 7
   },
   {
     "sources": [
@@ -2162,12 +2162,7 @@
         "max": 6
       },
       {
-        "name": "Catacombs",
-        "min": 7,
-        "max": 7
-      },
-      {
-        "name": "End Stone Idol",
+        "name": "Severed Hand",
         "min": 7,
         "max": 7
       }
@@ -2178,7 +2173,7 @@
       "Gauntlet"
     ],
     "name": "Smite",
-    "max_level": 8
+    "max_level": 7
   },
   {
     "sources": [
