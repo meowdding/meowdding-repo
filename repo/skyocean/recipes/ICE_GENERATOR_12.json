@@ -1,0 +1,29 @@
+{
+  "output": {
+    "id": "item:ice_generator_12",
+    "amount": 1,
+    "type": "ITEM"
+  },
+  "inputs": [
+    {
+      "id": "item:ice_generator_11",
+      "amount": 1,
+      "type": "ITEM"
+    },
+    {
+      "id": "item:enchanted_ice",
+      "amount": 1024,
+      "type": "ITEM"
+    },
+    {
+      "amount": 980000,
+      "currency": "COIN",
+      "type": "CURRENCY"
+    },
+    {
+      "amount": 300,
+      "currency": "NORTH_STAR",
+      "type": "CURRENCY"
+    }
+  ]
+}
