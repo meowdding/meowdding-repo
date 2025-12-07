@@ -1,0 +1,3406 @@
+[
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Absorb",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Angler",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Helmet"
+    ],
+    "name": "Aqua Affinity",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Tarantula Broodfather",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Ensnared Snail",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Bane of Arthropods",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Dark Auction",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Small Brain"
+    ],
+    "applicable_to": [
+      "Helmet"
+    ],
+    "name": "Big Brain",
+    "min_level": 3,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Fire Protection",
+      "Protection",
+      "Projectile Protection"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Blast Protection",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Blessing",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Caster",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Chili Pepper Collection",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Gloves",
+      "Belt",
+      "Necklace",
+      "Bracelet",
+      "Cloak"
+    ],
+    "name": "Cayenne",
+    "min_level": 4,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Champion",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Experiments",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Chance",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Fishing",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Chain of the End Times",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Charm",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Cleave",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Pickaxe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Compact",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Fishing",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Corruption",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Dark Auction",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Chestplate"
+    ],
+    "name": "Counter-Strike",
+    "min_level": 3,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Sven Packmaster",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Critical",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Cubism",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Hoe",
+      "Axe"
+    ],
+    "name": "Cultivating",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "SkyMart",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 4
+      },
+      {
+        "name": "Librarian Garden Visitor",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Ravenous Rhino Garden Visitor",
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "applicable_to": [
+      "Hoe",
+      "Axe"
+    ],
+    "name": "Dedication",
+    "max_level": 4
+  },
+  {
+    "sources": [
+      {
+        "name": "Anita",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe",
+      "Axe"
+    ],
+    "name": "Delicate",
+    "min_level": 5,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Boots"
+    ],
+    "name": "Depth Strider",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Regalia Room",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Divine Gift",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Dragon Tracer",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Experiments",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Vargul",
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Life Steal",
+      "Mana Steal"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Drain",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Silex",
+        "min": 6,
+        "max": 10
+      }
+    ],
+    "applicable_to": [
+      "Tools"
+    ],
+    "name": "Efficiency",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Pearl Dealer",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "End Stone Idol",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Ender Slayer",
+    "max_level": 8
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "conflicts": [
+      "Prosecute"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Execute",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Melancholic Viking",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Frozen Alex",
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Pickaxe",
+      "Drill",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Experience",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Expertise",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Catacombs",
+        "min": 6,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 10
+      }
+    ],
+    "applicable_to": [
+      "Boots"
+    ],
+    "name": "Feather Falling",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 10
+      }
+    ],
+    "conflicts": [
+      "Hardened Mana",
+      "Strong Mana",
+      "Mana Vampire"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Ferocious Mana",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "name": "Inferno Demonlord",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Fire Aspect",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fireproof Witch",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Protection",
+      "Blast Protection",
+      "Projectile Protection"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Fire Protection",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 4
+      },
+      {
+        "name": "Experiments",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Triple-Strike"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "First Strike",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Flame",
+    "max_level": 2
+  },
+  {
+    "sources": [
+      {
+        "name": "Agatha\u0027s Shop (Level 3+)",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Forest Pledge",
+    "min_level": 3,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Crystal Nucleus",
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "conflicts": [
+      "Silk Touch"
+    ],
+    "applicable_to": [
+      "Pickaxe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Fortune",
+    "max_level": 4
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Severed Pincer",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Frail",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Dark Auction",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Scorpius",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Titan Killer"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Giant Killer",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Pearl Dealer",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Gravity",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Tyashoi Alchemist",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Great Spook",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "SkyMart",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Gloves",
+      "Belt",
+      "Necklace",
+      "Bracelet",
+      "Cloak"
+    ],
+    "name": "Green Thumb",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Dark Auction",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Scorpius",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Growth",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 10
+      }
+    ],
+    "conflicts": [
+      "Strong Mana",
+      "Ferocious Mana",
+      "Mana Vampire"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Hardened Mana",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Shiny Pigs",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Harvesting",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Helmet"
+    ],
+    "name": "Hecatomb",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Frozen Corpses",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Ice Cold",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Sword",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Impaling",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Catacombs",
+        "min": 6,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 10
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Infinite Quiver",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Knockback",
+    "max_level": 2
+  },
+  {
+    "sources": [
+      {
+        "name": "Crystal Nucleus",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Pickaxe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Lapidary",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Catacombs",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Lethality",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Spooky Festival",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Experiments",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Drain",
+      "Mana Steal"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Life Steal",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Season of Jerry",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Experiments",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Looting",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Season of Jerry",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Luck",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Gold Bottle Cap",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Luck of the Sea",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Lure",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Magnet",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Voidgloom Seraph",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "conflicts": [
+      "Life Steal",
+      "Drain"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Mana Steal",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 10
+      }
+    ],
+    "conflicts": [
+      "Hardened Mana",
+      "Ferocious Mana",
+      "Strong Mana"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Mana Vampire",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Overload",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Fossil Excavation",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Pickaxe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Paleontologist",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Beetle Pest",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "A Beginner\u0027s Guide to Pesthunting",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Pesterminator",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Piercing",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Troubled Bubble",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Piscary",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Dark Auction",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Scorpius",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Power",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Gemstone Collection",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Pickaxe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Prismatic",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Fire Protection",
+      "Blast Protection",
+      "Protection"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Projectile Protection",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 5,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "conflicts": [
+      "Execute"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Prosecute",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Fishing",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Gloves",
+      "Belt",
+      "Necklace",
+      "Bracelet",
+      "Cloak"
+    ],
+    "name": "Prosperity",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Dark Auction",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Scorpius",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Fire Protection",
+      "Blast Protection",
+      "Projectile Protection"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Protection",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Punch",
+    "max_level": 2
+  },
+  {
+    "sources": [
+      {
+        "name": "Riftstalker Bloodfiend",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Necklace"
+    ],
+    "name": "Quantum",
+    "min_level": 3,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Fishing",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Quick Bite",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Mollim",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "name": "Raffle of the Century",
+        "min": 3,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Shears"
+    ],
+    "name": "Rainbow",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Rift Mirrorverse",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Thorns"
+    ],
+    "applicable_to": [
+      "Chestplate"
+    ],
+    "name": "Reflection",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Respite"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Rejuvenate",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Cocoa Beans Collection",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Hoe",
+      "Axe"
+    ],
+    "name": "Replenish",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Nemo\u0027s Shop",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "applicable_to": [
+      "Helmet"
+    ],
+    "name": "Respiration",
+    "max_level": 4
+  },
+  {
+    "sources": [
+      {
+        "name": "Bayou Sludge",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Experiments",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Rejuvenate"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Respite",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Season of Jerry",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Experiments",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Catacombs",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "name": "Golden Bounty",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Scavenger",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Sea Lumies Collection",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Scuba",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Dark Auction",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Scorpius",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Sharpness",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "conflicts": [
+      "Fortune",
+      "Smelting Touch"
+    ],
+    "applicable_to": [
+      "Tools"
+    ],
+    "name": "Silk Touch",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Raffle of the Century",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "Big Brain"
+    ],
+    "applicable_to": [
+      "Helmet"
+    ],
+    "name": "Small Brain",
+    "min_level": 3,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Voidgloom Seraph",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Leggings"
+    ],
+    "name": "Smarty Pants",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "conflicts": [
+      "Silk Touch"
+    ],
+    "applicable_to": [
+      "Shovel",
+      "Pickaxe",
+      "Axe",
+      "Hoe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Smelting Touch",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Catacombs",
+        "min": 7,
+        "max": 7
+      },
+      {
+        "name": "End Stone Idol",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Smite",
+    "max_level": 8
+  },
+  {
+    "sources": [
+      {
+        "name": "Smoldering Blazes",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Smoldering",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Experiments",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Snipe",
+    "max_level": 4
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Octopus Tendril",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Spiked Hook",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Chillblade and Chillshot",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Boots"
+    ],
+    "name": "Stealth",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 10
+      }
+    ],
+    "conflicts": [
+      "Hardened Mana",
+      "Ferocious Mana",
+      "Mana Vampire"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Strong Mana",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Spooky Festival",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Boots"
+    ],
+    "name": "Sugar Rush",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "SkyMart",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 6
+      },
+      {
+        "name": "Locust Pests",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Sunder",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "name": "Chili Pepper Collection",
+        "min": 2,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Sword",
+      "Axe",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Tabasco",
+    "min_level": 2,
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "conflicts": [
+      "Reflection"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Thorns",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Thunderlord"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Thunderbolt",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Catacombs",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Thunderbolt"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Thunderlord",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Lukas the Aquarist",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Leggings"
+    ],
+    "name": "Tidal",
+    "max_level": 3
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 7
+      }
+    ],
+    "conflicts": [
+      "Giant Killer"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Titan Killer",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Community Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Toxophilite",
+    "max_level": 10
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Hemovibe Collection",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Helmet"
+    ],
+    "name": "Transylvanian",
+    "min_level": 4,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 4
+      },
+      {
+        "name": "Experiments",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "conflicts": [
+      "First Strike"
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Triple-Strike",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Old Shaman Nyko",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Chestplate"
+    ],
+    "name": "True Protection",
+    "max_level": 1
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe",
+      "Hoe"
+    ],
+    "name": "Turbo-Cacti",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Turbo-Cane",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Turbo-Carrot",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Turbo-Cocoa",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Turbo-Melon",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Turbo-Mushrooms",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Turbo-Potato",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Turbo-Pumpkin",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Turbo-Warts",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Jacob\u0027s Farming Contest",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Hoe"
+    ],
+    "name": "Turbo-Wheat",
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Spooky Festival",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Vampirism",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Fateful Stinger",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Venomous",
+    "max_level": 7
+  },
+  {
+    "sources": [
+      {
+        "name": "Dark Auction",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Vicious",
+    "min_level": 3,
+    "max_level": 5
+  },
+  {
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Experiments",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Chillblade and Chillshot",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Woodsplitter",
+    "max_level": 6
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Bank",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Fishing",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "name": "Bazaar",
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Bobbin\u0027 Time",
+    "min_level": 3,
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Mythological Event",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Chimera",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "name": "Combo",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Inferno Demonlord",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Duplex",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Sword",
+      "Axe",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Fatal Tempo",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Tree Gifts",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "First Impression",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Fishing",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "name": "Flash",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Mining Events",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "applicable_to": [
+      "Pickaxe",
+      "Drill",
+      "Gauntlet"
+    ],
+    "name": "Flowstate",
+    "max_level": 3,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "name": "Chili Pepper Collection",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Habanero Tactics",
+    "min_level": 4,
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Sword",
+      "Axe",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Inferno",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Last Stand",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Legion",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Tree Gifts",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "name": "Missile",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "No Pain No Gain",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword"
+    ],
+    "name": "One For All",
+    "max_level": 1,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Einary\u0027s Shop",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Refrigerate",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Bow"
+    ],
+    "name": "Rend",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow"
+    ],
+    "name": "Soul Eater",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Sword",
+      "Longsword",
+      "Bow"
+    ],
+    "name": "Swarm",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Riftstalker Bloodfiend",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Bazaar",
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Necklace"
+    ],
+    "name": "The One",
+    "min_level": 4,
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Aspect of the Jerry, Signature Edition",
+      "Aspect of the Jerry"
+    ],
+    "name": "Ultimate Jerry",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Wand",
+      "Shovel",
+      "Pickaxe",
+      "Hoe",
+      "Drill",
+      "Precursor Eye",
+      "Shears",
+      "Sword",
+      "Axe",
+      "Longsword",
+      "Bow",
+      "Gauntlet"
+    ],
+    "name": "Ultimate Wise",
+    "max_level": 5,
+    "is_ultimate": true
+  },
+  {
+    "sources": [
+      {
+        "name": "Catacombs",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "name": "Wisdom",
+    "max_level": 5,
+    "is_ultimate": true
+  }
+]
