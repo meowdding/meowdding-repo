@@ -39,6 +39,10 @@
     "applicable_to": [
       "Fishing Rod"
     ],
+    "requirements": [
+      "Enchanting Level 4",
+      "5 Bookshelf Power"
+    ],
     "name": "Angler",
     "max_level": 6
   },
@@ -52,6 +56,9 @@
     ],
     "applicable_to": [
       "Helmet"
+    ],
+    "requirements": [
+      "1 Bookshelf Power"
     ],
     "name": "Aqua Affinity",
     "max_level": 1
@@ -105,6 +112,9 @@
     ],
     "applicable_to": [
       "Helmet"
+    ],
+    "requirements": [
+      "Enchanting Level 21"
     ],
     "name": "Big Brain",
     "min_level": 3,
@@ -160,6 +170,10 @@
     "applicable_to": [
       "Fishing Rod"
     ],
+    "requirements": [
+      "Enchanting Level 9",
+      "6 Bookshelf Power"
+    ],
     "name": "Blessing",
     "max_level": 6
   },
@@ -183,6 +197,10 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 15",
+      "18 Bookshelf Power"
     ],
     "name": "Caster",
     "max_level": 6
@@ -253,6 +271,10 @@
     "applicable_to": [
       "Bow"
     ],
+    "requirements": [
+      "Enchanting Level 11",
+      "4 Bookshelf Power"
+    ],
     "name": "Chance",
     "max_level": 5
   },
@@ -276,6 +298,9 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 25"
     ],
     "name": "Charm",
     "max_level": 6
@@ -302,6 +327,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 4",
+      "3 Bookshelf Power"
     ],
     "name": "Cleave",
     "max_level": 6
@@ -343,6 +372,9 @@
     "applicable_to": [
       "Fishing Rod"
     ],
+    "requirements": [
+      "Enchanting Level 25"
+    ],
     "name": "Corruption",
     "max_level": 5
   },
@@ -361,6 +393,9 @@
     ],
     "applicable_to": [
       "Chestplate"
+    ],
+    "requirements": [
+      "Enchanting Level 22"
     ],
     "name": "Counter-Strike",
     "min_level": 3,
@@ -394,6 +429,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 9",
+      "4 Bookshelf Power"
+    ],
     "name": "Critical",
     "max_level": 7
   },
@@ -418,8 +457,12 @@
     "applicable_to": [
       "Sword",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 3",
+      "3 Bookshelf Power"
     ],
     "name": "Cubism",
     "max_level": 6
@@ -471,6 +514,9 @@
       "Hoe",
       "Axe"
     ],
+    "requirements": [
+      "Enchanting Level 12"
+    ],
     "name": "Dedication",
     "max_level": 4
   },
@@ -506,6 +552,9 @@
     "applicable_to": [
       "Boots"
     ],
+    "requirements": [
+      "4 Bookshelf Power"
+    ],
     "name": "Depth Strider",
     "max_level": 3
   },
@@ -525,8 +574,8 @@
     "applicable_to": [
       "Sword",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
     ],
     "name": "Divine Gift",
     "max_level": 3
@@ -541,6 +590,10 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 8",
+      "8 Bookshelf Power"
     ],
     "name": "Dragon Tracer",
     "max_level": 5
@@ -576,6 +629,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 15",
+      "5 Bookshelf Power"
     ],
     "name": "Drain",
     "max_level": 5
@@ -627,6 +684,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 11",
+      "5 Bookshelf Power"
+    ],
     "name": "Ender Slayer",
     "max_level": 7
   },
@@ -655,6 +716,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 14",
+      "10 Bookshelf Power"
     ],
     "name": "Execute",
     "max_level": 6
@@ -685,9 +750,12 @@
     "applicable_to": [
       "Sword",
       "Pickaxe",
-      "Drill",
       "Longsword",
+      "Drill",
       "Gauntlet"
+    ],
+    "requirements": [
+      "2 Bookshelf Power"
     ],
     "name": "Experience",
     "max_level": 5
@@ -732,6 +800,9 @@
     "applicable_to": [
       "Boots"
     ],
+    "requirements": [
+      "2 Bookshelf Power"
+    ],
     "name": "Feather Falling",
     "max_level": 10
   },
@@ -755,6 +826,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 22"
     ],
     "name": "Ferocious Mana",
     "max_level": 10
@@ -781,6 +855,9 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "2 Bookshelf Power"
     ],
     "name": "Fire Aspect",
     "max_level": 3
@@ -845,6 +922,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 10",
+      "5 Bookshelf Power"
+    ],
     "name": "First Strike",
     "max_level": 5
   },
@@ -858,6 +939,9 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "3 Bookshelf Power"
     ],
     "name": "Flame",
     "max_level": 2
@@ -877,6 +961,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 12"
     ],
     "name": "Forest Pledge",
     "min_level": 3,
@@ -908,6 +995,9 @@
       "Drill",
       "Gauntlet"
     ],
+    "requirements": [
+      "2 Bookshelf Power"
+    ],
     "name": "Fortune",
     "max_level": 4
   },
@@ -936,6 +1026,10 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 14",
+      "12 Bookshelf Power"
     ],
     "name": "Frail",
     "max_level": 7
@@ -976,6 +1070,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 8",
+      "4 Bookshelf Power"
+    ],
     "name": "Giant Killer",
     "max_level": 7
   },
@@ -1000,8 +1098,11 @@
     "applicable_to": [
       "Sword",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 16"
     ],
     "name": "Gravity",
     "max_level": 6
@@ -1040,6 +1141,9 @@
       "Bracelet",
       "Cloak"
     ],
+    "requirements": [
+      "Enchanting Level 24"
+    ],
     "name": "Green Thumb",
     "max_level": 5
   },
@@ -1074,6 +1178,10 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 5",
+      "8 Bookshelf Power"
+    ],
     "name": "Growth",
     "max_level": 7
   },
@@ -1098,6 +1206,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 22"
+    ],
     "name": "Hardened Mana",
     "max_level": 10
   },
@@ -1121,6 +1232,9 @@
     ],
     "applicable_to": [
       "Hoe"
+    ],
+    "requirements": [
+      "Enchanting Level 2"
     ],
     "name": "Harvesting",
     "max_level": 6
@@ -1160,6 +1274,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 30"
+    ],
     "name": "Ice Cold",
     "max_level": 5
   },
@@ -1175,8 +1292,12 @@
       "Fishing Rod",
       "Sword",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 12",
+      "8 Bookshelf Power"
     ],
     "name": "Impaling",
     "max_level": 5
@@ -1202,6 +1323,10 @@
     "applicable_to": [
       "Bow"
     ],
+    "requirements": [
+      "Enchanting Level 2",
+      "3 Bookshelf Power"
+    ],
     "name": "Infinite Quiver",
     "max_level": 10
   },
@@ -1217,6 +1342,9 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "1 Bookshelf Power"
     ],
     "name": "Knockback",
     "max_level": 2
@@ -1238,6 +1366,9 @@
       "Pickaxe",
       "Drill",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 22"
     ],
     "name": "Lapidary",
     "max_level": 5
@@ -1269,6 +1400,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 14",
+      "20 Bookshelf Power"
     ],
     "name": "Lethality",
     "max_level": 6
@@ -1305,6 +1440,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 5",
+      "3 Bookshelf Power"
+    ],
     "name": "Life Steal",
     "max_level": 5
   },
@@ -1337,6 +1476,9 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "2 Bookshelf Power"
+    ],
     "name": "Looting",
     "max_level": 5
   },
@@ -1368,6 +1510,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 3",
+      "3 Bookshelf Power"
+    ],
     "name": "Luck",
     "max_level": 7
   },
@@ -1396,6 +1542,9 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "1 Bookshelf Power"
     ],
     "name": "Luck of the Sea",
     "max_level": 7
@@ -1445,6 +1594,10 @@
     "applicable_to": [
       "Fishing Rod"
     ],
+    "requirements": [
+      "Enchanting Level 13",
+      "5 Bookshelf Power"
+    ],
     "name": "Magnet",
     "max_level": 6
   },
@@ -1470,6 +1623,9 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 20"
+    ],
     "name": "Mana Steal",
     "max_level": 3
   },
@@ -1494,6 +1650,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 22"
+    ],
     "name": "Mana Vampire",
     "max_level": 10
   },
@@ -1512,6 +1671,9 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 33"
     ],
     "name": "Overload",
     "max_level": 5
@@ -1533,6 +1695,9 @@
       "Pickaxe",
       "Drill",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 27"
     ],
     "name": "Paleontologist",
     "max_level": 5
@@ -1558,6 +1723,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 10"
+    ],
     "name": "Pesterminator",
     "max_level": 6
   },
@@ -1571,6 +1739,10 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 17",
+      "20 Bookshelf Power"
     ],
     "name": "Piercing",
     "max_level": 1
@@ -1600,6 +1772,10 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 8",
+      "6 Bookshelf Power"
     ],
     "name": "Piscary",
     "max_level": 7
@@ -1655,6 +1831,9 @@
       "Pickaxe",
       "Drill",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 22"
     ],
     "name": "Prismatic",
     "max_level": 5
@@ -1713,6 +1892,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 25",
+      "12 Bookshelf Power"
     ],
     "name": "Prosecute",
     "max_level": 6
@@ -1790,6 +1973,9 @@
     "applicable_to": [
       "Bow"
     ],
+    "requirements": [
+      "2 Bookshelf Power"
+    ],
     "name": "Punch",
     "max_level": 2
   },
@@ -1829,6 +2015,9 @@
     "applicable_to": [
       "Fishing Rod"
     ],
+    "requirements": [
+      "Enchanting Level 23"
+    ],
     "name": "Quick Bite",
     "max_level": 5
   },
@@ -1853,6 +2042,10 @@
     "applicable_to": [
       "Shears"
     ],
+    "requirements": [
+      "Enchanting Level 6",
+      "1 Bookshelf Power"
+    ],
     "name": "Rainbow",
     "max_level": 3
   },
@@ -1874,6 +2067,9 @@
     ],
     "applicable_to": [
       "Chestplate"
+    ],
+    "requirements": [
+      "Enchanting Level 24"
     ],
     "name": "Reflection",
     "max_level": 5
@@ -1897,6 +2093,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 10"
+    ],
     "name": "Rejuvenate",
     "max_level": 5
   },
@@ -1916,6 +2115,9 @@
     "applicable_to": [
       "Hoe",
       "Axe"
+    ],
+    "requirements": [
+      "Enchanting Level 7"
     ],
     "name": "Replenish",
     "max_level": 1
@@ -1940,6 +2142,9 @@
     ],
     "applicable_to": [
       "Helmet"
+    ],
+    "requirements": [
+      "1 Bookshelf Power"
     ],
     "name": "Respiration",
     "max_level": 4
@@ -1967,6 +2172,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 23"
     ],
     "name": "Respite",
     "max_level": 5
@@ -2009,6 +2217,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 1",
+      "3 Bookshelf Power"
+    ],
     "name": "Scavenger",
     "max_level": 6
   },
@@ -2027,6 +2239,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 5"
     ],
     "name": "Scuba",
     "max_level": 5
@@ -2082,6 +2297,9 @@
     "applicable_to": [
       "Tools"
     ],
+    "requirements": [
+      "5 Bookshelf Power"
+    ],
     "name": "Silk Touch",
     "max_level": 1
   },
@@ -2104,6 +2322,9 @@
     "applicable_to": [
       "Helmet"
     ],
+    "requirements": [
+      "Enchanting Level 21"
+    ],
     "name": "Small Brain",
     "min_level": 3,
     "max_level": 5
@@ -2124,6 +2345,9 @@
     "applicable_to": [
       "Leggings"
     ],
+    "requirements": [
+      "Enchanting Level 21"
+    ],
     "name": "Smarty Pants",
     "max_level": 5
   },
@@ -2141,8 +2365,8 @@
     "applicable_to": [
       "Shovel",
       "Pickaxe",
-      "Axe",
       "Hoe",
+      "Axe",
       "Drill",
       "Gauntlet"
     ],
@@ -2191,8 +2415,11 @@
     "applicable_to": [
       "Sword",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 23"
     ],
     "name": "Smoldering",
     "max_level": 5
@@ -2217,6 +2444,10 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 6",
+      "8 Bookshelf Power"
     ],
     "name": "Snipe",
     "max_level": 4
@@ -2246,6 +2477,10 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 18",
+      "20 Bookshelf Power"
     ],
     "name": "Spiked Hook",
     "max_level": 7
@@ -2290,6 +2525,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 22"
+    ],
     "name": "Strong Mana",
     "max_level": 10
   },
@@ -2308,6 +2546,9 @@
     ],
     "applicable_to": [
       "Boots"
+    ],
+    "requirements": [
+      "Enchanting Level 7"
     ],
     "name": "Sugar Rush",
     "max_level": 3
@@ -2333,6 +2574,9 @@
     "applicable_to": [
       "Axe"
     ],
+    "requirements": [
+      "Enchanting Level 2"
+    ],
     "name": "Sunder",
     "max_level": 6
   },
@@ -2354,8 +2598,8 @@
       "Sword",
       "Axe",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
     ],
     "name": "Tabasco",
     "min_level": 2,
@@ -2374,6 +2618,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "3 Bookshelf Power"
     ],
     "name": "Thorns",
     "max_level": 3
@@ -2403,6 +2650,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 20",
+      "14 Bookshelf Power"
     ],
     "name": "Thunderbolt",
     "max_level": 7
@@ -2438,6 +2689,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 14",
+      "12 Bookshelf Power"
+    ],
     "name": "Thunderlord",
     "max_level": 7
   },
@@ -2456,6 +2711,9 @@
     ],
     "applicable_to": [
       "Leggings"
+    ],
+    "requirements": [
+      "Enchanting Level 13"
     ],
     "name": "Tidal",
     "max_level": 3
@@ -2485,6 +2743,10 @@
       "Sword",
       "Longsword",
       "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 28",
+      "6 Bookshelf Power"
     ],
     "name": "Titan Killer",
     "max_level": 7
@@ -2554,6 +2816,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 19",
+      "7 Bookshelf Power"
+    ],
     "name": "Triple-Strike",
     "max_level": 5
   },
@@ -2573,6 +2839,9 @@
     "applicable_to": [
       "Chestplate"
     ],
+    "requirements": [
+      "Enchanting Level 15"
+    ],
     "name": "True Protection",
     "max_level": 1
   },
@@ -2590,8 +2859,8 @@
       }
     ],
     "applicable_to": [
-      "Axe",
-      "Hoe"
+      "Hoe",
+      "Axe"
     ],
     "name": "Turbo-Cacti",
     "max_level": 5
@@ -2795,6 +3064,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 15",
+      "15 Bookshelf Power"
+    ],
     "name": "Vampirism",
     "max_level": 6
   },
@@ -2826,6 +3099,10 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 17",
+      "20 Bookshelf Power"
+    ],
     "name": "Venomous",
     "max_level": 7
   },
@@ -2845,8 +3122,11 @@
     "applicable_to": [
       "Sword",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 26"
     ],
     "name": "Vicious",
     "min_level": 3,
@@ -2878,6 +3158,9 @@
     "applicable_to": [
       "Axe"
     ],
+    "requirements": [
+      "Enchanting Level 5"
+    ],
     "name": "Woodsplitter",
     "max_level": 6
   },
@@ -2896,6 +3179,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 16"
     ],
     "name": "Bank",
     "max_level": 5,
@@ -2916,6 +3202,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 24"
     ],
     "name": "Bobbin\u0027 Time",
     "min_level": 3,
@@ -2940,6 +3229,9 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 31"
+    ],
     "name": "Chimera",
     "max_level": 5,
     "is_ultimate": true
@@ -2962,6 +3254,9 @@
       "Longsword",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 24"
+    ],
     "name": "Combo",
     "max_level": 5,
     "is_ultimate": true
@@ -2981,6 +3276,9 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 28"
     ],
     "name": "Duplex",
     "max_level": 5,
@@ -3004,8 +3302,11 @@
       "Sword",
       "Axe",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 37"
     ],
     "name": "Fatal Tempo",
     "max_level": 5,
@@ -3027,6 +3328,9 @@
     "applicable_to": [
       "Axe"
     ],
+    "requirements": [
+      "Enchanting Level 14"
+    ],
     "name": "First Impression",
     "max_level": 5,
     "is_ultimate": true
@@ -3046,6 +3350,9 @@
     ],
     "applicable_to": [
       "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 30"
     ],
     "name": "Flash",
     "max_level": 5,
@@ -3069,6 +3376,9 @@
       "Drill",
       "Gauntlet"
     ],
+    "requirements": [
+      "Enchanting Level 15"
+    ],
     "name": "Flowstate",
     "max_level": 3,
     "is_ultimate": true
@@ -3088,6 +3398,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 28"
     ],
     "name": "Habanero Tactics",
     "min_level": 4,
@@ -3112,8 +3425,11 @@
       "Sword",
       "Axe",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 37"
     ],
     "name": "Inferno",
     "max_level": 5,
@@ -3135,6 +3451,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 30"
+    ],
     "name": "Last Stand",
     "max_level": 5,
     "is_ultimate": true
@@ -3154,6 +3473,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 34"
     ],
     "name": "Legion",
     "max_level": 5,
@@ -3175,6 +3497,9 @@
     "applicable_to": [
       "Axe"
     ],
+    "requirements": [
+      "Enchanting Level 14"
+    ],
     "name": "Missile",
     "max_level": 5,
     "is_ultimate": true
@@ -3194,6 +3519,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 29"
     ],
     "name": "No Pain No Gain",
     "max_level": 5,
@@ -3216,6 +3544,9 @@
       "Sword",
       "Longsword"
     ],
+    "requirements": [
+      "Enchanting Level 38"
+    ],
     "name": "One For All",
     "max_level": 1,
     "is_ultimate": true
@@ -3236,6 +3567,9 @@
     "applicable_to": [
       "Armor"
     ],
+    "requirements": [
+      "Enchanting Level 20"
+    ],
     "name": "Refrigerate",
     "max_level": 5,
     "is_ultimate": true
@@ -3255,6 +3589,9 @@
     ],
     "applicable_to": [
       "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 32"
     ],
     "name": "Rend",
     "max_level": 5,
@@ -3278,6 +3615,9 @@
       "Longsword",
       "Bow"
     ],
+    "requirements": [
+      "Enchanting Level 36"
+    ],
     "name": "Soul Eater",
     "max_level": 5,
     "is_ultimate": true
@@ -3300,6 +3640,9 @@
       "Longsword",
       "Bow"
     ],
+    "requirements": [
+      "Enchanting Level 35"
+    ],
     "name": "Swarm",
     "max_level": 5,
     "is_ultimate": true
@@ -3319,6 +3662,9 @@
     ],
     "applicable_to": [
       "Necklace"
+    ],
+    "requirements": [
+      "Enchanting Level 25"
     ],
     "name": "The One",
     "min_level": 4,
@@ -3341,6 +3687,9 @@
     "applicable_to": [
       "Aspect of the Jerry, Signature Edition",
       "Aspect of the Jerry"
+    ],
+    "requirements": [
+      "Enchanting Level 18"
     ],
     "name": "Ultimate Jerry",
     "max_level": 5,
@@ -3371,8 +3720,11 @@
       "Sword",
       "Axe",
       "Longsword",
-      "Bow",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
+    ],
+    "requirements": [
+      "Enchanting Level 20"
     ],
     "name": "Ultimate Wise",
     "max_level": 5,
@@ -3393,6 +3745,9 @@
     ],
     "applicable_to": [
       "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 27"
     ],
     "name": "Wisdom",
     "max_level": 5,
