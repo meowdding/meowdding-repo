@@ -3,8 +3,10 @@ package me.owdding.repo
 import com.google.common.hash.Hashing
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
+import com.google.gson.JsonArray
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
+import me.owdding.repo.RemoteRepo.get
 import java.net.URI
 import java.net.http.HttpClient
 import java.net.http.HttpRequest
@@ -64,20 +66,27 @@ object RemoteRepo {
             return
         }
 
+        val redirects = getJsonArray("_redirects.json")?.map {
+            val obj = it.asJsonObject
+            RedirectEntry(obj.get("from").asString, obj.get("to").asString)
+        } ?: emptyList()
+
         val cache = mutableMapOf<String, String>()
         remoteIndex.entrySet().forEach { (key, hash) ->
 
             val expectedHash = hash.asString
 
+            val redirectedPath = redirects.firstOrNull { it.from == key }?.to ?: key
+
             if (currentIndex.has(key)) {
                 val storedHash = currentIndex[key].asString
 
-                val path = cacheDirectory.resolve(key)
+                val path = cacheDirectory.resolve(redirectedPath)
                 val realHash = if (path.exists()) Hashing.sha256().hashBytes(path.toFile().readBytes()).toString() else null
                 if (storedHash == expectedHash && realHash == expectedHash) return@forEach
             }
-            cacheDirectory.resolve(key)
-            cache[key] = get(key) ?: run {
+            cacheDirectory.resolve(redirectedPath)
+            cache[redirectedPath] = get(key) ?: run {
                 println("Failed to load repo data, falling back to backup repo!")
                 loadBackupRepo()
                 return
@@ -111,7 +120,6 @@ object RemoteRepo {
         this.deleteIfExists()
     }
 
-    // TODO: fix backup repo not working
     private fun loadBackupRepo() {
         cacheDirectory.deleteRecursively()
         cacheDirectory.createDirectories()
@@ -127,6 +135,7 @@ object RemoteRepo {
     }
 
     private fun HttpClient.getJsonObject(path: String) = get(path)?.let { gson.fromJson(it, JsonObject::class.java) }
+    private fun HttpClient.getJsonArray(path: String) = get(path)?.let { gson.fromJson(it, JsonArray::class.java) }
     private fun HttpClient.get(path: String): String? = runCatching {
         send(
             HttpRequest.newBuilder(URI.create("https://" + (version?.let { "$it." } ?: "") + REMOTE_URL).resolve(path))
@@ -135,5 +144,10 @@ object RemoteRepo {
             HttpResponse.BodyHandlers.ofString(Charsets.UTF_8),
         ).let { it.body().takeUnless { _ -> it.statusCode() != 200 } }
     }.getOrNull()
+
+    private data class RedirectEntry(
+        val from: String,
+        val to: String,
+    )
 
 }
