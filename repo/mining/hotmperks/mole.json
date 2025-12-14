@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GEMSTONE"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.17883)",
+  "cost_formula": "floor((level + 1)^2.17883)",
   "reward_formula": "50 + ((level - 1) * (350/199))",
   "name": "Mole",
   "tooltip": [

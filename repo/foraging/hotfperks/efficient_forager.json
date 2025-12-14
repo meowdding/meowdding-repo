@@ -10,7 +10,7 @@
     "type": "WHISPER",
     "kind": "FOREST"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.6)",
+  "cost_formula": "floor((level + 1)^2.6)",
   "reward_formula": "5 + (level * 0.1)",
   "name": "Efficient Forager",
   "tooltip": [

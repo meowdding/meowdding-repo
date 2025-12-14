@@ -10,7 +10,7 @@
     "type": "WHISPER",
     "kind": "FOREST"
   },
-  "cost_formula": "floor((nextLevel + 1)^5.5)",
+  "cost_formula": "floor((level + 1)^5.5)",
   "reward_formula": "level",
   "name": "Ricochet",
   "tooltip": [

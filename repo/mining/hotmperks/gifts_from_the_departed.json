@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GLACITE"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.45)",
+  "cost_formula": "floor((level + 1)^2.45)",
   "reward_formula": "level * 0.2",
   "name": "Gifts from the Departed",
   "tooltip": [

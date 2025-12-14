@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GEMSTONE"
   },
-  "cost_formula": "floor((nextLevel + 1)^4)",
+  "cost_formula": "floor((level + 1)^4)",
   "reward_formula": {
     "chance": "20 + (4 * (level - 1))",
     "locks_removed": "floor(1 + (level/5))"

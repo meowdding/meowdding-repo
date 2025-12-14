@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GEMSTONE"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.3)",
+  "cost_formula": "floor((level + 1)^2.3)",
   "reward_formula": "5 + (level * 0.1)",
   "name": "Seasoned Mineman",
   "tooltip": [

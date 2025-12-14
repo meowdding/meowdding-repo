@@ -10,7 +10,7 @@
     "type": "WHISPER",
     "kind": "FOREST"
   },
-  "cost_formula": "floor((nextLevel + 1)^3.4)",
+  "cost_formula": "floor((level + 1)^3.4)",
   "reward_formula": "level * 0.2",
   "name": "Forest Speed",
   "tooltip": [

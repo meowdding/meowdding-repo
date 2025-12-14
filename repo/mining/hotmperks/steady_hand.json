@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GLACITE"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.6)",
+  "cost_formula": "floor((level + 1)^2.6)",
   "reward_formula": "level * 0.1",
   "name": "Steady Hand",
   "tooltip": [

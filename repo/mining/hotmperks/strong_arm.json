@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GLACITE"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.3)",
+  "cost_formula": "floor((level + 1)^2.3)",
   "reward_formula": "level * 5",
   "name": "Strong Arm",
   "tooltip": [
