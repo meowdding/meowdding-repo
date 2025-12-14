@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GLACITE"
   },
-  "cost_formula": "floor((nextLevel + 7)^5)",
+  "cost_formula": "floor((level + 7)^5)",
   "reward_formula": "level * 0.1",
   "name": "Mining Master",
   "tooltip": [

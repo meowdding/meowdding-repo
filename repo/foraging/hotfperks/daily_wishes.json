@@ -10,7 +10,7 @@
     "type": "WHISPER",
     "kind": "FOREST"
   },
-  "cost_formula": "floor(200 + (nextLevel * 18))",
+  "cost_formula": "floor(200 + (level * 18))",
   "reward_formula": "level * 400",
   "name": "Daily Wishes",
   "tooltip": [

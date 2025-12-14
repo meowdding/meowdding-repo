@@ -10,7 +10,7 @@
     "type": "WHISPER",
     "kind": "FOREST"
   },
-  "cost_formula": "floor((nextLevel + 1)^4.1)",
+  "cost_formula": "floor((level + 1)^4.1)",
   "reward_formula": {
     "foraging_fortune": "level * 2",
     "sweep": "level"

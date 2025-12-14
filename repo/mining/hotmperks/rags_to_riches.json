@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GLACITE"
   },
-  "cost_formula": "floor((nextLevel + 1)^3.05)",
+  "cost_formula": "floor((level + 1)^3.05)",
   "reward_formula": "level * 4",
   "name": "Rags to Riches",
   "tooltip": [

@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GEMSTONE"
   },
-  "cost_formula": "floor((nextLevel + 1)^4)",
+  "cost_formula": "floor((level + 1)^4)",
   "reward_formula": "20 + (level * 4)",
   "name": "Gem Lover",
   "tooltip": [

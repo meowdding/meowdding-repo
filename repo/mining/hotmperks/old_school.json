@@ -10,7 +10,7 @@
     "type": "POWDER",
     "kind": "GEMSTONE"
   },
-  "cost_formula": "floor((nextLevel + 1)^4)",
+  "cost_formula": "floor((level + 1)^4)",
   "reward_formula": "level * 5",
   "name": "Old-School",
   "tooltip": [

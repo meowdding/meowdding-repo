@@ -10,7 +10,7 @@
     "type": "WHISPER",
     "kind": "FOREST"
   },
-  "cost_formula": "floor((nextLevel + 1)^2.9)",
+  "cost_formula": "floor((level + 1)^2.9)",
   "reward_formula": "level",
   "name": "Deep Waters",
   "tooltip": [
