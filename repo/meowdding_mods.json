@@ -5,7 +5,7 @@
     "config_id": "customscoreboard",
     "modrinth_slug": "skyblock-custom-scoreboard",
     "github_repo": "meowdding/CustomScoreboard",
-    "icon": "https://raw.githubusercontent.com/meowdding/CustomScoreboard/refs/heads/main/src/common/main/resources/assets/customscoreboard/icon.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/CustomScoreboard/refs/heads/main/src/main/resources/assets/customscoreboard/icon.png"
   },
   {
     "name": "SkyCubed",
@@ -21,7 +21,7 @@
     "config_id": "skyocean",
     "modrinth_slug": "skyocean",
     "github_repo": "meowdding/SkyOcean",
-    "icon": "https://raw.githubusercontent.com/meowdding/SkyOcean/refs/heads/main/src/common/main/resources/assets/skyocean/skyocean-big.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/SkyOcean/refs/heads/main/src/main/resources/assets/skyocean/skyocean-big.png"
   },
   {
     "name": "SkyBlock Profile Viewer",
@@ -29,7 +29,7 @@
     "config_id": "skyblockpv",
     "modrinth_slug": "skyblock-profile-viewer",
     "github_repo": "meowdding/skyblock-pv",
-    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/common/main/resources/assets/skyblock-pv/skyblock-pv.png"
+    "icon": "https://github.com/meowdding/skyblock-pv/blob/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
   },
   {
     "name": "SkyBlock RPC",
