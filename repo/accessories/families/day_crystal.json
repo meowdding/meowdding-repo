@@ -1,4 +1,7 @@
 {
   "family": "day_crystal",
-  "tiers": "item:day_crystal"
+  "tiers": [
+    "item:day_crystal",
+    "item:sunshine_crystal"
+  ]
 }
