@@ -53,5 +53,6 @@
       "item:balloon_hat_2025_purple",
       "item:balloon_hat_2025_black"
     ]
-  ]
+  ],
+  "ignore_duplicates": true
 }
