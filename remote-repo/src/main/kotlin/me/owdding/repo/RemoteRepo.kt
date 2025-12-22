@@ -5,17 +5,27 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
+import org.slf4j.LoggerFactory
 import java.net.URI
 import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 import java.nio.file.Path
 import java.nio.file.StandardOpenOption
-import kotlin.io.path.*
+import kotlin.io.path.createDirectories
+import kotlin.io.path.createParentDirectories
+import kotlin.io.path.deleteIfExists
+import kotlin.io.path.exists
+import kotlin.io.path.isDirectory
+import kotlin.io.path.listDirectoryEntries
+import kotlin.io.path.readText
+import kotlin.io.path.writeBytes
+import kotlin.io.path.writeText
 
 private const val REMOTE_URL = "repo.owdding.me"
 
 object RemoteRepo {
+    private val logger = LoggerFactory.getLogger("MeowddingRemoteRepo")
 
     private val gson: Gson = GsonBuilder().create()
     private lateinit var cacheDirectory: Path
@@ -52,7 +62,10 @@ object RemoteRepo {
     }
 
     fun isInitialized() = isInitialized
-    fun getFileContent(file: String) = cacheDirectory.resolve(file).takeIf { it.exists() }?.readText(Charsets.UTF_8)
+    fun getFileContent(file: String) = cacheDirectory.resolve(file).takeIf { it.exists() }?.readText(Charsets.UTF_8) ?: run {
+        logger.warn("Requested unknown file $file from remote repo!")
+        null
+    }
     fun getFileContentAsJson(file: String) = getFileContent("${file.removeSuffix(".json")}.json")?.let { gson.fromJson(it, JsonElement::class.java) }
 
     private fun HttpClient.downloadOrUpdate(remoteHash: String) {
