@@ -16,4 +16,5 @@ compactingResources {
     compactToArray("skyocean/recipes")
     removeComments("skyocean/illegal_ingredients")
     removeComments("skyocean/ignore_duplicate_accessories")
+    removeComments("skyocean/illegal_shop_recipes")
 }
