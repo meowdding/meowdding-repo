@@ -43,6 +43,7 @@ object RemoteRepo {
         val remoteRepoHash = httpClient.get("index.json.sha")
 
         if (remoteRepoHash == null || forceBackupRepo) {
+            println("Failed to load repo data, falling back to backup repo!")
             loadBackupRepo()
         } else if (currentRepoHash != remoteRepoHash) {
             httpClient.downloadOrUpdate(remoteRepoHash)
