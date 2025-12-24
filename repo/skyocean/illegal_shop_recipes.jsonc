@@ -172,12 +172,6 @@
     "item:wood_pickaxe",
     "item:wood_plate",
     "item:wool-1",
-    "item:wool-10",
-    "item:wool-11",
-    "item:wool-12",
-    "item:wool-13",
-    "item:wool-14",
-    "item:wool-15",
     "item:wool-2",
     "item:wool-3",
     "item:wool-4",
@@ -185,5 +179,11 @@
     "item:wool-6",
     "item:wool-7",
     "item:wool-8",
-    "item:wool-9"
+    "item:wool-9",
+    "item:wool-10",
+    "item:wool-11",
+    "item:wool-12",
+    "item:wool-13",
+    "item:wool-14",
+    "item:wool-15"
 ]
