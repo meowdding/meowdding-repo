@@ -8,7 +8,6 @@ open class CompactingResourcesExtension {
     internal val externalResources: MutableList<ExternalResource> = mutableListOf()
     var basePath: String = "repo"
     var pathDirectory: String = "src"
-    internal val tasks: MutableList<AbstractCopyTask> = mutableListOf()
 
     fun configureTask(task: AbstractCopyTask) {
         val compactResources = task.project.tasks.named("compactResources").get()

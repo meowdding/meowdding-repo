@@ -1,11 +1,17 @@
+import java.util.Properties
+import kotlin.io.path.reader
+
 plugins {
     alias(libs.plugins.kotlin.versioned)
     `java-gradle-plugin`
     `maven-publish`
 }
 
-version = file("../gradle.properties").readText().substringAfterLast("compaction.resources.version=").split("\n")[0]
-print(version)
+val parentProperties = Properties()
+layout.projectDirectory.asFile.toPath().resolveSibling("gradle.properties").reader(Charsets.ISO_8859_1).use {
+    parentProperties.load(it)
+}
+version = parentProperties.getProperty("compaction.resources.version")!!
 
 repositories {
     mavenCentral()
