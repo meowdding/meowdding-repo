@@ -4,6 +4,7 @@ import com.google.gson.JsonParser
 import me.owdding.repo.DEFAULT_CACHE_DIRECTORY
 import me.owdding.repo.FileCache
 import org.gradle.api.DefaultTask
+import org.gradle.api.file.DuplicatesStrategy
 import java.nio.file.StandardCopyOption
 import java.nio.file.StandardOpenOption
 import kotlin.io.path.copyTo
@@ -23,16 +24,19 @@ open class CompactResourcesTask : DefaultTask() {
 
         val outputPath = project.layout.buildDirectory.dir("generated/meowdding/compacting-resources").get()
 
-        inputs.dir(basePath)
+        inputs.dir(basePath).withPropertyName("input")
         inputs.property("compactors", extension.compactors.joinToString("|") { it.serialize() })
         inputs.property("external", extension.externalResources.joinToString("|") { it.serialize() })
         outputs.dir(outputPath)
 
         extension.tasks.forEach { task ->
+            task.inputs.dir(outputPath).withPropertyName("compacting_resources_output")
+            task.inputs.dir(basePath).withPropertyName("compacting_resources_base")
             task.with(
                 project.copySpec { spec ->
                     spec.from(this.outputs)
                     spec.into(extension.basePath)
+                    spec.duplicatesStrategy = DuplicatesStrategy.INCLUDE
                 },
             )
             task.dependsOn(this)
