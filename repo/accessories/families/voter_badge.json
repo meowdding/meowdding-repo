@@ -1,0 +1,9 @@
+{
+  "family": "voter_badge",
+  "tiers": [
+    "item:voter_badge",
+    "item:voter_badge_vip",
+    "item:voter_badge_elite",
+    "item:voter_badge_supreme"
+  ]
+}
