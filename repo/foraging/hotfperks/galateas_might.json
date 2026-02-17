@@ -2,8 +2,8 @@
   "type": "PERK",
   "id": "galateas_might",
   "location": [
-    5,
-    3
+    3,
+    5
   ],
   "max_level": 50,
   "cost": {

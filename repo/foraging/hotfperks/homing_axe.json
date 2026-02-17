@@ -3,8 +3,8 @@
   "id": "homing_axe",
   "name": "Homing Axe",
   "location": [
-    5,
-    0
+    0,
+    5
   ],
   "tooltip": [
     "<gray>Your Throwing Axes gain permanent</gray>",

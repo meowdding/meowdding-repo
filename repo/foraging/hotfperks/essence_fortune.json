@@ -2,8 +2,8 @@
   "type": "PERK",
   "id": "essence_fortune",
   "location": [
-    5,
-    4
+    4,
+    5
   ],
   "max_level": 50,
   "cost": {

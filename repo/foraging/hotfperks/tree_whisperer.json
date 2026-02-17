@@ -3,8 +3,8 @@
   "id": "tree_whisperer",
   "name": "Tree Whisperer",
   "location": [
-    4,
-    5
+    5,
+    4
   ],
   "tooltip": [
     "<gray>Tree Gifts give </gray><green>+200 </green><dark_aqua>Forest Whispers</dark_aqua><gray>.</gray>"

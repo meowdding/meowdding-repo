@@ -2,8 +2,8 @@
   "type": "PERK",
   "id": "hunters_luck",
   "location": [
-    5,
-    2
+    2,
+    5
   ],
   "max_level": 50,
   "cost": {

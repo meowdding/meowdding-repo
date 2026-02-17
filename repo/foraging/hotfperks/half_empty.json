@@ -2,8 +2,8 @@
   "type": "PERK",
   "id": "half_empty",
   "location": [
-    1,
-    2
+    2,
+    6
   ],
   "max_level": 25,
   "cost": {
