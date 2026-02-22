@@ -1,33 +1,35 @@
 import fs from "fs";
 
-async function update_skulls() {
-    let skulls = await fetch("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/animatedskulls.json")
-        .then((x) => x.json())
 
-    let skins = skulls["skins"]
-    for (let key in skins) {
-        let skin = skins[key]
-        if (skin["textures"].length == 1) {
-            skin.ticks = undefined
+const entries = [
+    {
+        source: "constants/animatedskulls.json",
+        destination: "skyocean/skulls.json",
+        handler: (skulls) => {
+            let skins = skulls["skins"]
+            for (let key in skins) {
+                let skin = skins[key]
+                if (skin["textures"].length === 1) {
+                    skin.ticks = undefined
+                }
+            }
+            return skins
         }
+    },
+    {
+        source: "constants/dyes.json",
+        destination: "skyocean/dyes.json",
+    },
+    {
+        source: "constants/bestiary.json",
+        destination: "neu/bestiary.json",
+    },
+    {
+        source: "constants/misc.json",
+        destination: "neu/misc.json",
     }
+]
 
-    fs.writeFileSync(`repo/skyocean/skulls.json`, JSON.stringify(skins, null, 2));
-}
-
-async function update_dyes() {
-    let dyes = await fetch("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/dyes.json")
-        .then((x) => x.json())
-
-    fs.writeFileSync(`repo/skyocean/dyes.json`, JSON.stringify(dyes, null, 2));
-}
-
-async function update_bestiary() {
-    let bestiary = await fetch("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/bestiary.json")
-        .then((x) => x.json())
-
-    fs.writeFileSync(`repo/neu/bestiary.json`, JSON.stringify(bestiary, null, 2));
-}
 async function update_misc() {
     let bestiary = await fetch("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/misc.json")
         .then((x) => x.json())
@@ -36,10 +38,18 @@ async function update_misc() {
 }
 
 async function main() {
-    await update_dyes()
-    await update_skulls()
-    await update_misc()
-    await update_bestiary()
+    for (let entry of entries) {
+        let source = entry.source
+        let destination = entry.destination
+        let handler = entry.handler || ((x) => { return x })
+
+        console.log(`Fetching ${source}`)
+        let result = await fetch(`https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/${source}`)
+            .then((x) => x.json())
+
+        console.log(`Writing ${destination}`)
+        fs.writeFileSync(`repo/${destination}`, JSON.stringify(handler(result), null, 2));
+    }
 }
 
 await main()
