@@ -31,6 +31,4 @@ compactingResources {
     compactToObject("pv/crimson_isle")
     compactToArray("pv/minions/categories")
     compactToObject("pv/minions")
-    downloadResource("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/bestiary.json", "bestiary.json")
-    downloadResource("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/misc.json", "neu_misc.json")
 }

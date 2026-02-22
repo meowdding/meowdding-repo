@@ -22,9 +22,24 @@ async function update_dyes() {
     fs.writeFileSync(`repo/skyocean/dyes.json`, JSON.stringify(dyes, null, 2));
 }
 
+async function update_bestiary() {
+    let bestiary = await fetch("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/bestiary.json")
+        .then((x) => x.json())
+
+    fs.writeFileSync(`repo/neu/bestiary.json`, JSON.stringify(bestiary, null, 2));
+}
+async function update_misc() {
+    let bestiary = await fetch("https://raw.githubusercontent.com/NotEnoughUpdates/NotEnoughUpdates-REPO/refs/heads/master/constants/misc.json")
+        .then((x) => x.json())
+
+    fs.writeFileSync(`repo/neu/misc.json`, JSON.stringify(bestiary, null, 2));
+}
+
 async function main() {
     await update_dyes()
     await update_skulls()
+    await update_misc()
+    await update_bestiary()
 }
 
 await main()
