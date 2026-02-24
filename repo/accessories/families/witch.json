@@ -1,0 +1,8 @@
+{
+  "family": "witch",
+  "tiers": [
+    "item:witch_talisman",
+    "item:witch_ring",
+    "item:witch_artifact"
+  ]
+}

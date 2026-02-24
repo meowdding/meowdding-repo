@@ -1,0 +1,8 @@
+{
+  "family": "organ_donor",
+  "tiers": [
+    "item:organ_donor_talisman",
+    "item:organ_donor_ring",
+    "item:organ_donor_artifact"
+  ]
+}
