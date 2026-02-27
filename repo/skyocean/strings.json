@@ -1,3 +1,3 @@
 {
-    "DungeonGambling": "(?<type>\\w+)(?: Chest)?"
+    "DungeonGambling.regex": "(?<type>\\w+)(?: Chest)?"
 }
