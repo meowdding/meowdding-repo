@@ -231,7 +231,8 @@
       "SEEDS",
       "SUGAR_CANE",
       "WHEAT",
-      "WILD_ROSE"
+      "WILD_ROSE",
+      "DOUBLE_PLANT"
     ]
   },
   {
@@ -664,7 +665,6 @@
     "sack": "LARGE_MUTATIONS_SACK",
     "items": [
       "ALL_IN_ALOE",
-      "ALL_IN_ALOE_FRAGMENT",
       "ASHWREATH",
       "BLASTBERRY",
       "CHEESEBITE",
@@ -703,7 +703,33 @@
       "TURTLELLINI",
       "VEILSHROOM",
       "WITHERBLOOM",
-      "ZOMBUD"
+      "ZOMBUD",
+      "JERRYFLOWER"
+    ]
+  },
+  {
+    "sack": "WITCH_SACK",
+    "items": [
+      "BRITTLE_POWDER",
+      "CONSOLE_PANEL",
+      "DIRTY_FINGERNAILS",
+      "FESTERING_FLY",
+      "FROG_LEGS",
+      "FUNNY_BONE",
+      "GELATINOUS_GLOOP",
+      "GLACIATED_BRAINS",
+      "JAWBREAKER",
+      "NEVER_MELT_ICE",
+      "PIXIE_DUST",
+      "ROTTED_LEAF",
+      "RUFFLED_FEATHER",
+      "SHIELD_DUST",
+      "SMOLDERING_EMBERS",
+      "SPELL_SOOT",
+      "SPIDER_EGG",
+      "VOID_OOZE",
+      "WARMED_FLAKES",
+      "WATERBORNE_LICE"
     ]
   }
 ]
