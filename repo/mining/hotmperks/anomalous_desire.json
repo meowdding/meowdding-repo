@@ -1,7 +1,7 @@
 {
   "type": "ABILITY",
   "id": "anomalous_desire",
-  "name": "Anomalous Desire",
+  "name": "Tunnel Vision",
   "location": [
     0,
     5
@@ -11,7 +11,7 @@
     "cooldown": "120 - effectiveLevel * 10"
   },
   "tooltip": [
-    "<gold>Pickaxe Ability: Anomalous Desire <yellow><bold>RIGHT CLICK",
+    "<gold>Pickaxe Ability: Tunnel Vision <yellow><bold>RIGHT CLICK",
     "<gray>Increases the chances of triggering",
     "<gray>rare occurrences by <green>%chance%% <gray>for <green>30s<gray>.",
     "",
