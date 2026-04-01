@@ -1,4 +1,8 @@
 {
   "family": "bioanalysis",
-  "tiers": "item:bioanalysis_talisman"
+  "tiers": [
+    "item:bioanalysis_talisman",
+    "item:bioanalysis_ring",
+    "item:bioanalysis_artifact"
+  ]
 }

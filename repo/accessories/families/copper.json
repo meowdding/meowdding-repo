@@ -1,0 +1,8 @@
+{
+  "family": "copper",
+  "tiers": [
+    "item:copper_talisman",
+    "item:copper_ring",
+    "item:copper_artifact"
+  ]
+}
