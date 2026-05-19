@@ -282,5 +282,31 @@
             "name": "Forest Training",
             "max_level": 3
         }
+    },
+    "fossil": {
+        "prehistorian": {
+            "name": "Prehistorian",
+            "max_level": 10
+        },
+        "resourceful": {
+            "name": "Resourceful",
+            "max_level": 5
+        },
+        "dwarven_expertise": {
+            "name": "Dwarven Expertise",
+            "max_level": 10
+        },
+        "chilled_to_the_bone": {
+            "name": "Chilled To The Bone",
+            "max_level": 10
+        },
+        "cut_loose": {
+            "name": "Cut Loose",
+            "max_level": 5
+        },
+        "sleight_of_hand": {
+            "name": "Sleight Of Hand",
+            "max_level": 1
+        }
     }
 }
