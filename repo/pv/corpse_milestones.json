@@ -1,0 +1,42 @@
+{
+  "max_milestone": 7,
+  "milestones": [
+    {
+      "lapis": 10
+    },
+    {
+      "lapis": 25,
+      "tungsten": 1,
+      "umber": 1
+    },
+    {
+      "lapis": 50,
+      "tungsten": 5,
+      "umber": 5
+    },
+    {
+      "lapis": 100,
+      "tungsten": 10,
+      "umber": 10,
+      "vanguard": 1
+    },
+    {
+      "lapis": 250,
+      "tungsten": 25,
+      "umber": 25,
+      "vanguard": 5
+    },
+    {
+      "lapis": 500,
+      "tungsten": 50,
+      "umber": 50,
+      "vanguard": 10
+    },
+    {
+      "lapis": 1000,
+      "tungsten": 100,
+      "umber": 100,
+      "vanguard": 20
+    }
+  ]
+}
