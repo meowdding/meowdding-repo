@@ -1,7 +1,4 @@
 on:
-    pull_request:
-        paths:
-            - 'repo/**'
     push:
         paths:
             - 'repo/**'
