@@ -588,6 +588,40 @@
     ]
   },
   {
+    "sack": "BRONZE_TROPHY_FROG_SACK",
+    "items": [
+        "COMMON_FROG_BRONZE",
+        "LEAP_FROG_BRONZE",
+        "EXPLODING_FROG_BRONZE",
+        "REALITY_HOPPER_BRONZE",
+        "WETLANDS_FROG_BRONZE",
+        "SEA_FROG_BRONZE",
+        "BULLFROG_BRONZE",
+        "BLESSED_FROG_BRONZE",
+        "TREE_FROG_BRONZE",
+        "CAVE_FROG_BRONZE",
+        "HIGHLANDS_FROG_BRONZE",
+        "PUDDLE_JUMPER_BRONZE"
+    ]
+  },
+  {
+    "sack": "SILVER_TROPHY_FROG_SACK",
+    "items": [
+        "COMMON_FROG_SILVER",
+        "LEAP_FROG_SILVER",
+        "EXPLODING_FROG_SILVER",
+        "REALITY_HOPPER_SILVER",
+        "WETLANDS_FROG_SILVER",
+        "SEA_FROG_SILVER",
+        "BULLFROG_SILVER",
+        "BLESSED_FROG_SILVER",
+        "TREE_FROG_SILVER",
+        "CAVE_FROG_SILVER",
+        "HIGHLANDS_FROG_SILVER",
+        "PUDDLE_JUMPER_SILVER"
+    ]
+  },
+  {
     "sack": "LARGE_LAVA_FISHING_SACK",
     "items": [
       "BLAZE_POWDER",
@@ -606,6 +640,7 @@
       "ORB_OF_ENERGY",
       "PYROCLASTIC_SCALE",
       "SCORCHED_CRAB_STICK",
+      "SEARED_ESCARGOT",
       "MAGMA_FISH_SILVER",
       "SINGED_POWDER",
       "THUNDER_SHARDS"
