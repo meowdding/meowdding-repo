@@ -6,6 +6,7 @@
     "EPIC": 12,
     "LEGENDARY": 16,
     "MYTHIC": 22,
+    "DIVINE": 28,
     "SPECIAL": 3,
     "VERY_SPECIAL": 5
   },
