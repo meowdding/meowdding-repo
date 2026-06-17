@@ -8,7 +8,7 @@
   "max_level": 50,
   "cost": {
     "type": "POWDER",
-    "kind": "GEMSTONE"
+    "kind": "GLACITE"
   },
   "cost_formula": "floor((level + 1)^3.3)",
   "reward_formula": "level * 0.5",
