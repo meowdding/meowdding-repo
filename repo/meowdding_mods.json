@@ -29,7 +29,7 @@
     "config_id": "skyblockpv",
     "modrinth_slug": "skyblock-profile-viewer",
     "github_repo": "meowdding/skyblock-pv",
-    "icon": "https://github.com/meowdding/skyblock-pv/blob/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
+    "icon": "https://raw.githubusercontent.com/meowdding/skyblock-pv/refs/heads/master/src/main/resources/assets/skyblock-pv/skyblock-pv.png"
   },
   {
     "name": "SkyBlock RPC",
