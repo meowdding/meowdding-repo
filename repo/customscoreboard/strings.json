@@ -1,0 +1,7 @@
+{
+    "EventMining.mineshaftFortunateFreezingRegex": "Event Bonus: \\+\\d+.",
+    "EventDungeons.m7dragonsRegex": "No Alive Dragons|- [\\w\\s]+Dragon [\\w,.]+.",
+    "EventDungeons.f3guardianRegex": " - (?:Healthy|Reinforced|Laser|Chaos) [\\w,.]*.",
+    "EventMagmaBoss.healthBarRegex": "(?:\\d+(?:\\.\\d)?M|\\d+k)/10M.",
+    "EventDamage.hpRegex": "(?:Protector|Dragon) HP: [\\d,.]* ."
+}
