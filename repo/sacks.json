@@ -376,6 +376,7 @@
   {
     "sack": "LARGE_ENCHANTED_FISHING_SACK",
     "items": [
+      "CONDENSED_WATER_LILY",
       "ENCHANTED_CLAY_BALL",
       "ENCHANTED_CLAY_BLOCK",
       "ENCHANTED_COOKED_FISH",
@@ -390,7 +391,9 @@
       "ENCHANTED_SHARK_FIN",
       "ENCHANTED_SPONGE",
       "ENCHANTED_CLOWNFISH",
-      "ENCHANTED_WET_SPONGE"
+      "ENCHANTED_WET_SPONGE",
+      "LOTUS_GOLD",
+      "LOTUS_SILVER"
     ]
   },
   {
@@ -407,10 +410,12 @@
       "CHUM",
       "CLAY_BALL",
       "DIVER_FRAGMENT",
+      "FROGCOIN",
       "GLOWING_MUSHROOM",
       "HALF_EATEN_MUSHROOM",
       "INK_SACK",
       "WATER_LILY",
+      "LOTUS",
       "NURSE_SHARK_TOOTH",
       "OLD_LEATHER_BOOT",
       "PRISMARINE_CRYSTALS",
@@ -424,7 +429,8 @@
       "TIGER_SHARK_TOOTH",
       "TORN_CLOTH",
       "RAW_FISH:2",
-      "WORM_MEMBRANE"
+      "WORM_MEMBRANE",
+      "REVERSE_REFORGE_STONE_CORE"
     ]
   },
   {
@@ -590,35 +596,35 @@
   {
     "sack": "BRONZE_TROPHY_FROG_SACK",
     "items": [
-        "COMMON_FROG_BRONZE",
-        "LEAP_FROG_BRONZE",
-        "EXPLODING_FROG_BRONZE",
-        "REALITY_HOPPER_BRONZE",
-        "WETLANDS_FROG_BRONZE",
-        "SEA_FROG_BRONZE",
-        "BULLFROG_BRONZE",
-        "BLESSED_FROG_BRONZE",
-        "TREE_FROG_BRONZE",
-        "CAVE_FROG_BRONZE",
-        "HIGHLANDS_FROG_BRONZE",
-        "PUDDLE_JUMPER_BRONZE"
+      "COMMON_FROG_BRONZE",
+      "LEAP_FROG_BRONZE",
+      "EXPLODING_FROG_BRONZE",
+      "REALITY_HOPPER_BRONZE",
+      "WETLANDS_FROG_BRONZE",
+      "SEA_FROG_BRONZE",
+      "BULLFROG_BRONZE",
+      "BLESSED_FROG_BRONZE",
+      "TREE_FROG_BRONZE",
+      "CAVE_FROG_BRONZE",
+      "HIGHLANDS_FROG_BRONZE",
+      "PUDDLE_JUMPER_BRONZE"
     ]
   },
   {
     "sack": "SILVER_TROPHY_FROG_SACK",
     "items": [
-        "COMMON_FROG_SILVER",
-        "LEAP_FROG_SILVER",
-        "EXPLODING_FROG_SILVER",
-        "REALITY_HOPPER_SILVER",
-        "WETLANDS_FROG_SILVER",
-        "SEA_FROG_SILVER",
-        "BULLFROG_SILVER",
-        "BLESSED_FROG_SILVER",
-        "TREE_FROG_SILVER",
-        "CAVE_FROG_SILVER",
-        "HIGHLANDS_FROG_SILVER",
-        "PUDDLE_JUMPER_SILVER"
+      "COMMON_FROG_SILVER",
+      "LEAP_FROG_SILVER",
+      "EXPLODING_FROG_SILVER",
+      "REALITY_HOPPER_SILVER",
+      "WETLANDS_FROG_SILVER",
+      "SEA_FROG_SILVER",
+      "BULLFROG_SILVER",
+      "BLESSED_FROG_SILVER",
+      "TREE_FROG_SILVER",
+      "CAVE_FROG_SILVER",
+      "HIGHLANDS_FROG_SILVER",
+      "PUDDLE_JUMPER_SILVER"
     ]
   },
   {
@@ -676,6 +682,7 @@
       "SNOW_BALL",
       "SPOOKY_SHARD",
       "TIGER_SHARK_TOOTH",
+      "TOKEN_OF_THE_CENTURY",
       "WALNUT",
       "WEREWOLF_SKIN",
       "WHITE_GIFT",
