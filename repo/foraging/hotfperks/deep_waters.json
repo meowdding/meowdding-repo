@@ -1,10 +1,7 @@
 {
   "type": "PERK",
   "id": "deep_waters",
-  "location": [
-    2,
-    3
-  ],
+  "location": [1, 2],
   "max_level": 50,
   "cost": {
     "type": "WHISPER",
@@ -13,7 +10,5 @@
   "cost_formula": "floor((level + 1)^2.9)",
   "reward_formula": "level",
   "name": "Deep Waters",
-  "tooltip": [
-    "<gray>You gain </gray><green>%reward% </green><blue>❍ Pressure Resistance</blue><gray>.</gray>"
-  ]
+  "tooltip": ["<gray>You gain </gray><green>%reward% </green><blue>❍ Pressure Resistance</blue><gray>.</gray>"]
 }

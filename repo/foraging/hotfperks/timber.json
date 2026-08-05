@@ -1,0 +1,14 @@
+{
+  "type": "PERK",
+  "id": "timber",
+  "location": [3, 7],
+  "max_level": 10,
+  "cost": {
+    "type": "WHISPER",
+    "kind": "DESERT"
+  },
+  "cost_formula": "floor((level + 7)^5)",
+  "reward_formula": "level * 0.25",
+  "name": "Timber",
+  "tooltip": ["<gray>Grans a <green>+%reward%%</green> chance to fell the", "<gray>entire <green>Tree</green> when cutting it!"]
+}

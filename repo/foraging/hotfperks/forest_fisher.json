@@ -1,0 +1,21 @@
+{
+  "type": "PERK",
+  "id": "forest_fisher",
+  "location": [1, 5],
+  "max_level": 40,
+  "cost": {
+    "type": "WHISPER",
+    "kind": "DESERT"
+  },
+  "cost_formula": "floor((level + 1)^3.07)",
+  "reward_formula": {
+    "fishing_speed": "5 + 0.5 * level",
+    "sea_creature_chance": "1 + level * 0.1"
+  },
+  "name": "Forest Fisher",
+  "tooltip": [
+    "<gray>Gain <aqua>+%fishing_speed% Fishing Speed </aqua>and",
+    "<gray><dark_aqua>+%sea_creature_chance% Sea Creature Chance</dark_aqua> while on",
+    "<dark_green>Foraging Islands<gray>."
+  ]
+}

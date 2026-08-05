@@ -1,20 +1,14 @@
 {
   "type": "PERK",
   "id": "ricochet",
-  "location": [
-    3,
-    6
-  ],
+  "location": [3, 6],
   "max_level": 10,
   "cost": {
     "type": "WHISPER",
-    "kind": "FOREST"
+    "kind": "DESERT"
   },
   "cost_formula": "floor((level + 1)^5.5)",
   "reward_formula": "level",
   "name": "Ricochet",
-  "tooltip": [
-    "<gray>Your Axe has a </gray><green>%reward%% </green><gray>chance to bounce</gray>",
-    "<gray>to a nearby tree when thrown.</gray>"
-  ]
+  "tooltip": ["<gray>Your Axe has a </gray><green>%reward%% </green><gray>chance to bounce</gray>", "<gray>to a nearby tree when thrown.</gray>"]
 }

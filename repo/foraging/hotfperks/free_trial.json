@@ -1,0 +1,10 @@
+{
+  "type": "UNLEVELABLE",
+  "id": "free_trail",
+  "name": "Free Trail",
+  "location": [5, 4],
+  "tooltip": [
+    "<gray>The first <dark_green>Tree Gift</dark_green> you obtain every",
+    "<gray>day will contain a <dark_green>Basic Safari Ticket</dark_green>."
+  ]
+}

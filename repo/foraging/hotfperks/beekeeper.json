@@ -1,0 +1,20 @@
+{
+  "type": "UNLEVELABLE",
+  "id": "beekeeper",
+  "name": "Beekeeper",
+  "location": [6, 7],
+  "tooltip": [
+    "<gray>Every SkyBlock day, gain a random",
+    "<gray>effect while on any <dark_green>Foraging Island</dark_green>.",
+    "<gray>",
+    "<gray>Possible Buffs",
+    "<gray> <dark_gray>■</dark_gray> <gold>Honeyhives</gold> refill <green>20%</green> faster.",
+    "<gray> <dark_gray>■</dark_gray> <green>Trees</green> lathered with <gold>Honeycomb",
+    "<gray>    attract <green> Critters 20%</green> faster.",
+    "<gray> <dark_gray>■</dark_gray> Gain <green>2x <gold>Honeycomb <gray>from</gray> Honeyhives",
+    "<gray>    and <green>Trees</green> lathered with <gold>Honeycomb</gold>.",
+    "<gray> <dark_gray>■</dark_gray> <green>Trees</green> lathered with <gold>Honeycomb</gold> have",
+    "<gray>    a <green>25%</green> chance to attract a second <green>",
+    "<gray>    <green>Critter</green>."
+  ]
+}

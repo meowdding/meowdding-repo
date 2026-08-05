@@ -2,11 +2,10 @@
   "type": "UNLEVELABLE",
   "id": "tree_whisperer",
   "name": "Tree Whisperer",
-  "location": [
-    5,
-    4
-  ],
+  "location": [1, 4],
   "tooltip": [
-    "<gray>Tree Gifts give </gray><green>+200 </green><dark_aqua>Forest Whispers</dark_aqua><gray>.</gray>"
+    "<gray><green>Fig</green> and <dark_green>Mangrove Tree Gifts</dark_green> give",
+    "<gray><green>+200</green> <dark_aqua>Forest Whispers</dark_aqua> and <gold>Helix Tree",
+    "<gray><gold>Gifts</gold> give <lime>+200</lime><gold> Desert Whispers</gold>."
   ]
 }

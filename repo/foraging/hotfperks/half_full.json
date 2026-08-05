@@ -1,14 +1,11 @@
 {
   "type": "PERK",
   "id": "half_full",
-  "location": [
-    5,
-    6
-  ],
+  "location": [5, 6],
   "max_level": 25,
   "cost": {
     "type": "WHISPER",
-    "kind": "FOREST"
+    "kind": "DESERT"
   },
   "cost_formula": "floor((level + 1)^4.1)",
   "reward_formula": {

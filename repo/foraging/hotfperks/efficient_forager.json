@@ -1,19 +1,14 @@
 {
   "type": "PERK",
   "id": "efficient_forager",
-  "location": [
-    3,
-    3
-  ],
+  "location": [5, 5],
   "max_level": 100,
   "cost": {
     "type": "WHISPER",
-    "kind": "FOREST"
+    "kind": "DESERT"
   },
   "cost_formula": "floor((level + 1)^2.6)",
   "reward_formula": "5 + (level * 0.1)",
   "name": "Efficient Forager",
-  "tooltip": [
-    "<gray>Grants </gray><dark_aqua>%reward%☯ Foraging Wisdom</dark_aqua><gray>.</gray>"
-  ]
+  "tooltip": ["<gray>Grants </gray><dark_aqua>%reward%☯ Foraging Wisdom</dark_aqua><gray>.</gray>"]
 }

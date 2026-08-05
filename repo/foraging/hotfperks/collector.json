@@ -1,10 +1,7 @@
 {
   "type": "PERK",
   "id": "collector",
-  "location": [
-    4,
-    3
-  ],
+  "location": [4, 1],
   "max_level": 50,
   "cost": {
     "type": "WHISPER",

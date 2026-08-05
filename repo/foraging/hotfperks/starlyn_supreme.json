@@ -1,0 +1,14 @@
+{
+  "type": "PERK",
+  "id": "starlyn_supreme",
+  "location": [3, 5],
+  "max_level": 100,
+  "cost": {
+    "type": "WHISPER",
+    "kind": "DESERT"
+  },
+  "cost_formula": "floor((level + 1)^2.6)",
+  "reward_formula": "level * 0.2",
+  "name": "Starlyn Supreme",
+  "tooltip": ["<gray>Gain <green>+%reward%% </green> more points towards", "<light_purple>Starlyn Contests<gray>."]
+}

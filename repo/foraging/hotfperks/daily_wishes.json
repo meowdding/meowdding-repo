@@ -1,24 +1,25 @@
 {
   "type": "PERK",
   "id": "daily_wishes",
-  "location": [
-    3,
-    2
-  ],
+  "location": [4, 3],
   "max_level": 100,
   "cost": {
     "type": "WHISPER",
-    "kind": "FOREST"
+    "kind": "DESERT"
   },
   "cost_formula": "floor(200 + (level * 18))",
-  "reward_formula": "level * 400",
+  "reward_formula": {
+    "reward": "level * 400",
+    "helix": "level * 800"
+  },
   "name": "Daily Wishes",
   "tooltip": [
-    "<gray>You gain </gray><green>%reward% </green><dark_aqua>Forest Whispers </dark_aqua><gray>from</gray>",
+    "<gray>You gain </gray><green>%reward%<gray>-</gray>%helix%</green><dark_aqua> Whispers </dark_aqua><gray>from</gray>",
     "<gray>the first type of log you cut on</gray>",
     "<dark_green>Galatea </dark_green><gray>every day.</gray>",
     "",
     "<dark_gray><strikethrough>Fig Log: +%reward% Forest Whispers</strikethrough></dark_gray>",
-    "<yellow>Mangrove Log</yellow><gray>: </gray><green>+%reward% </green><dark_aqua>Forest Whispers</dark_aqua>"
+    "<yellow>Mangrove Log</yellow><gray>: </gray><green>+%reward% </green><dark_aqua>Forest Whispers</dark_aqua>",
+    "<yellow>Helix Log</yellow><gray>: </gray><green>+%helix% </green><gold>Desert Whispers</dark_aqua>"
   ]
 }

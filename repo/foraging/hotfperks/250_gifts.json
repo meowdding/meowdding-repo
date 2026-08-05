@@ -1,14 +1,11 @@
 {
   "type": "PERK",
   "id": "250_gifts",
-  "location": [
-    5,
-    2
-  ],
+  "location": [3, 3],
   "max_level": 40,
   "cost": {
     "type": "WHISPER",
-    "kind": "FOREST"
+    "kind": "DESERT"
   },
   "cost_formula": "floor((level + 1)^3.07)",
   "reward_formula": "level",
@@ -16,6 +13,6 @@
   "tooltip": [
     "<gray>Your first </gray><green>250 </green><gray>Tree Gifts of the day</gray>",
     "<gray>grant </gray><green>%reward%% </green><gray>more loot and </gray><green>20 </green><gray>extra</gray>",
-    "<dark_aqua>Forest Whispers</dark_aqua><gray>.</gray>"
+    "<dark_aqua>Forest </dark_aqua><gray> or <gold>Desert Whispers</gold>.</gray>"
   ]
 }

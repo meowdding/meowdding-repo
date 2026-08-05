@@ -2,12 +2,11 @@
   "type": "UNLEVELABLE",
   "id": "monster_hunter",
   "name": "Monster Hunter",
-  "location": [
-    1,
-    4
-  ],
+  "location": [0, 7],
   "tooltip": [
-    "<gray>Hunting a monster grants </gray><green>+40 </green><gray>extra</gray>",
-    "<dark_aqua>Forest Whispers</dark_aqua><gray>.</gray>"
+    "<gray>Hunting a <green> Critter</green> grants <green>+25",
+    "<dark_aqua>Forest Whispers <gray>while on the",
+    "<dark_green>Moonglade Marsh <gray>or <green>+25 <gold>Desert",
+    "<gold>Whispers <gray>if on</gray> Torrhus Canyon<gray>."
   ]
 }
