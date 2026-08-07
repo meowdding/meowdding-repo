@@ -2,8 +2,8 @@
   "type": "PERK",
   "id": "luck_of_the_forest",
   "location": [
-    1,
-    2
+    2,
+    1
   ],
   "max_level": 40,
   "cost": {
