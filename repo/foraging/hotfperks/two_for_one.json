@@ -8,7 +8,7 @@
     "kind": "DESERT"
   },
   "cost_formula": "floor((level + 1)^2.45)",
-  "reward_formula": "level * 0.1",
+  "reward_formula": "level * 0.25",
   "name": "Two-for-one",
   "tooltip": [
     "<gray>Grans a <green>+%reward%%</green> chance to receive an",

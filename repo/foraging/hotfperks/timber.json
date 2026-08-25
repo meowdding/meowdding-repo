@@ -8,7 +8,7 @@
     "kind": "DESERT"
   },
   "cost_formula": "floor((level + 7)^5)",
-  "reward_formula": "level * 0.25",
+  "reward_formula": "level * 0.1",
   "name": "Timber",
-  "tooltip": ["<gray>Grans a <green>+%reward%%</green> chance to fell the", "<gray>entire <green>Tree</green> when cutting it!"]
+  "tooltip": ["<gray>Grants <dark_red>%reward% Timber</dark_red>.</gray>"]
 }
