@@ -14,6 +14,6 @@
   "reward_formula": "level * 0.4",
   "name": "Keep It Cool",
   "tooltip": [
-    "<gray>Grants <red>+%reward%♨ Heat Resistance<gray>."
+    "<gray>Grants <red>+%reward% Heat Resistance<gray>."
   ]
 }

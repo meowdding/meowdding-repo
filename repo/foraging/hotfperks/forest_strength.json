@@ -14,8 +14,8 @@
   "reward_formula": "level * 0.1",
   "name": "Forest Strength",
   "tooltip": [
-    "<gray>Gain </gray><green>%reward%% </green><gray>of your total </gray><red>❁ Strength</red>",
-    "<gray>as </gray><gold>☘ Foraging Fortune </gold><gray>and </gray><dark_green>∮</dark_green>",
+    "<gray>Gain </gray><green>%reward%% </green><gray>of your total </gray><red> Strength</red>",
+    "<gray>as </gray><gold> Foraging Fortune </gold><gray>and </gray><dark_green></dark_green>",
     "<dark_green>Sweep</dark_green><gray>. </gray><dark_gray>(Caps at 1,000 Strength).</dark_gray>"
   ]
 }

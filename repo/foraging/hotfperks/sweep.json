@@ -14,6 +14,6 @@
   "reward_formula": "level",
   "name": "Sweep",
   "tooltip": [
-    "<gray>Increase <dark_green>∮ Sweep</dark_green> by <green>%reward%</green>.</gray>"
+    "<gray>Increase <dark_green> Sweep</dark_green> by <green>%reward%</green>.</gray>"
   ]
 }

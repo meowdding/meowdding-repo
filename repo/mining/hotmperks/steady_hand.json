@@ -14,7 +14,7 @@
   "reward_formula": "level * 0.1",
   "name": "Steady Hand",
   "tooltip": [
-    "<gray>Grants <yellow>+%reward%▚ Gemstone Spread <gray>while",
+    "<gray>Grants <yellow>+%reward% Gemstone Spread <gray>while",
     "<gray>in the <aqua>Glacite Mineshafts<gray>."
   ]
 }

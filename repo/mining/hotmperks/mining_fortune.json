@@ -14,7 +14,7 @@
   "reward_formula": "level * 2",
   "name": "Mining Fortune",
   "tooltip": [
-    "<gray>Grants <gold>+%reward%☘ Mining Fortune<gray>."
+    "<gray>Grants <gold>+%reward% Mining Fortune<gray>."
   ]
 }
 

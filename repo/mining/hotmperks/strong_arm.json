@@ -14,7 +14,7 @@
   "reward_formula": "level * 5",
   "name": "Strong Arm",
   "tooltip": [
-    "<gray>Gain <gold>+%reward%⸕ Mining Speed <gray>when mining",
+    "<gray>Gain <gold>+%reward% Mining Speed <gray>when mining",
     "<gold>Dwarven Metals<gray>."
   ]
 }

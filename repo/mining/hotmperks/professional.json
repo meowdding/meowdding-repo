@@ -14,7 +14,7 @@
   "reward_formula": "50 + (level * 5)",
   "name": "Professional",
   "tooltip": [
-    "<gray>Gain <gold>+%reward%⸕ Mining Speed<gray> when mining",
+    "<gray>Gain <gold>+%reward% Mining Speed<gray> when mining",
     "<gray>Gemstones."
   ]
 }

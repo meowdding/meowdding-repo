@@ -14,6 +14,6 @@
   "reward_formula": "level * 5",
   "name": "Old-School",
   "tooltip": [
-    "<gray>Grants <gold>+%reward%☘ Ore Fortune<gray>."
+    "<gray>Grants <gold>+%reward% Ore Fortune<gray>."
   ]
 }

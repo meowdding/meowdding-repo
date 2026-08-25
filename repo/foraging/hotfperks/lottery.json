@@ -8,9 +8,9 @@
     "<gray>random effect.</gray>",
     "",
     "<gray>Possible Buffs</gray>",
-    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold>☘ Fig Fortune</gold><gray>.</gray>",
-    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold>☘ Mangrove Fortune</gold><gray>.</gray>",
-    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold>☘ Helix  Fortune</gold><gray>.</gray>",
-    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+5% </green><dark_green>∮ Sweep</dark_green><gray>.</gray>"
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold> Fig Fortune</gold><gray>.</gray>",
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold> Mangrove Fortune</gold><gray>.</gray>",
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+50 </green><gold> Helix  Fortune</gold><gray>.</gray>",
+    "<dark_gray> ■ </dark_gray><gray>Gain </gray><green>+5% </green><dark_green> Sweep</dark_green><gray>.</gray>"
   ]
 }

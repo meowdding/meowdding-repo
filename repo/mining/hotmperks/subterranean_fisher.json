@@ -17,8 +17,8 @@
   },
   "name": "Subterranean Fisher",
   "tooltip": [
-    "<gray>Grants <aqua>+%fishing_speed% ☂ Fishing Speed and",
-    "<dark_aqua>+%sea_creature_chance% α Sea Creature Chance <gray>while on",
+    "<gray>Grants <aqua>+%fishing_speed%  Fishing Speed and",
+    "<dark_aqua>+%sea_creature_chance%  Sea Creature Chance <gray>while on",
     "<aqua>Mining Islands<gray>."
   ]
 }

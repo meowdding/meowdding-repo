@@ -14,7 +14,7 @@
   "reward_formula": "level * 4",
   "name": "Eager Adventurer",
   "tooltip": [
-    "<gray>Grants <gold>+%reward%⸕ Mining Speed<gray> while in a",
+    "<gray>Grants <gold>+%reward% Mining Speed<gray> while in a",
     "<aqua>Glacite Mineshaft<gray>."
   ]
 }

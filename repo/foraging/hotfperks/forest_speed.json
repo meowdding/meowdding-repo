@@ -11,8 +11,8 @@
   "reward_formula": "level * 0.2",
   "name": "Forest Speed",
   "tooltip": [
-    "<gray>Gain </gray><green>%reward%% </green><gray>of your total </gray><white>✦ Speed </white><gray>as</gray>",
-    "<gold>☘ Foraging Fortune </gold><gray>and </gray><dark_green>∮ Sweep</dark_green><gray>.</gray>",
+    "<gray>Gain </gray><green>%reward%% </green><gray>of your total </gray><white> Speed </white><gray>as</gray>",
+    "<gold> Foraging Fortune </gold><gray>and </gray><dark_green> Sweep</dark_green><gray>.</gray>",
     "<dark_gray>(Caps at 500 Speed).</dark_gray>"
   ]
 }

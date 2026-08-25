@@ -14,7 +14,7 @@
   },
   "name": "Half Empty",
   "tooltip": [
-    "<gray>Gain </gray><green>%foraging_fortune% </green><gold>☘ Foraging Fortune </gold><gray>and </gray><green>%sweep% </green><dark_green>∮</dark_green>",
+    "<gray>Gain </gray><green>%foraging_fortune% </green><gold> Foraging Fortune </gold><gray>and </gray><green>%sweep% </green><dark_green></dark_green>",
     "<dark_green>Sweep </dark_green><gray>when within </gray><green>16 </green><gray>Blocks of a</gray>",
     "<gray>player with Half Full enabled.</gray>"
   ]
