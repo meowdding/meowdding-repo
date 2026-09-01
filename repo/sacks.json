@@ -2,6 +2,8 @@
   {
     "sack": "LARGE_COMBAT_SACK",
     "items": [
+      "ARACHNE_FRAGMENT",
+      "ARACHNE_KEEPER_FRAGMENT",
       "BLAZE_ROD",
       "BONE",
       "CHILI_PEPPER",
@@ -11,6 +13,7 @@
       "MAGMA_CREAM",
       "ROTTEN_FLESH",
       "SLIME_BALL",
+      "SOUL_STRING",
       "SPIDER_EYE",
       "STRING"
     ]
@@ -452,6 +455,9 @@
       "CRUDE_GABAGOOL_DISTILLATE",
       "GLOWSTONE_DUST_DISTILLATE",
       "GOLDEN_TOOTH",
+      "HEMOBOMB",
+      "HEMOGLASS",
+      "HEMOVIBE",
       "MAGMA_CREAM_DISTILLATE",
       "MOLTEN_POWDER",
       "NETHER_STALK_DISTILLATE",
