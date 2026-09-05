@@ -1,0 +1,102 @@
+{
+  "city": {
+    "COMMON": [
+        "peon",
+        "speedy",
+        "cobble",
+        "alley",
+        "subway"
+    ],
+    "UNCOMMON": [
+        "skyrise",
+        "traffic",
+        "tunnel",
+        "graffiti"
+    ],
+    "RARE": [
+        "taxi",
+        "shortcut",
+        "walker"
+    ],
+    "EPIC": [
+        "minister",
+        "neon"
+    ],
+    "LEGENDARY": "mayor"
+  },
+  "mountain": {
+    "COMMON": [
+        "granite",
+        "mistral",
+        "chasm",
+        "timber",
+        "glacier"
+    ],
+    "UNCOMMON": [
+        "canyon",
+        "icefur",
+        "valley",
+        "scree"
+    ],
+    "RARE": [
+        "eagle",
+        "tundra",
+        "crag"
+    ],
+    "EPIC": [
+        "avalanche",
+        "summit"
+    ],
+    "LEGENDARY": "horizon"
+  },
+  "country": {
+    "COMMON": [
+        "hazel",
+        "daisy",
+        "root",
+        "twigy",
+        "haybalre"
+    ],
+    "UNCOMMON": [
+        "moss",
+        "marigold",
+        "nectra",
+        "clover"
+    ],
+    "RARE": [
+        "silo",
+        "iris",
+        "aster"
+    ],
+    "EPIC": [
+        "lavender",
+        "juniper"
+    ],
+    "LEGENDARY": "rosebud"
+  },
+  "beach": {
+    "COMMON": [
+        "tan",
+        "palm",
+        "splash",
+        "seashell",
+        "sandy"
+    ],
+    "UNCOMMON": [
+        "seabun",
+        "lagoon",
+        "mocktail",
+        "anchor"
+    ],
+    "RARE": [
+        "coconut",
+        "starfish",
+        "oasis"
+    ],
+    "EPIC": [
+        "dune",
+        "surf"
+    ],
+    "LEGENDARY": "sunset"
+  }
+}
