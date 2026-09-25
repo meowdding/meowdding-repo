@@ -1,0 +1,11 @@
+{
+  "COMMON": 0,
+  "UNCOMMON": 6,
+  "RARE": 11,
+  "EPIC": 16,
+  "LEGENDARY": 20,
+  "MYTHIC": 20,
+  "DIVINE": 20,
+  "SPECIAL": 16,
+  "VERY_SPECIAL": 20
+}

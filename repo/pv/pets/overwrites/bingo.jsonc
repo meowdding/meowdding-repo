@@ -1,6 +1,7 @@
 {
     "rarity_offsets": [
         0
-    ]
+    ],
+    "disable_rarity_offsets": true
     // always has the leveling curve of a common pet
 }

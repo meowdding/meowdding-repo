@@ -3,6 +3,7 @@
     "rarity_offsets": [
         0
     ],
+    "disable_rarity_offsets": true,
     // the list below has the offset already applied
     "xp_curve": [
         660,
