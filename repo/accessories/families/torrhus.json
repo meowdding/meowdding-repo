@@ -1,0 +1,8 @@
+{
+  "family": "torrhus",
+  "tiers": [
+    "item:torrhus_talisman",
+    "item:torrhus_ring",
+    "item:torrhus_artifact"
+  ]
+}

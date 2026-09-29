@@ -3,6 +3,7 @@
   "tiers": [
     "item:speed_talisman",
     "item:speed_ring",
-    "item:speed_artifact"
+    "item:speed_artifact",
+    "item:speed_relic"
   ]
 }

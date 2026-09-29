@@ -51,7 +51,17 @@
       "item:balloon_hat_2025_aqua",
       "item:balloon_hat_2025_pink",
       "item:balloon_hat_2025_purple",
-      "item:balloon_hat_2025_black"
+      "item:balloon_hat_2025_black",
+
+      "item:cake_hat_2026_red",
+      "item:cake_hat_2026_orange",
+      "item:cake_hat_2026_yellow",
+      "item:cake_hat_2026_lime",
+      "item:cake_hat_2026_green",
+      "item:cake_hat_2026_aqua",
+      "item:cake_hat_2026_pink",
+      "item:cake_hat_2026_purple",
+      "item:cake_hat_2026_black"
     ]
   ],
   "ignore_duplicates": true

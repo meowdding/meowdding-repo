@@ -1,0 +1,8 @@
+{
+  "family": "accretion",
+  "tiers": [
+    "item:accretion_talisman",
+    "item:accretion_ring",
+    "item:accretion_artifact"
+  ]
+}

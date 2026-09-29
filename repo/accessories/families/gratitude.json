@@ -1,0 +1,8 @@
+{
+  "family": "gratitude",
+  "tiers": [
+    "item:gratitude_talisman",
+    "item:gratitude_ring",
+    "item:gratitude_artifact"
+  ]
+}

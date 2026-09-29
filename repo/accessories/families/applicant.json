@@ -1,0 +1,9 @@
+{
+  "family": "applicant",
+  "tiers": [
+    "item:applicant_statement",
+    "item:student_studies",
+    "item:master_thesis",
+    "item:phd_grimoire"
+  ]
+}

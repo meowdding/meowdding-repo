@@ -1,0 +1,8 @@
+{
+  "family": "lumberjack",
+  "tiers": [
+    "item:lumberjack_talisman",
+    "item:lumberjack_ring",
+    "item:lumberjack_artifact"
+  ]
+}

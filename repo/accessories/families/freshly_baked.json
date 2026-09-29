@@ -1,0 +1,10 @@
+{
+  "family": "freshly_baked",
+  "tiers": [
+    "item:freshly_baked_talisman",
+    "item:freshly_baked_ring",
+    "item:freshly_baked_artifact",
+    "item:freshly_baked_relic",
+    "item:freshly_baked_heirloom"
+  ]
+}
