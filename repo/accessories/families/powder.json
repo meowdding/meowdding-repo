@@ -1,0 +1,9 @@
+{
+  "family": "powder",
+  "tiers": [
+    "item:powder_of_one",
+    "item:powder_of_the_few",
+    "item:powder_of_the_many",
+    "item:powder_of_the_people"
+  ]
+}

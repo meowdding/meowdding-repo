@@ -39,5 +39,16 @@
       "LEGENDARY",
       "MYTHIC"
     ]
+  },
+  {
+    "item": "item:bestiary_talisman",
+    "rarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ]
   }
 ]

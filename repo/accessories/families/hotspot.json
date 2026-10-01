@@ -1,0 +1,8 @@
+{
+  "family": "hotspot",
+  "tiers": [
+    "item:hotspot_talisman",
+    "item:hotspot_ring",
+    "item:hotspot_artifact"
+  ]
+}
