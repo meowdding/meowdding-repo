@@ -1,0 +1,238 @@
+{
+  "milestones": [
+    5,
+    25,
+    50,
+    100,
+    150,
+    250,
+    350,
+    450,
+    600,
+    750
+  ],
+  "critters": [
+    {
+      "id": "CAVERNFISH",
+      "name": "Cavernfish",
+      "attribute": "attribute:cavernfish",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "FLITTER",
+      "name": "Flitter",
+      "attribute": "attribute:flitter",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "SHYWORM",
+      "name": "Shyworm",
+      "attribute": "attribute:shyworm",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "DRIFTLING",
+      "name": "Driftling",
+      "attribute": "attribute:driftling",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "CHUCKWALLA",
+      "name": "Chuckwalla",
+      "attribute": "attribute:chuckwalla",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "ROCKMITE",
+      "name": "Rockmite",
+      "attribute": "attribute:rockmite",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "SCRAPPY",
+      "name": "Scrappy",
+      "attribute": "attribute:scrappy",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "SNOOZLE",
+      "name": "Snoozle",
+      "attribute": "attribute:snoozle",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "GEMZIE",
+      "name": "Gemzie",
+      "attribute": "attribute:gemzie",
+      "biome": "CAVERN"
+    },
+    {
+      "id": "FOXTROT",
+      "name": "Foxtrot",
+      "attribute": "attribute:foxtrot",
+      "biome": "FOREST"
+    },
+    {
+      "id": "BLUEBIRD",
+      "name": "Bluebird",
+      "attribute": "attribute:bluebird",
+      "biome": "FOREST"
+    },
+    {
+      "id": "HONEYBUG",
+      "name": "Honeybug",
+      "attribute": "attribute:honeybug",
+      "biome": "FOREST"
+    },
+    {
+      "id": "TREEFROG",
+      "name": "Treefrog",
+      "attribute": "attribute:treefrog",
+      "biome": "FOREST"
+    },
+    {
+      "id": "WOODCHUCKER",
+      "name": "Woodchucker",
+      "attribute": "attribute:woodchucker",
+      "biome": "FOREST"
+    },
+    {
+      "id": "FLUFFLING",
+      "name": "Fluffling",
+      "attribute": "attribute:fluffling",
+      "biome": "FOREST"
+    },
+    {
+      "id": "HIDEONFLOOR",
+      "name": "Hideonfloor",
+      "attribute": "attribute:hideonfloor",
+      "biome": "FOREST"
+    },
+    {
+      "id": "PARAKEET",
+      "name": "Parakeet",
+      "attribute": "attribute:parakeet",
+      "biome": "FOREST"
+    },
+    {
+      "id": "MACAW",
+      "name": "Macaw",
+      "attribute": "attribute:macaw",
+      "biome": "FOREST"
+    },
+    {
+      "id": "AREITA",
+      "name": "Areita",
+      "attribute": "attribute:areita",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "BLOODBAT",
+      "name": "Bloodbat",
+      "attribute": "attribute:bloodbat",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "DUPLICO",
+      "name": "Duplico",
+      "attribute": "attribute:duplico",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "GAZER",
+      "name": "Gazer",
+      "attribute": "attribute:gazer",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "LITTERBUG",
+      "name": "Litterbug",
+      "attribute": "attribute:litterbug",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "SOLSNATCHER",
+      "name": "Solsnatcher",
+      "attribute": "attribute:solsnatcher",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "GIMMIEGOLD",
+      "name": "Gimmiegold",
+      "attribute": "attribute:gimmiegold",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "HIDEONWALL",
+      "name": "Hideonwall",
+      "attribute": "attribute:hideonwall",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "HIDEYHO",
+      "name": "Hideyho",
+      "attribute": "attribute:hideyho",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "DOOMSPIRAL",
+      "name": "Doomspiral",
+      "attribute": "attribute:doomspiral",
+      "biome": "HAUNTED"
+    },
+    {
+      "id": "STRONGARM",
+      "name": "Strongarm",
+      "attribute": "attribute:strongarm",
+      "biome": "ICY"
+    },
+    {
+      "id": "TEPID",
+      "name": "Tepid",
+      "attribute": "attribute:tepid",
+      "biome": "ICY"
+    },
+    {
+      "id": "POLARIS",
+      "name": "Polaris",
+      "attribute": "attribute:polaris",
+      "biome": "ICY"
+    },
+    {
+      "id": "SHUDDERSQUID",
+      "name": "Shuddersquid",
+      "attribute": "attribute:shuddersquid",
+      "biome": "ICY"
+    },
+    {
+      "id": "BILLYGOAT",
+      "name": "Billygoat",
+      "attribute": "attribute:billygoat",
+      "biome": "ICY"
+    },
+    {
+      "id": "MANTIS_SHRIMP",
+      "name": "Mantis Shrimp",
+      "attribute": "attribute:mantis_shrimp",
+      "biome": "ICY"
+    },
+    {
+      "id": "NOZZLENOSE",
+      "name": "Nozzlenose",
+      "attribute": "attribute:nozzlenose",
+      "biome": "ICY"
+    },
+    {
+      "id": "TROODON",
+      "name": "Troodon",
+      "attribute": "attribute:troodon",
+      "biome": "ICY"
+    },
+    {
+      "id": "WUMPA",
+      "name": "Wumpa",
+      "attribute": "attribute:wumpa",
+      "biome": "ICY"
+    }
+  ]
+}
