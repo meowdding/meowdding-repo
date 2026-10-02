@@ -15,223 +15,223 @@
     {
       "id": "CAVERNFISH",
       "name": "Cavernfish",
-      "attribute": "attribute:cavernfish",
+      "attribute": "attribute:c41",
       "biome": "CAVERN"
     },
     {
       "id": "FLITTER",
       "name": "Flitter",
-      "attribute": "attribute:flitter",
+      "attribute": "attribute:c37",
       "biome": "CAVERN"
     },
     {
       "id": "SHYWORM",
       "name": "Shyworm",
-      "attribute": "attribute:shyworm",
+      "attribute": "attribute:c46",
       "biome": "CAVERN"
     },
     {
       "id": "DRIFTLING",
       "name": "Driftling",
-      "attribute": "attribute:driftling",
+      "attribute": "attribute:u58",
       "biome": "CAVERN"
     },
     {
       "id": "CHUCKWALLA",
       "name": "Chuckwalla",
-      "attribute": "attribute:chuckwalla",
+      "attribute": "attribute:r75",
       "biome": "CAVERN"
     },
     {
       "id": "ROCKMITE",
       "name": "Rockmite",
-      "attribute": "attribute:rockmite",
+      "attribute": "attribute:r69",
       "biome": "CAVERN"
     },
     {
       "id": "SCRAPPY",
       "name": "Scrappy",
-      "attribute": "attribute:scrappy",
+      "attribute": "attribute:r72",
       "biome": "CAVERN"
     },
     {
       "id": "SNOOZLE",
       "name": "Snoozle",
-      "attribute": "attribute:snoozle",
+      "attribute": "attribute:r66",
       "biome": "CAVERN"
     },
     {
       "id": "GEMZIE",
       "name": "Gemzie",
-      "attribute": "attribute:gemzie",
+      "attribute": "attribute:e45",
       "biome": "CAVERN"
     },
     {
       "id": "FOXTROT",
       "name": "Foxtrot",
-      "attribute": "attribute:foxtrot",
+      "attribute": "attribute:c49",
       "biome": "FOREST"
     },
     {
       "id": "BLUEBIRD",
       "name": "Bluebird",
-      "attribute": "attribute:bluebird",
+      "attribute": "attribute:u46",
       "biome": "FOREST"
     },
     {
       "id": "HONEYBUG",
       "name": "Honeybug",
-      "attribute": "attribute:honeybug",
+      "attribute": "attribute:u52",
       "biome": "FOREST"
     },
     {
       "id": "TREEFROG",
       "name": "Treefrog",
-      "attribute": "attribute:treefrog",
+      "attribute": "attribute:u43",
       "biome": "FOREST"
     },
     {
       "id": "WOODCHUCKER",
       "name": "Woodchucker",
-      "attribute": "attribute:woodchucker",
+      "attribute": "attribute:u61",
       "biome": "FOREST"
     },
     {
       "id": "FLUFFLING",
       "name": "Fluffling",
-      "attribute": "attribute:fluffling",
+      "attribute": "attribute:r82",
       "biome": "FOREST"
     },
     {
       "id": "HIDEONFLOOR",
       "name": "Hideonfloor",
-      "attribute": "attribute:hideonfloor",
+      "attribute": "attribute:r76",
       "biome": "FOREST"
     },
     {
       "id": "PARAKEET",
       "name": "Parakeet",
-      "attribute": "attribute:parakeet",
+      "attribute": "attribute:r67",
       "biome": "FOREST"
     },
     {
       "id": "MACAW",
       "name": "Macaw",
-      "attribute": "attribute:macaw",
+      "attribute": "attribute:l22",
       "biome": "FOREST"
     },
     {
       "id": "AREITA",
       "name": "Areita",
-      "attribute": "attribute:areita",
+      "attribute": "attribute:u45",
       "biome": "HAUNTED"
     },
     {
       "id": "BLOODBAT",
       "name": "Bloodbat",
-      "attribute": "attribute:bloodbat",
+      "attribute": "attribute:u64",
       "biome": "HAUNTED"
     },
     {
       "id": "DUPLICO",
       "name": "Duplico",
-      "attribute": "attribute:duplico",
+      "attribute": "attribute:u48",
       "biome": "HAUNTED"
     },
     {
       "id": "GAZER",
       "name": "Gazer",
-      "attribute": "attribute:gazer",
+      "attribute": "attribute:u51",
       "biome": "HAUNTED"
     },
     {
       "id": "LITTERBUG",
       "name": "Litterbug",
-      "attribute": "attribute:litterbug",
+      "attribute": "attribute:u49",
       "biome": "HAUNTED"
     },
     {
       "id": "SOLSNATCHER",
       "name": "Solsnatcher",
-      "attribute": "attribute:solsnatcher",
+      "attribute": "attribute:u55",
       "biome": "HAUNTED"
     },
     {
       "id": "GIMMIEGOLD",
       "name": "Gimmiegold",
-      "attribute": "attribute:gimmiegold",
+      "attribute": "attribute:r77",
       "biome": "HAUNTED"
     },
     {
       "id": "HIDEONWALL",
       "name": "Hideonwall",
-      "attribute": "attribute:hideonwall",
+      "attribute": "attribute:r79",
       "biome": "HAUNTED"
     },
     {
       "id": "HIDEYHO",
       "name": "Hideyho",
-      "attribute": "attribute:hideyho",
+      "attribute": "attribute:r73",
       "biome": "HAUNTED"
     },
     {
       "id": "DOOMSPIRAL",
       "name": "Doomspiral",
-      "attribute": "attribute:doomspiral",
+      "attribute": "attribute:l21",
       "biome": "HAUNTED"
     },
     {
       "id": "STRONGARM",
       "name": "Strongarm",
-      "attribute": "attribute:strongarm",
+      "attribute": "attribute:c42",
       "biome": "ICY"
     },
     {
       "id": "TEPID",
       "name": "Tepid",
-      "attribute": "attribute:tepid",
+      "attribute": "attribute:c38",
       "biome": "ICY"
     },
     {
       "id": "POLARIS",
       "name": "Polaris",
-      "attribute": "attribute:polaris",
+      "attribute": "attribute:u42",
       "biome": "ICY"
     },
     {
       "id": "SHUDDERSQUID",
       "name": "Shuddersquid",
-      "attribute": "attribute:shuddersquid",
+      "attribute": "attribute:u53",
       "biome": "ICY"
     },
     {
       "id": "BILLYGOAT",
       "name": "Billygoat",
-      "attribute": "attribute:billygoat",
+      "attribute": "attribute:r78",
       "biome": "ICY"
     },
     {
       "id": "MANTIS_SHRIMP",
       "name": "Mantis Shrimp",
-      "attribute": "attribute:mantis_shrimp",
+      "attribute": "attribute:r74",
       "biome": "ICY"
     },
     {
       "id": "NOZZLENOSE",
       "name": "Nozzlenose",
-      "attribute": "attribute:nozzlenose",
+      "attribute": "attribute:r80",
       "biome": "ICY"
     },
     {
       "id": "TROODON",
       "name": "Troodon",
-      "attribute": "attribute:troodon",
+      "attribute": "attribute:r86",
       "biome": "ICY"
     },
     {
       "id": "WUMPA",
       "name": "Wumpa",
-      "attribute": "attribute:wumpa",
+      "attribute": "attribute:l60",
       "biome": "ICY"
     }
   ]
