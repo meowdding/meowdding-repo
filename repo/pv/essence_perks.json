@@ -324,47 +324,78 @@
   "safari": {
     "critter_catcher": {
       "name": "Critter Catcher",
-      "max_level": 8
+      "max_level": 8,
+      "display": "sbid",
+      "sbid": "item:critter_capsule"
     },
     "critter_master": {
       "name": "Critter Master",
-      "max_level": 1
+      "max_level": 1,
+      "display": "sbid",
+      "sbid": "item:masterful_critter_capsule"
     },
     "floortunate": {
       "name": "Floortunate",
-      "max_level": 5
+      "max_level": 5,
+      "display": "vanilla",
+      "item": "minecraft:grass_block"
     },
     "fresh_footprints": {
       "name": "Fresh Footprints",
-      "max_level": 10
+      "max_level": 10,
+      "display": "vanilla",
+      "item": "minecraft:tall_dry_grass"
     },
     "head_start": {
       "name": "Head Start",
-      "max_level": 1
+      "max_level": 1,
+      "display": "potion",
+      "potion_contents": {
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "ambient": true,
+            "show_icon": true
+          }
+        ]
+      }
+
     },
     "hunting_hotspot": {
       "name": "Hunting Hotspot",
-      "max_level":5
+      "max_level": 5,
+      "display": "vanilla",
+      "item": "minecraft:beacon"
     },
     "thawing": {
       "name": "Thawing",
-      "max_level": 10
+      "max_level": 10,
+      "display": "vanilla",
+      "item": "minecraft:blue_ice"
     },
     "deep_diver": {
       "name": "Deep Diver",
-      "max_level": 10
+      "max_level": 10,
+      "display": "vanilla",
+      "item": "minecraft:seagrass"
     },
     "quickdraw": {
       "name": "Quickdraw",
-      "max_level": 10
+      "max_level": 10,
+      "display": "sbid",
+      "sbid": "item:sugar"
     },
     "amateur_hour": {
       "name": "Amateur Hour",
-      "max_level": 10
+      "max_level": 10,
+      "display": "vanilla",
+      "item": "minecraft:experience_bottle"
     },
     "sparkling_specialist": {
       "name": "Sparkling Specialist",
-      "max_level": 1
+      "max_level": 1,
+      "display": "skull",
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODg0MzE3MDIyNSwKICAicHJvZmlsZUlkIiA6ICI5N2ViMDJkMWY5YmI0NjUwYmNmNzE2MTEzYjUzYjY4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQmNhY3R1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWNkYTJlNWRjMDA3MGFmZmI0ODRhNmRiZGVhNWZjY2I1YjJmNjc5MGViZTVkYzIzZDg1YWViM2NhMzQ5MDNjIgogICAgfQogIH0KfQ=="
     }
   }
 }
