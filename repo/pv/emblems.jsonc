@@ -1,0 +1,1128 @@
+[
+    // U means unconfirmed
+
+    // Skills
+    {
+        "id": "MINING_PICKAXE", // U
+        "family": "SKILLS",
+        "name": "Mining Pickaxe",
+        "icon": {
+            "text": "⸕",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "MINING_MASTER", // U
+        "family": "SKILLS",
+        "name": "Mining Master",
+        "icon": {
+            "text": "⸕",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "FARMING_FLOWER", // U
+        "family": "SKILLS",
+        "name": "Farming Flower",
+        "icon": {
+            "text": "✿",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "FARMING_MASTER",
+        "family": "SKILLS",
+        "name": "Farming Master",
+        "icon": {
+            "text": "✿",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "COMBAT_EXPLOSION", // U
+        "family": "SKILLS",
+        "name": "Combat Explosion",
+        "icon": {
+            "text": "❁",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "COMBAT_MASTER", // U
+        "family": "SKILLS",
+        "name": "Combat Master",
+        "icon": {
+            "text": "❁",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "FORAGING_LEAF", // U
+        "family": "SKILLS",
+        "name": "Foraging Leaf",
+        "icon": {
+            "text": "⸙",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "FISHING_FISH", // U
+        "family": "SKILLS",
+        "name": "Fishing Fish",
+        "icon": {
+            "text": "α",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "ENCHANTING_PENCIL", // U
+        "family": "SKILLS",
+        "name": "Enchanting Pencil",
+        "icon": {
+            "text": "✎",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "ENCHANTING_MASTER", // U
+        "family": "SKILLS",
+        "name": "Enchanting Master",
+        "icon": {
+            "text": "✎",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "ALCHEMY_BREW", // U
+        "family": "SKILLS",
+        "name": "Alchemy Brew",
+        "icon": {
+            "text": "☕",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "CARPENTRY_HOUSE", // U
+        "family": "SKILLS",
+        "name": "Carpentry House",
+        "icon": {
+            "text": "☖",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "TAMING_CLOVER", // U
+        "family": "SKILLS",
+        "name": "Taming Clover",
+        "icon": {
+            "text": "♣",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "TAMING_MASTER", // U
+        "family": "SKILLS",
+        "name": "Taming Master",
+        "icon": {
+            "text": "♣",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "SOCIAL_STATEMENT", // U
+        "family": "SKILLS",
+        "name": "Social Statement",
+        "icon": {
+            "text": "℻",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "SOCIAL_MASTER", // U
+        "family": "SKILLS",
+        "name": "Social Master",
+        "icon": {
+            "text": "℻",
+            "color": "gold"
+        }
+    },
+    // Catacombs
+    {
+        "id": "CATACOMBS_SWORD", // U
+        "family": "CATACOMBS",
+        "name": "Catacombs Sword",
+        "icon": {
+            "text": "⚔",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_CATACOMBS_SWORD", // U
+        "family": "CATACOMBS",
+        "name": "Golden Catacombs Sword",
+        "icon": {
+            "text": "⚔",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "ARCHER_SPADE", // U
+        "family": "CATACOMBS",
+        "name": "Archer Spade",
+        "icon": {
+            "text": "➶",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "ARCHER_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Archer Master",
+        "icon": {
+            "text": "➶",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "MAGE_LIGHTNING", // U
+        "family": "CATACOMBS",
+        "name": "Mage Lightning",
+        "icon": {
+            "text": "⚡",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "MAGE_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Mage Master",
+        "icon": {
+            "text": "⚡",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "BERSERK_EXPLOSION", // U
+        "family": "CATACOMBS",
+        "name": "Berserk Explosion",
+        "icon": {
+            "text": "☄",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "BERSERK_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Berserk Master",
+        "icon": {
+            "text": "☄",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "HEALER_STAFF", // U
+        "family": "CATACOMBS",
+        "name": "Healer Staff",
+        "icon": {
+            "text": "⁨",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "HEALER_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Healer Master",
+        "icon": {
+            "text": "⁨",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "TANK_ANCHOR", // U
+        "family": "CATACOMBS",
+        "name": "Tank Anchor",
+        "icon": {
+            "text": "⚓",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "TANK_ANCHOR", // U
+        "family": "CATACOMBS",
+        "name": "Tank Master",
+        "icon": {
+            "text": "⚓",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "DUNGEON_RUNNER", // U
+        "family": "CATACOMBS",
+        "name": "Dungeon Runner",
+        "icon": {
+            "text": "☠",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "DUNGEON_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Dungeon Master",
+        "icon": {
+            "text": "☠",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "CLASS_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Class Master",
+        "icon": {
+            "text": "⚛",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_CLASS_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Golden Class Master",
+        "icon": {
+            "text": "⚛",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "DIAMONG_CLASS_MASTER", // U
+        "family": "CATACOMBS",
+        "name": "Diamond Class Master",
+        "icon": {
+            "text": "⚛",
+            "color": "aqua"
+        }
+    },
+    // Leveling
+    {
+        "id": "DIAMOND", // U
+        "family": "LEVELING",
+        "name": "Diamond",
+        "icon": {
+            "text": "♦",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "SPADE", // U
+        "family": "LEVELING",
+        "name": "Spade",
+        "icon": {
+            "text": "♠",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "HEART", // U
+        "family": "LEVELING",
+        "name": "Heart",
+        "icon": {
+            "text": "❤",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "PRISTINE", // U
+        "family": "LEVELING",
+        "name": "Pristine",
+        "icon": {
+            "text": "✧",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "ARC_REACTOR", // U
+        "family": "LEVELING",
+        "name": "Arc Reactor",
+        "icon": {
+            "text": "⎊",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "MARKER", // U
+        "family": "LEVELING",
+        "name": "Marker",
+        "icon": {
+            "text": "፠",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "BADGE", // U
+        "family": "LEVELING",
+        "name": "Badge",
+        "icon": {
+            "text": "☬",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "STAR", // U
+        "family": "LEVELING",
+        "name": "Star",
+        "icon": {
+            "text": "⚝",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "BOXES", // U
+        "family": "LEVELING",
+        "name": "Boxes",
+        "icon": {
+            "text": "⧉",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "JERRY", // U
+        "family": "LEVELING",
+        "name": "Jerry",
+        "icon": {
+            "text": "ꈔ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GLOBE", // U
+        "family": "LEVELING",
+        "name": "Globe",
+        "icon": {
+            "text": "㋖",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "SOULFLOW", // U
+        "family": "LEVELING",
+        "name": "Soulflow",
+        "icon": {
+            "text": "⸎",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "WARNING", // U
+        "family": "LEVELING",
+        "name": "Warning",
+        "icon": {
+            "text": "⚠",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "MUSTACHE", // U
+        "family": "LEVELING",
+        "name": "Mustache",
+        "icon": {
+            "text": "ꕁ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "HELMET", // U
+        "family": "LEVELING",
+        "name": "Helmet",
+        "icon": {
+            "text": "〠",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "SIDEWAYS_SMILEY", // U
+        "family": "LEVELING",
+        "name": "Sideways Smiley",
+        "icon": {
+            "text": "ツ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "SPACESHIP", // U
+        "family": "LEVELING",
+        "name": "Spaceship",
+        "icon": {
+            "text": "⥈",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "TOXIC", // U
+        "family": "LEVELING",
+        "name": "Toxic",
+        "icon": {
+            "text": "☢",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "BIOHAZARD", // U
+        "family": "LEVELING",
+        "name": "Biohazard",
+        "icon": {
+            "text": "☣",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "FLORETTE", // U
+        "family": "LEVELING",
+        "name": "Florette",
+        "icon": {
+            "text": "✾",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_FLEUR_DE_LIS", // U
+        "family": "LEVELING",
+        "name": "Golden Fleur De Lis",
+        "icon": {
+            "text": "⚜",
+            "color": "gold"
+        }
+    },
+    // Slayer
+    {
+        "id": "REVENANT_HORROR_BRAIN", // U
+        "family": "SLAYER",
+        "name": "Revenant Horror Brain",
+        "icon": {
+            "text": "ௐ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_REVENANT_HORROR_BRAIN", // U
+        "family": "SLAYER",
+        "name": "Golden Revenant Horror Brain",
+        "icon": {
+            "text": "ௐ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "BROODMOTHER_STRING", // U
+        "family": "SLAYER",
+        "name": "Broodmother String",
+        "icon": {
+            "text": "੭",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_BOORMOTHER_STRING", // U
+        "family": "SLAYER",
+        "name": "Golden Broodmother String",
+        "icon": {
+            "text": "੭",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "SVEN_SHIELD", // U
+        "family": "SLAYER",
+        "name": "Sven Shield",
+        "icon": {
+            "text": "❂",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_SVEN_SHIELD", // U
+        "family": "SLAYER",
+        "name": "Golden Sven Shield",
+        "icon": {
+            "text": "❂",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "VOIDGLOOM_RUNE",
+        "family": "SLAYER",
+        "name": "Voidgloom Rune",
+        "icon": {
+            "text": "ᛃ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_VOIDGLOOM_RUNE", // U
+        "family": "SLAYER",
+        "name": "Golden Voidgloom Rune",
+        "icon": {
+            "text": "ᛃ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "INFERNO_RODS", // U
+        "family": "SLAYER",
+        "name": "Inferno Rods",
+        "icon": {
+            "text": "〣",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_INFERNO_RODS", // U
+        "family": "SLAYER",
+        "name": "Golden Inferno Rods",
+        "icon": {
+            "text": "〣",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "RIFTSTALKER_STRANGE_TIME", // U
+        "family": "SLAYER",
+        "name": "Riftstalker Strange Time",
+        "icon": {
+            "text": "ჶ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_RIFTSTALKER_STRANGE_TIME", // U
+        "family": "SLAYER",
+        "name": "Golden Riftstalker Strange Time",
+        "icon": {
+            "text": "ჶ",
+            "color": "gold"
+        }
+    },
+    // Achievement
+    {
+        "id": "RIFT_TIME", // U
+        "family": "ACHIEVEMENT",
+        "name": "Rift Time",
+        "icon": {
+            "text": "ф",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "HARP_NOTE", // U
+        "family": "ACHIEVEMENT",
+        "name": "Harp Note",
+        "icon": {
+            "text": "♪",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "HARP_MASTER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Harp Master",
+        "icon": {
+            "text": "♫",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "KUUDRA_SLAYER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Kuudra Slayer",
+        "icon": {
+            "text": "Ӄ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "MASTER_KUUDRA_SLAYER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Master Kuudra Slayer",
+        "icon": {
+            "text": "Ӄ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "ULTRA_BANKER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Ultra Banker",
+        "icon": {
+            "text": "⛁",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "EXTREME_BANKER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Extreme Banker",
+        "icon": {
+            "text": "⛃",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "MINING_HELIX", // U
+        "family": "ACHIEVEMENT",
+        "name": "Mining Helix",
+        "icon": {
+            "text": "ᛝ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_MINING_HELIX", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Mining Helix",
+        "icon": {
+            "text": "ᛝ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "DIAMOND_MINING_HELIX", // U
+        "family": "ACHIEVEMENT",
+        "name": "Diamond Mining Helix",
+        "icon": {
+            "text": "ᛝ",
+            "color": "aqua"
+        }
+    },
+    {
+        "id": "FORAGING_CLOVER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Foraging Clover",
+        "icon": {
+            "text": "☘",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_FORAGING_CLOVER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Foraging Clover",
+        "icon": {
+            "text": "☘",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "AGATHA_JEWEL", // U
+        "family": "ACHIEVEMENT",
+        "name": "Agatha's Jewel",
+        "icon": {
+            "text": "ꖘ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GARDENER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Gardener",
+        "icon": {
+            "text": "ꀾ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_GARDENER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Gardener",
+        "icon": {
+            "text": "ꀾ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "COLLECTING_TOP_HAT", // U
+        "family": "ACHIEVEMENT",
+        "name": "Collecting Top Hat",
+        "icon": {
+            "text": "ᱪ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_COLLECTING_TOP_HAT", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Collecting Top Hat",
+        "icon": {
+            "text": "ᱪ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "MAGICAL_SIGMA", // U
+        "family": "ACHIEVEMENT",
+        "name": "Magical Sigma",
+        "icon": {
+            "text": "Σ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_MAGICAL_SIGMA", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Magical Sigma",
+        "icon": {
+            "text": "Σ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "GOLDEN_CHILI_PEPPER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Chili Pepper",
+        "icon": {
+            "text": "৫",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "SNOWMAN", // U
+        "family": "ACHIEVEMENT",
+        "name": "Snowman",
+        "icon": {
+            "text": "☃",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "TROPHY_KING", // U
+        "family": "ACHIEVEMENT",
+        "name": "Trophy King",
+        "icon": {
+            "text": "♔",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_TROPHY_KING", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Trophy King",
+        "icon": {
+            "text": "♔",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "DIAMOND_TROPHY_KING", // U
+        "family": "ACHIEVEMENT",
+        "name": "Diamond Trophy King",
+        "icon": {
+            "text": "♔",
+            "color": "aqua"
+        }
+    },
+    {
+        "id": "TROPHY_FROG_KING", // U
+        "family": "ACHIEVEMENT",
+        "name": "Trophy Frog King",
+        "icon": {
+            "text": "🐸",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_TROPHY_FROG_KING", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Trophy Frog King",
+        "icon": {
+            "text": "🐸",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "DIAMOND_TROPHY_FROG_KING", // U,
+        "family": "ACHIEVEMENT",
+        "name": "Diamond Trophy Frog King",
+        "icon": {
+            "text": "🐸",
+            "color": "aqua"
+        }
+    },
+    {
+        "id": "CENTURY_CELEBRANT", // U
+        "family": "ACHIEVEMENT",
+        "name": "Century Celebrant",
+        "icon": {
+            "text": "⛂",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "CENTURY_PARTYGOER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Century Partygoer",
+        "icon": {
+            "text": "⛂",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "SPARKLING_CRITTER_CATCHER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Sparkling Critter Catcher",
+        "icon": {
+            "text": "✨",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "SPARKLING_CRITTER_CATCHER", // U - 🚨🚨🚨 same id as above 🚨🚨🚨
+        "family": "ACHIEVEMENT",
+        "name": "Sparkling Critter Catcher",
+        "icon": {
+            "text": "✨",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "SPARKLING_CRITTER_MASTER_CATCHER", // U
+        "family": "ACHIEVEMENT",
+        "name": "Sparkling Critter Master Catcher",
+        "icon": {
+            "text": "✨",
+            "color": "aqua"
+        }
+    },
+    {
+        "id": "GREAT_SPOOK", // U
+        "family": "ACHIEVEMENT",
+        "name": "Great Spook",
+        "icon": {
+            "text": "࿇",
+            "color": "dark_purple"
+        }
+    },
+    {
+        "id": "GIFT_OF_GIVING", // U
+        "family": "ACHIEVEMENT",
+        "name": "Gift of Giving",
+        "icon": {
+            "text": "✉",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "JACOB_CONTEST_COMPLETIONIST", // U
+        "family": "ACHIEVEMENT",
+        "name": "Jacob's Contest Completionist",
+        "icon": {
+            "text": "ꕪ",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_JACOB_CONTEST_COMPLETIONIST", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Jacob's Contest Completionist",
+        "icon": {
+            "text": "ꕪ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "DIAMOND_JACOB_CONTEST_COMPLETIONIST", // U
+        "family": "ACHIEVEMENT",
+        "name": "Diamond Jacob's Contest Completionist",
+        "icon": {
+            "text": "ꕪ",
+            "color": "aqua"
+        }
+    },
+    {
+        "id": "CHOCOLATE_BAR", // U
+        "family": "ACHIEVEMENT",
+        "name": "Chocolate Bar",
+        "icon": {
+            "text": "▒",
+            "color": "gray"
+        }
+    },
+    {
+        "id": "GOLDEN_CHOCOLATE_BAR", // U
+        "family": "ACHIEVEMENT",
+        "name": "Golden Chocolate Bar",
+        "icon": {
+            "text": "▒",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "EMBLEM_OF_BURNING_STRENGTH", // U
+        "family": "ACHIEVEMENT",
+        "name": "Emblem of Burning Strength",
+        "icon": {
+            "text": "☀",
+            "color": "gold"
+        }
+    },
+    // MVP++
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "1-Month Subscriber's Star",
+        "icon": {
+            "text": "✩",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "2-Month Subscriber's Star",
+        "icon": {
+            "text": "✬",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "3-Month Subscriber's Star",
+        "icon": {
+            "text": "✮",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "6-Month Subscriber's Star",
+        "icon": {
+            "text": "✯",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "9-Month Subscriber's Star",
+        "icon": {
+            "text": "✶",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "12-Month Subscriber's Star",
+        "icon": {
+            "text": "✳",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "18-Month Subscriber's Star",
+        "icon": {
+            "text": "✴",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "24-Month Subscriber's Star",
+        "icon": {
+            "text": "✷",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "36-Month Subscriber's Star",
+        "icon": {
+            "text": "✸",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "48-Month Subscriber's Star",
+        "icon": {
+            "text": "✹",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "TODO", // U
+        "family": "MVP++",
+        "name": "60-Month Subscriber's Star",
+        "icon": {
+            "text": "✺",
+            "color": "light_purple"
+        }
+    },
+    // Special
+    {
+        "id": "HYPIXEL", // U
+        "family": "SPECIAL",
+        "name": "Hypixel",
+        "icon": {
+            "text": "ዞ",
+            "color": "gold"
+        }
+    },
+    {
+        "id": "CENTURY_RAFFLE_GREEN", // U
+        "family": "SPECIAL",
+        "name": "Century Raffle Green",
+        "icon": {
+            "text": "⛃",
+            "color": "green"
+        }
+    },
+    {
+        "id": "CENTURY_RAFFLE_YELLOW", // U
+        "family": "SPECIAL",
+        "name": "Century Raffle Yellow",
+        "icon": {
+            "text": "⛃",
+            "color": "yellow"
+        }
+    },
+    {
+        "id": "CENTURY_RAFFLE_RED", // U
+        "family": "SPECIAL",
+        "name": "Century Raffle Red",
+        "icon": {
+            "text": "⛃",
+            "color": "red"
+        }
+    },
+    {
+        "id": "CENTURY_RAFFLE_PINK", // U
+        "family": "SPECIAL",
+        "name": "Century Raffle Pink",
+        "icon": {
+            "text": "⛃",
+            "color": "light_purple"
+        }
+    },
+    {
+        "id": "CENTURY_RAFFLE_BLUE", // U
+        "family": "SPECIAL",
+        "name": "Century Raffle Blue",
+        "icon": {
+            "text": "⛃",
+            "color": "blue"
+        }
+    },
+    // Discord
+    {
+        "id": "DISCORD", // U
+        "family": "DISCORD",
+        "name": "Discord",
+        "icon": {
+            "text": "⌬",
+            "color": "dark_purple"
+        }
+    }
+]
