@@ -224,7 +224,7 @@
         "family": "CATACOMBS",
         "name": "Healer Staff",
         "icon": {
-            "text": "⁨",
+            "text": "⚚",
             "color": "gray"
         }
     },
@@ -233,7 +233,7 @@
         "family": "CATACOMBS",
         "name": "Healer Master",
         "icon": {
-            "text": "⁨",
+            "text": "⚚",
             "color": "gold"
         }
     },
