@@ -962,7 +962,7 @@
     },
     // MVP++
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_1", // U
         "family": "MVP++",
         "name": "1-Month Subscriber's Star",
         "icon": {
@@ -971,7 +971,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_2", // U
         "family": "MVP++",
         "name": "2-Month Subscriber's Star",
         "icon": {
@@ -980,7 +980,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_3", // U
         "family": "MVP++",
         "name": "3-Month Subscriber's Star",
         "icon": {
@@ -989,7 +989,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_6", // U
         "family": "MVP++",
         "name": "6-Month Subscriber's Star",
         "icon": {
@@ -998,7 +998,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_9", // U
         "family": "MVP++",
         "name": "9-Month Subscriber's Star",
         "icon": {
@@ -1007,7 +1007,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_12",
         "family": "MVP++",
         "name": "12-Month Subscriber's Star",
         "icon": {
@@ -1016,7 +1016,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_18", // U
         "family": "MVP++",
         "name": "18-Month Subscriber's Star",
         "icon": {
@@ -1025,7 +1025,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_24", // U
         "family": "MVP++",
         "name": "24-Month Subscriber's Star",
         "icon": {
@@ -1034,7 +1034,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_36", // U
         "family": "MVP++",
         "name": "36-Month Subscriber's Star",
         "icon": {
@@ -1043,7 +1043,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_48", // U
         "family": "MVP++",
         "name": "48-Month Subscriber's Star",
         "icon": {
@@ -1052,7 +1052,7 @@
         }
     },
     {
-        "id": "TODO", // U
+        "id": "SUPERSTAR_60", // U
         "family": "MVP++",
         "name": "60-Month Subscriber's Star",
         "icon": {
