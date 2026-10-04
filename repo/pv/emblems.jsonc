@@ -591,7 +591,7 @@
         }
     },
     {
-        "id": "GOLDEN_RIFTSTALKER_STRANGE_TIME", // U
+        "id": "GOLDEN_RIFTSTALKER_STRANGE_TIME",
         "family": "SLAYER",
         "name": "Golden Riftstalker Strange Time",
         "icon": {
@@ -709,7 +709,7 @@
         }
     },
     {
-        "id": "AGATHA_JEWEL", // U
+        "id": "AGATHAS_JEWEL",
         "family": "ACHIEVEMENT",
         "name": "Agatha's Jewel",
         "icon": {
@@ -736,7 +736,7 @@
         }
     },
     {
-        "id": "COLLECTING_TOP_HAT", // U
+        "id": "COLLECTING_TOP_HAT",
         "family": "ACHIEVEMENT",
         "name": "Collecting Top Hat",
         "icon": {
@@ -745,7 +745,7 @@
         }
     },
     {
-        "id": "GOLDEN_COLLECTING_TOP_HAT", // U
+        "id": "GOLDEN_COLLECTING_TOP_HAT",
         "family": "ACHIEVEMENT",
         "name": "Golden Collecting Top Hat",
         "icon": {
@@ -844,7 +844,7 @@
         }
     },
     {
-        "id": "CENTURY_CELEBRANT", // U
+        "id": "CENTURY_CELEBRANT",
         "family": "ACHIEVEMENT",
         "name": "Century Celebrant",
         "icon": {
@@ -853,7 +853,7 @@
         }
     },
     {
-        "id": "CENTURY_PARTYGOER", // U
+        "id": "CENTURY_PARTYGOER",
         "family": "ACHIEVEMENT",
         "name": "Century Partygoer",
         "icon": {
@@ -862,7 +862,7 @@
         }
     },
     {
-        "id": "SPARKLING_CRITTER_CATCHER", // U
+        "id": "SPARKLING_CRITTER_CATCHER",
         "family": "ACHIEVEMENT",
         "name": "Sparkling Critter Catcher",
         "icon": {
@@ -889,7 +889,7 @@
         }
     },
     {
-        "id": "GREAT_SPOOK", // U
+        "id": "GREAT_SPOOK",
         "family": "ACHIEVEMENT",
         "name": "Great Spook",
         "icon": {
