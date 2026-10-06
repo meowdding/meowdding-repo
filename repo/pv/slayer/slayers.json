@@ -3,7 +3,8 @@
         "name": "Zombie",
         "id": "zombie",
         "leveling": {
-            "@from": "slayer_levels"
+            "@from": "slayer_levels",
+            "key": "zombie_slayer_level"
         },
         "xp": {
             "@from": "slayer_xp",
@@ -14,7 +15,8 @@
         "name": "Spider",
         "id": "spider",
         "leveling": {
-            "@from": "slayer_levels"
+            "@from": "slayer_levels",
+            "key": "spider_slayer_level"
         },
         "xp": {
             "@from": "slayer_xp",
