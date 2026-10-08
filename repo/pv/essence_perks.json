@@ -391,11 +391,17 @@
       "display": "vanilla",
       "item": "minecraft:experience_bottle"
     },
+    "eagles_advantage": {
+      "name": "Eagle's Advantage",
+      "max_level": 5,
+      "display": "skull",
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODg0MzE3MDIyNSwKICAicHJvZmlsZUlkIiA6ICI5N2ViMDJkMWY5YmI0NjUwYmNmNzE2MTEzYjUzYjY4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQmNhY3R1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWNkYTJlNWRjMDA3MGFmZmI0ODRhNmRiZGVhNWZjY2I1YjJmNjc5MGViZTVkYzIzZDg1YWViM2NhMzQ5MDNjIgogICAgfQogIH0KfQ=="
+    },
     "sparkling_specialist": {
       "name": "Sparkling Specialist",
       "max_level": 1,
-      "display": "skull",
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODg0MzE3MDIyNSwKICAicHJvZmlsZUlkIiA6ICI5N2ViMDJkMWY5YmI0NjUwYmNmNzE2MTEzYjUzYjY4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQmNhY3R1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWNkYTJlNWRjMDA3MGFmZmI0ODRhNmRiZGVhNWZjY2I1YjJmNjc5MGViZTVkYzIzZDg1YWViM2NhMzQ5MDNjIgogICAgfQogIH0KfQ=="
+      "display": "sbid",
+      "sbid": "item:sparkling_amulet"
     }
   }
 }
