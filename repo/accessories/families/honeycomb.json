@@ -3,6 +3,6 @@
   "tiers": [
     "item:honeycomb_talisman",
     "item:honeycomb_ring",
-    "item:honeycombaccretion.json_artifact"
+    "item:honeycomb_artifact"
   ]
 }
