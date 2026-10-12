@@ -50,6 +50,34 @@ async function main() {
         console.log(`Writing ${destination}`)
         fs.writeFileSync(`repo/${destination}`, JSON.stringify(handler(result), null, 2));
     }
+    const itemColors = {}
+
+    await fetch(`https://skyblock-api-repo.thatgravyboat.tech/1_21_5/items.min.json`).then((x) => x.json()).then((data) => {
+        data.forEach(entry => {
+            const components = entry["components"]
+            if (components === undefined) {
+                return;
+            }
+            const dyedColor = components["minecraft:dyed_color"];
+            if (dyedColor === undefined) {
+                return
+            }
+            const customData = components["minecraft:custom_data"]
+            if (customData === undefined) {
+                return
+            }
+            const id = customData["id"]
+            if (id === undefined) {
+                return
+            }
+            itemColors[id] = dyedColor
+        })
+    })
+
+    if (Object.entries(itemColors).length > 0) {
+        console.log(`Writing static colors`)
+        fs.writeFileSync(`static-repo/pv/item_colors.json`, JSON.stringify(itemColors, null, 2));
+    }
 }
 
 await main()
