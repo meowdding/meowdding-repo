@@ -1,6 +1,6 @@
 {
     "GROWTH_SPEED": {
-        "name": "<aqua>Greenhouse Growth Speed",
+        "name": "<aqua>Growth Speed",
         "reward_formula": "5 * level + clamp(level - 8, 0, 1) * 5",
         "format": "PERCENTAGE",
         "tooltip": "<gray>Growth Speed: <aqua>%reward%%",
@@ -44,7 +44,7 @@
         ]
     },
     "YIELD": {
-        "name": "<yellow>Greenhouse Crop Yield",
+        "name": "<yellow>Crop Yield",
         "reward_formula": "2 * level + clamp(level - 8, 0, 1) * 2",
         "format": "PERCENTAGE",
         "tooltip": "<gray>Crop Yield: <yellow>%reward%%",
@@ -88,7 +88,7 @@
         ]
     },
     "PLOT_LIMIT": {
-        "name": "<green>Greenhouse Plot Limit",
+        "name": "<green>Plot Limit",
         "reward_formula": "level",
         "format": "INTEGER",
         "tooltip": "<gray>Plot Limit: <green>+%reward%",
