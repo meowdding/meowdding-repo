@@ -1,6 +1,9 @@
 [
     {
-        "values": [ "f", "friend" ],
+        "values": [
+            "f",
+            "friend"
+        ],
         "children": [
             {
                 "name": "arg",
@@ -12,7 +15,11 @@
                 ]
             },
             {
-                "values": [ "accept", "add", "deny" ],
+                "values": [
+                    "accept",
+                    "add",
+                    "deny"
+                ],
                 "children": [
                     {
                         "name": "player"
@@ -20,7 +27,10 @@
                 ]
             },
             {
-                "values": [ "remove", "best" ],
+                "values": [
+                    "remove",
+                    "best"
+                ],
                 "children": [
                     {
                         "name": "player",
@@ -29,16 +39,22 @@
                 ]
             },
             {
-                "values": [ "list" ],
+                "values": [
+                    "list"
+                ],
                 "children": [
                     {
                         "name": "page",
-                        "suggestions": [ "best" ]
+                        "suggestions": [
+                            "best"
+                        ]
                     }
                 ]
             },
             {
-                "values": [ "requests" ],
+                "values": [
+                    "requests"
+                ],
                 "children": [
                     {
                         "name": "page"
@@ -46,7 +62,9 @@
                 ]
             },
             {
-                "values": [ "nickname" ],
+                "values": [
+                    "nickname"
+                ],
                 "children": [
                     {
                         "name": "friend",
@@ -61,7 +79,10 @@
         ]
     },
     {
-        "values": [ "g", "guild" ],
+        "values": [
+            "g",
+            "guild"
+        ],
         "children": [
             {
                 "name": "arg",
@@ -161,7 +182,12 @@
                 ]
             },
             {
-                "values": [ "member", "transfer", "promote", "demote" ],
+                "values": [
+                    "member",
+                    "transfer",
+                    "promote",
+                    "demote"
+                ],
                 "children": [
                     {
                         "name": "member"
@@ -169,16 +195,22 @@
                 ]
             },
             {
-                "values": [ "unmute" ],
+                "values": [
+                    "unmute"
+                ],
                 "children": [
                     {
                         "name": "member",
-                        "suggestions": [ "everyone" ]
+                        "suggestions": [
+                            "everyone"
+                        ]
                     }
                 ]
             },
             {
-                "values": [ "kick" ],
+                "values": [
+                    "kick"
+                ],
                 "children": [
                     {
                         "name": "player",
@@ -192,11 +224,15 @@
                 ]
             },
             {
-                "values": [ "mute" ],
+                "values": [
+                    "mute"
+                ],
                 "children": [
                     {
                         "name": "member",
-                        "suggestions": [ "everyone" ],
+                        "suggestions": [
+                            "everyone"
+                        ],
                         "children": [
                             {
                                 "name": "time"
@@ -206,7 +242,9 @@
                 ]
             },
             {
-                "values": [ "setrank" ],
+                "values": [
+                    "setrank"
+                ],
                 "children": [
                     {
                         "name": "member",
@@ -221,62 +259,136 @@
         ]
     },
     {
-        "values": [ "warp" ],
+        "values": [
+            "warp"
+        ],
         "children": [
             {
                 "name": "location",
                 "suggestions": [
-                    "home", "island",
-                    "hub", "village",
+                    // Private Island & Garden
+                    "home",
+                    "island",
+                    "garden",
+                    // Hub
+                    "hub",
+                    "village",
                     "museum",
                     "da",
                     "castle",
-                    "crypts", "crypt",
+                    "crypts",
+                    "crypt",
                     "carnival",
-                    "wizard_tower", "wizard", "wiz", "tower",
-                    "dungeon_hub", "dungeons", "dhub", "dh",
+                    "wizard_tower",
+                    "wizard",
+                    "wiz",
+                    "tower",
+                    "elizabeth",
+                    "taylor",
+                    "stonks",
+                    "rift",
+                    "the_rift",
+                    // Dungeon Hub
+                    "dungeon_hub",
+                    "dungeons",
+                    "dhub",
+                    "dh",
+                    // Farming Islands
+                    "farming",
                     "barn",
                     "desert",
-                    "trapper", "trap",
+                    "trapper",
+                    "trap",
+                    "glowing",
+                    "moby",
+                    // Park
+                    "foraging",
                     "park",
-                    "howl", "howling_cave",
+                    "trees",
+                    "howl",
+                    "howling_cave",
                     "jungle",
+                    // Moonglade
+                    "galatea",
+                    "murkwater",
+                    "murk",
+                    "loch",
+                    // Torrhus Canyon & Safari
+                    "torrhus",
+                    "torrhus_canyon",
+                    "canyon",
+                    "safari",
+                     // Gold Mines
                     "gold",
+                    // Deep Caverns
                     "deep",
-                    "dwarves", "dmines", "mines",
+                    // Dwarven Mines
+                    "deeper",
+                    "dwarves",
+                    "dmines",
+                    "mines",
                     "forge",
-                    "basecamp", "base", "camp", "glacite", "tunnel", "tunnels",
-                    "crystals", "hollows", "ch",
-                    "nucleus", "cn",
-                    "spider", "spiders",
-                    "top", "nest",
-                    "arachne", "sanctuary",
+                    // Glacite Tunnels
+                    "basecamp",
+                    "base",
+                    "camp",
+                    "glacite",
+                    "tunnel",
+                    "tunnels",
+                    // Crystal Hollows
+                    "crystals",
+                    "hollows",
+                    "ch",
+                    "nucleus",
+                    "nuc",
+                    "cn",
+                    // Spiders Den
+                    "spider",
+                    "spiders",
+                    "top",
+                    "nest",
+                    "arachne",
+                    "sanctuary",
+                    "mound",
+                    // End
                     "end",
-                    "drag", "dragons",
-                    "void", "sepulture",
-                    "isle", "crimson", "nether",
-                    "skull", "kuudra",
-                    "tomb", "smold", "smoldering_tomb",
+                    "drag",
+                    "dragons",
+                    "void",
+                    "sepulture",
+                    // Crimson Isle
+                    "ci",
+                    "isle",
+                    "crimson",
+                    "nether",
+                    "skull",
+                    "kuudra",
+                    "tomb",
+                    "smold",
+                    "smoldering_tomb",
+                    "smoldering",
                     "wasteland",
                     "dragontail",
                     "scarleton",
-                    "garden",
-                    "jerry", "winter", "workshop",
+                    // Jerry
+                    "jerry",
+                    "winter",
+                    "workshop",
+                    // Backwater Bayou
                     "backwater",
                     "bayou",
-                    "galatea",
-                    "murkwater",
+                    // Lotus Atoll
                     "lotus",
-                    "atoll",
-                    "torrhus",
-                    "torrhus_canyon",
-                    "safari"
+                    "atoll"
                 ]
             }
         ]
     },
     {
-        "values": [ "p", "party" ],
+        "values": [
+            "p",
+            "party"
+        ],
         "children": [
             {
                 "name": "arg",
@@ -295,7 +407,10 @@
                 ]
             },
             {
-                "values": [ "accept", "invite" ],
+                "values": [
+                    "accept",
+                    "invite"
+                ],
                 "children": [
                     {
                         "name": "player"
@@ -303,7 +418,12 @@
                 ]
             },
             {
-                "values": [ "kick", "demote", "promote", "transfer" ],
+                "values": [
+                    "kick",
+                    "demote",
+                    "promote",
+                    "transfer"
+                ],
                 "children": [
                     {
                         "name": "member",
@@ -314,7 +434,11 @@
         ]
     },
     {
-        "values": [ "w", "msg", "tell" ],
+        "values": [
+            "w",
+            "msg",
+            "tell"
+        ],
         "children": [
             {
                 "name": "player",
@@ -329,7 +453,9 @@
         ]
     },
     {
-        "values": [ "boop" ],
+        "values": [
+            "boop"
+        ],
         "children": [
             {
                 "name": "player",
@@ -338,7 +464,10 @@
         ]
     },
     {
-        "values": [ "visit", "guest" ],
+        "values": [
+            "visit",
+            "guest"
+        ],
         "children": [
             {
                 "name": "player",
@@ -347,7 +476,11 @@
         ]
     },
     {
-        "values": [ "joininstance", "joindungeon", "joinkuudra" ],
+        "values": [
+            "joininstance",
+            "joindungeon",
+            "joinkuudra"
+        ],
         "children": [
             {
                 "name": "location",
@@ -360,7 +493,6 @@
                     "CATACOMBS_FLOOR_FIVE",
                     "CATACOMBS_FLOOR_SIX",
                     "CATACOMBS_FLOOR_SEVEN",
-
                     "MASTER_CATACOMBS_FLOOR_ONE",
                     "MASTER_CATACOMBS_FLOOR_TWO",
                     "MASTER_CATACOMBS_FLOOR_THREE",
@@ -368,7 +500,6 @@
                     "MASTER_CATACOMBS_FLOOR_FIVE",
                     "MASTER_CATACOMBS_FLOOR_SIX",
                     "MASTER_CATACOMBS_FLOOR_SEVEN",
-
                     "KUUDRA_NORMAL",
                     "KUUDRA_HOT",
                     "KUUDRA_BURNING",
@@ -379,7 +510,9 @@
         ]
     },
     {
-        "values": [ "status" ],
+        "values": [
+            "status"
+        ],
         "children": [
             {
                 "name": "status",
@@ -394,7 +527,9 @@
         ]
     },
     {
-        "values": [ "show" ],
+        "values": [
+            "show"
+        ],
         "children": [
             {
                 "name": "item",
@@ -409,13 +544,22 @@
                     "belt",
                     "bracelet",
                     "pet",
-                    "1","2","3","4","5","6","7","8"
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8"
                 ]
             }
         ]
     },
     {
-        "values": [ "viewstash" ],
+        "values": [
+            "viewstash"
+        ],
         "children": [
             {
                 "name": "type",
@@ -427,7 +571,9 @@
         ]
     },
     {
-        "values": [ "chat" ],
+        "values": [
+            "chat"
+        ],
         "children": [
             {
                 "name": "type",
@@ -442,7 +588,9 @@
         ]
     },
     {
-        "values": [ "myfilter" ],
+        "values": [
+            "myfilter"
+        ],
         "children": [
             {
                 "name": "operation",
@@ -467,22 +615,42 @@
         ]
     },
     {
-        "values": [ "rng", "rngmeter" ],
+        "values": [
+            "rng",
+            "rngmeter"
+        ],
         "children": [
             {
-                "values": [ "catacombs", "cata" ],
+                "values": [
+                    "catacombs",
+                    "cata"
+                ],
                 "children": [
                     {
                         "name": "floor",
                         "suggestions": [
-                            "1", "2", "3", "4", "5", "6", "7",
-                            "m1", "m2", "m3", "m4", "m5", "m6", "m7"
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "m1",
+                            "m2",
+                            "m3",
+                            "m4",
+                            "m5",
+                            "m6",
+                            "m7"
                         ]
                     }
                 ]
             },
             {
-                "values": [ "slayer" ],
+                "values": [
+                    "slayer"
+                ],
                 "children": [
                     {
                         "name": "slayer_type",
@@ -503,7 +671,9 @@
         ]
     },
     {
-        "values": [ "viewdungeonclass" ],
+        "values": [
+            "viewdungeonclass"
+        ],
         "children": [
             {
                 "name": "class",
@@ -518,7 +688,9 @@
         ]
     },
     {
-        "values": [ "viewbosscollection" ],
+        "values": [
+            "viewbosscollection"
+        ],
         "children": [
             {
                 "name": "floor",

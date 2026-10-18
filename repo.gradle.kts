@@ -19,6 +19,7 @@ compactingResources {
     removeComments("skyocean/illegal_shop_recipes")
     removeComments("skyocean/vanguard")
     removeComments("pv/emblems")
+    removeComments("skycubed/commands")
 
     compactToObject("pv/garden_data")
     compactToObject("pv/foraging")
