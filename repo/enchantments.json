@@ -1,5 +1,7 @@
 [
   {
+    "name": "Absorb",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -15,10 +17,11 @@
     "applicable_to": [
       "Axe"
     ],
-    "name": "Absorb",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Angler",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -40,13 +43,12 @@
       "Fishing Rod"
     ],
     "requirements": [
-      "Enchanting Level 4",
-      "5 Bookshelf Power"
-    ],
-    "name": "Angler",
-    "max_level": 6
+      "Enchanting Level 4"
+    ]
   },
   {
+    "name": "Aqua Affinity",
+    "max_level": 1,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -57,13 +59,11 @@
     "applicable_to": [
       "Helmet"
     ],
-    "requirements": [
-      "1 Bookshelf Power"
-    ],
-    "name": "Aqua Affinity",
-    "max_level": 1
+    "requirements": []
   },
   {
+    "name": "Bane of Arthropods",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -91,10 +91,12 @@
       "Longsword",
       "Gauntlet"
     ],
-    "name": "Bane of Arthropods",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "Big Brain",
+    "min_level": 3,
+    "max_level": 5,
     "sources": [
       {
         "name": "Dark Auction",
@@ -115,12 +117,11 @@
     ],
     "requirements": [
       "Enchanting Level 21"
-    ],
-    "name": "Big Brain",
-    "min_level": 3,
-    "max_level": 5
+    ]
   },
   {
+    "name": "Blast Protection",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -146,38 +147,11 @@
     "applicable_to": [
       "Armor"
     ],
-    "name": "Blast Protection",
-    "max_level": 7
+    "requirements": []
   },
   {
-    "sources": [
-      {
-        "name": "Enchantment Table",
-        "min": 1,
-        "max": 5
-      },
-      {
-        "name": "Fishing",
-        "min": 6,
-        "max": 6
-      },
-      {
-        "name": "Bazaar",
-        "min": 6,
-        "max": 6
-      }
-    ],
-    "applicable_to": [
-      "Fishing Rod"
-    ],
-    "requirements": [
-      "Enchanting Level 9",
-      "6 Bookshelf Power"
-    ],
     "name": "Blessing",
-    "max_level": 6
-  },
-  {
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -199,21 +173,68 @@
       "Fishing Rod"
     ],
     "requirements": [
-      "Enchanting Level 15",
-      "18 Bookshelf Power"
-    ],
-    "name": "Caster",
-    "max_level": 6
+      "Enchanting Level 9"
+    ]
   },
   {
+    "name": "Bug Blender",
+    "max_level": 5,
     "sources": [
       {
+        "name": "Crafting Recipe",
+        "min": 1,
+        "max": 1
+      },
+      {
         "name": "Bazaar",
-        "min": 4,
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Vacuum"
+    ],
+    "requirements": []
+  },
+  {
+    "name": "Caster",
+    "max_level": 6,
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
         "max": 5
       },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "requirements": [
+      "Enchanting Level 15"
+    ]
+  },
+  {
+    "name": "Cayenne",
+    "min_level": 4,
+    "max_level": 5,
+    "sources": [
       {
         "name": "Chili Pepper Collection",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Bazaar",
         "min": 4,
         "max": 5
       }
@@ -225,11 +246,11 @@
       "Bracelet",
       "Cloak"
     ],
-    "name": "Cayenne",
-    "min_level": 4,
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Champion",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -247,38 +268,11 @@
       "Longsword",
       "Gauntlet"
     ],
-    "name": "Champion",
-    "max_level": 10
+    "requirements": []
   },
   {
-    "sources": [
-      {
-        "name": "Enchantment Table",
-        "min": 1,
-        "max": 3
-      },
-      {
-        "name": "Experiments",
-        "min": 3,
-        "max": 5
-      },
-      {
-        "name": "Bazaar",
-        "min": 4,
-        "max": 5
-      }
-    ],
-    "applicable_to": [
-      "Bow"
-    ],
-    "requirements": [
-      "Enchanting Level 11",
-      "4 Bookshelf Power"
-    ],
-    "name": "Chance",
-    "max_level": 5
-  },
-  {
+    "name": "Charm",
+    "max_level": 6,
     "sources": [
       {
         "name": "Fishing",
@@ -301,11 +295,11 @@
     ],
     "requirements": [
       "Enchanting Level 25"
-    ],
-    "name": "Charm",
-    "max_level": 6
+    ]
   },
   {
+    "name": "Cleave",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -329,13 +323,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 4",
-      "3 Bookshelf Power"
-    ],
-    "name": "Cleave",
-    "max_level": 6
+      "Enchanting Level 4"
+    ]
   },
   {
+    "name": "Compact",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -353,15 +346,16 @@
       "Drill",
       "Gauntlet"
     ],
-    "name": "Compact",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Corruption",
+    "max_level": 5,
     "sources": [
       {
-        "name": "Fishing",
+        "name": "Crafting Recipe",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
@@ -374,20 +368,21 @@
     ],
     "requirements": [
       "Enchanting Level 25"
-    ],
-    "name": "Corruption",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Counter-Strike",
+    "min_level": 5,
+    "max_level": 5,
     "sources": [
       {
         "name": "Dark Auction",
-        "min": 3,
+        "min": 5,
         "max": 5
       },
       {
         "name": "Bazaar",
-        "min": 3,
+        "min": 5,
         "max": 5
       }
     ],
@@ -396,12 +391,11 @@
     ],
     "requirements": [
       "Enchanting Level 22"
-    ],
-    "name": "Counter-Strike",
-    "min_level": 3,
-    "max_level": 5
+    ]
   },
   {
+    "name": "Critical",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -430,13 +424,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 9",
-      "4 Bookshelf Power"
-    ],
-    "name": "Critical",
-    "max_level": 7
+      "Enchanting Level 9"
+    ]
   },
   {
+    "name": "Cubism",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -461,13 +454,12 @@
       "Bow"
     ],
     "requirements": [
-      "Enchanting Level 3",
-      "3 Bookshelf Power"
-    ],
-    "name": "Cubism",
-    "max_level": 6
+      "Enchanting Level 3"
+    ]
   },
   {
+    "name": "Cultivating",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -481,13 +473,13 @@
       }
     ],
     "applicable_to": [
-      "Hoe",
-      "Axe"
+      "Farming Tool"
     ],
-    "name": "Cultivating",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Dedication",
+    "max_level": 4,
     "sources": [
       {
         "name": "SkyMart",
@@ -511,16 +503,16 @@
       }
     ],
     "applicable_to": [
-      "Hoe",
-      "Axe"
+      "Farming Tool"
     ],
     "requirements": [
       "Enchanting Level 12"
-    ],
-    "name": "Dedication",
-    "max_level": 4
+    ]
   },
   {
+    "name": "Delicate",
+    "min_level": 5,
+    "max_level": 5,
     "sources": [
       {
         "name": "Anita",
@@ -534,14 +526,13 @@
       }
     ],
     "applicable_to": [
-      "Hoe",
-      "Axe"
+      "Farming Tool"
     ],
-    "name": "Delicate",
-    "min_level": 5,
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Depth Strider",
+    "max_level": 3,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -552,35 +543,11 @@
     "applicable_to": [
       "Boots"
     ],
-    "requirements": [
-      "4 Bookshelf Power"
-    ],
-    "name": "Depth Strider",
-    "max_level": 3
+    "requirements": []
   },
   {
-    "sources": [
-      {
-        "name": "Regalia Room",
-        "min": 1,
-        "max": 1
-      },
-      {
-        "name": "Bazaar",
-        "min": 1,
-        "max": 3
-      }
-    ],
-    "applicable_to": [
-      "Sword",
-      "Longsword",
-      "Gauntlet",
-      "Bow"
-    ],
-    "name": "Divine Gift",
-    "max_level": 3
-  },
-  {
+    "name": "Dragon Tracer",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -592,13 +559,12 @@
       "Bow"
     ],
     "requirements": [
-      "Enchanting Level 8",
-      "8 Bookshelf Power"
-    ],
-    "name": "Dragon Tracer",
-    "max_level": 5
+      "Enchanting Level 8"
+    ]
   },
   {
+    "name": "Drain",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -631,13 +597,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 15",
-      "5 Bookshelf Power"
-    ],
-    "name": "Drain",
-    "max_level": 5
+      "Enchanting Level 15"
+    ]
   },
   {
+    "name": "Efficiency",
+    "max_level": 10,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -653,10 +618,11 @@
     "applicable_to": [
       "Tools"
     ],
-    "name": "Efficiency",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Ender Slayer",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -685,13 +651,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 11",
-      "5 Bookshelf Power"
-    ],
-    "name": "Ender Slayer",
-    "max_level": 7
+      "Enchanting Level 11"
+    ]
   },
   {
+    "name": "Execute",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -718,13 +683,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 14",
-      "10 Bookshelf Power"
-    ],
-    "name": "Execute",
-    "max_level": 6
+      "Enchanting Level 14"
+    ]
   },
   {
+    "name": "Experience",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -750,17 +714,15 @@
     "applicable_to": [
       "Sword",
       "Pickaxe",
-      "Longsword",
       "Drill",
+      "Longsword",
       "Gauntlet"
     ],
-    "requirements": [
-      "2 Bookshelf Power"
-    ],
-    "name": "Experience",
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Expertise",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -776,10 +738,33 @@
     "applicable_to": [
       "Fishing Rod"
     ],
-    "name": "Expertise",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Feast",
+    "max_level": 5,
+    "sources": [
+      {
+        "name": "Grand Bakery",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Farming Tool"
+    ],
+    "requirements": [
+      "Enchanting Level 5"
+    ]
+  },
+  {
+    "name": "Feather Falling",
+    "max_level": 10,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -800,40 +785,11 @@
     "applicable_to": [
       "Boots"
     ],
-    "requirements": [
-      "2 Bookshelf Power"
-    ],
-    "name": "Feather Falling",
-    "max_level": 10
+    "requirements": []
   },
   {
-    "sources": [
-      {
-        "name": "Kuudra",
-        "min": 1,
-        "max": 10
-      },
-      {
-        "name": "Bazaar",
-        "min": 1,
-        "max": 10
-      }
-    ],
-    "conflicts": [
-      "Hardened Mana",
-      "Strong Mana",
-      "Mana Vampire"
-    ],
-    "applicable_to": [
-      "Armor"
-    ],
-    "requirements": [
-      "Enchanting Level 22"
-    ],
-    "name": "Ferocious Mana",
-    "max_level": 10
-  },
-  {
+    "name": "Fire Aspect",
+    "max_level": 3,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -841,7 +797,7 @@
         "max": 2
       },
       {
-        "name": "Inferno Demonlord",
+        "name": "Millennia-Aged Blazes",
         "min": 3,
         "max": 3
       },
@@ -856,13 +812,11 @@
       "Longsword",
       "Gauntlet"
     ],
-    "requirements": [
-      "2 Bookshelf Power"
-    ],
-    "name": "Fire Aspect",
-    "max_level": 3
+    "requirements": []
   },
   {
+    "name": "Fire Protection",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -893,10 +847,11 @@
     "applicable_to": [
       "Armor"
     ],
-    "name": "Fire Protection",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "First Strike",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -923,13 +878,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 10",
-      "5 Bookshelf Power"
-    ],
-    "name": "First Strike",
-    "max_level": 5
+      "Enchanting Level 10"
+    ]
   },
   {
+    "name": "Flame",
+    "max_level": 2,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -940,16 +894,15 @@
     "applicable_to": [
       "Bow"
     ],
-    "requirements": [
-      "3 Bookshelf Power"
-    ],
-    "name": "Flame",
-    "max_level": 2
+    "requirements": []
   },
   {
+    "name": "Forest Pledge",
+    "min_level": 3,
+    "max_level": 6,
     "sources": [
       {
-        "name": "Agatha\u0027s Shop (Level 3+)",
+        "name": "Agatha's Shop (Level 3+)",
         "min": 3,
         "max": 3
       },
@@ -957,6 +910,11 @@
         "name": "Bazaar",
         "min": 3,
         "max": 5
+      },
+      {
+        "name": "Water Hyacinth",
+        "min": 6,
+        "max": 6
       }
     ],
     "applicable_to": [
@@ -964,12 +922,11 @@
     ],
     "requirements": [
       "Enchanting Level 12"
-    ],
-    "name": "Forest Pledge",
-    "min_level": 3,
-    "max_level": 5
+    ]
   },
   {
+    "name": "Fortune",
+    "max_level": 4,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -995,13 +952,11 @@
       "Drill",
       "Gauntlet"
     ],
-    "requirements": [
-      "2 Bookshelf Power"
-    ],
-    "name": "Fortune",
-    "max_level": 4
+    "requirements": []
   },
   {
+    "name": "Frail",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1028,13 +983,12 @@
       "Fishing Rod"
     ],
     "requirements": [
-      "Enchanting Level 14",
-      "12 Bookshelf Power"
-    ],
-    "name": "Frail",
-    "max_level": 7
+      "Enchanting Level 14"
+    ]
   },
   {
+    "name": "Giant Killer",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1071,13 +1025,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 8",
-      "4 Bookshelf Power"
-    ],
-    "name": "Giant Killer",
-    "max_level": 7
+      "Enchanting Level 8"
+    ]
   },
   {
+    "name": "Gravity",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1103,11 +1056,11 @@
     ],
     "requirements": [
       "Enchanting Level 16"
-    ],
-    "name": "Gravity",
-    "max_level": 6
+    ]
   },
   {
+    "name": "Great Spook",
+    "max_level": 1,
     "sources": [
       {
         "name": "Tyashoi Alchemist",
@@ -1118,10 +1071,11 @@
     "applicable_to": [
       "Armor"
     ],
-    "name": "Great Spook",
-    "max_level": 1
+    "requirements": []
   },
   {
+    "name": "Green Thumb",
+    "max_level": 5,
     "sources": [
       {
         "name": "SkyMart",
@@ -1143,11 +1097,11 @@
     ],
     "requirements": [
       "Enchanting Level 24"
-    ],
-    "name": "Green Thumb",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Growth",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1179,13 +1133,12 @@
       "Armor"
     ],
     "requirements": [
-      "Enchanting Level 5",
-      "8 Bookshelf Power"
-    ],
-    "name": "Growth",
-    "max_level": 7
+      "Enchanting Level 5"
+    ]
   },
   {
+    "name": "Hardened Vitality",
+    "max_level": 10,
     "sources": [
       {
         "name": "Kuudra",
@@ -1199,20 +1152,20 @@
       }
     ],
     "conflicts": [
-      "Strong Mana",
-      "Ferocious Mana",
-      "Mana Vampire"
+      "Strong Vitality",
+      "Vivacious Vitality",
+      "Vampiric Vitality"
     ],
     "applicable_to": [
       "Armor"
     ],
     "requirements": [
       "Enchanting Level 22"
-    ],
-    "name": "Hardened Mana",
-    "max_level": 10
+    ]
   },
   {
+    "name": "Harvesting",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1231,15 +1184,15 @@
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
     "requirements": [
       "Enchanting Level 2"
-    ],
-    "name": "Harvesting",
-    "max_level": 6
+    ]
   },
   {
+    "name": "Hecatomb",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -1255,10 +1208,11 @@
     "applicable_to": [
       "Helmet"
     ],
-    "name": "Hecatomb",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Ice Cold",
+    "max_level": 5,
     "sources": [
       {
         "name": "Frozen Corpses",
@@ -1276,11 +1230,11 @@
     ],
     "requirements": [
       "Enchanting Level 30"
-    ],
-    "name": "Ice Cold",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Impaling",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1296,13 +1250,12 @@
       "Bow"
     ],
     "requirements": [
-      "Enchanting Level 12",
-      "8 Bookshelf Power"
-    ],
-    "name": "Impaling",
-    "max_level": 5
+      "Enchanting Level 12"
+    ]
   },
   {
+    "name": "Infinite Quiver",
+    "max_level": 10,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1324,13 +1277,37 @@
       "Bow"
     ],
     "requirements": [
-      "Enchanting Level 2",
-      "3 Bookshelf Power"
-    ],
-    "name": "Infinite Quiver",
-    "max_level": 10
+      "Enchanting Level 2"
+    ]
   },
   {
+    "name": "Karma",
+    "max_level": 6,
+    "sources": [
+      {
+        "name": "Tree Gifts",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Forest's Favor",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "requirements": []
+  },
+  {
+    "name": "Knockback",
+    "max_level": 2,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1339,17 +1316,16 @@
       }
     ],
     "applicable_to": [
+      "Shiny Rod",
       "Sword",
       "Longsword",
       "Gauntlet"
     ],
-    "requirements": [
-      "1 Bookshelf Power"
-    ],
-    "name": "Knockback",
-    "max_level": 2
+    "requirements": []
   },
   {
+    "name": "Lapidary",
+    "max_level": 5,
     "sources": [
       {
         "name": "Crystal Nucleus",
@@ -1369,11 +1345,11 @@
     ],
     "requirements": [
       "Enchanting Level 22"
-    ],
-    "name": "Lapidary",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Lethality",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1402,13 +1378,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 14",
-      "20 Bookshelf Power"
-    ],
-    "name": "Lethality",
-    "max_level": 6
+      "Enchanting Level 14"
+    ]
   },
   {
+    "name": "Life Steal",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1441,48 +1416,51 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 5",
-      "3 Bookshelf Power"
-    ],
-    "name": "Life Steal",
-    "max_level": 5
+      "Enchanting Level 5"
+    ]
   },
   {
+    "name": "Looting",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
         "min": 1,
-        "max": 3
-      },
-      {
-        "name": "Season of Jerry",
-        "min": 4,
-        "max": 4
-      },
-      {
-        "name": "Experiments",
-        "min": 4,
         "max": 5
+      },
+      {
+        "name": "Einary's Shop",
+        "min": 6,
+        "max": 6
       },
       {
         "name": "Bazaar",
-        "min": 4,
-        "max": 5
+        "min": 6,
+        "max": 7
+      },
+      {
+        "name": "Sphinx",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
       "Fishing Rod",
       "Sword",
+      "Pickaxe",
+      "Drill",
+      "Axe",
       "Longsword",
-      "Gauntlet"
+      "Gauntlet",
+      "Bow"
     ],
     "requirements": [
-      "2 Bookshelf Power"
-    ],
-    "name": "Looting",
-    "max_level": 5
+      "Enchanting Level 3"
+    ]
   },
   {
+    "name": "Luck of the Sea",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1490,47 +1468,12 @@
         "max": 5
       },
       {
-        "name": "Season of Jerry",
+        "name": "Bazaar",
         "min": 6,
         "max": 6
       },
       {
-        "name": "Experiments",
-        "min": 6,
-        "max": 7
-      },
-      {
-        "name": "Bazaar",
-        "min": 6,
-        "max": 7
-      }
-    ],
-    "applicable_to": [
-      "Sword",
-      "Longsword",
-      "Gauntlet"
-    ],
-    "requirements": [
-      "Enchanting Level 3",
-      "3 Bookshelf Power"
-    ],
-    "name": "Luck",
-    "max_level": 7
-  },
-  {
-    "sources": [
-      {
-        "name": "Enchantment Table",
-        "min": 1,
-        "max": 5
-      },
-      {
-        "name": "Fishing",
-        "min": 6,
-        "max": 6
-      },
-      {
-        "name": "Bazaar",
+        "name": "Junker Joel",
         "min": 6,
         "max": 6
       },
@@ -1543,37 +1486,36 @@
     "applicable_to": [
       "Fishing Rod"
     ],
-    "requirements": [
-      "1 Bookshelf Power"
-    ],
-    "name": "Luck of the Sea",
-    "max_level": 7
+    "requirements": []
   },
   {
-    "sources": [
-      {
-        "name": "Enchantment Table",
-        "min": 1,
-        "max": 5
-      },
-      {
-        "name": "Fishing",
-        "min": 6,
-        "max": 6
-      },
-      {
-        "name": "Bazaar",
-        "min": 6,
-        "max": 6
-      }
-    ],
-    "applicable_to": [
-      "Fishing Rod"
-    ],
     "name": "Lure",
-    "max_level": 6
+    "max_level": 6,
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Fishing",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod"
+    ],
+    "requirements": []
   },
   {
+    "name": "Magnet",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1595,13 +1537,12 @@
       "Fishing Rod"
     ],
     "requirements": [
-      "Enchanting Level 13",
-      "5 Bookshelf Power"
-    ],
-    "name": "Magnet",
-    "max_level": 6
+      "Enchanting Level 13"
+    ]
   },
   {
+    "name": "Mana Steal",
+    "max_level": 3,
     "sources": [
       {
         "name": "Voidgloom Seraph",
@@ -1625,38 +1566,11 @@
     ],
     "requirements": [
       "Enchanting Level 20"
-    ],
-    "name": "Mana Steal",
-    "max_level": 3
+    ]
   },
   {
-    "sources": [
-      {
-        "name": "Kuudra",
-        "min": 1,
-        "max": 10
-      },
-      {
-        "name": "Bazaar",
-        "min": 1,
-        "max": 10
-      }
-    ],
-    "conflicts": [
-      "Hardened Mana",
-      "Ferocious Mana",
-      "Strong Mana"
-    ],
-    "applicable_to": [
-      "Armor"
-    ],
-    "requirements": [
-      "Enchanting Level 22"
-    ],
-    "name": "Mana Vampire",
-    "max_level": 10
-  },
-  {
+    "name": "Overload",
+    "max_level": 5,
     "sources": [
       {
         "name": "Catacombs",
@@ -1674,11 +1588,11 @@
     ],
     "requirements": [
       "Enchanting Level 33"
-    ],
-    "name": "Overload",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Paleontologist",
+    "max_level": 5,
     "sources": [
       {
         "name": "Fossil Excavation",
@@ -1698,11 +1612,11 @@
     ],
     "requirements": [
       "Enchanting Level 27"
-    ],
-    "name": "Paleontologist",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Pesterminator",
+    "max_level": 6,
     "sources": [
       {
         "name": "Beetle Pest",
@@ -1715,7 +1629,7 @@
         "max": 5
       },
       {
-        "name": "A Beginner\u0027s Guide to Pesthunting",
+        "name": "A Beginner's Guide to Pesthunting",
         "min": 6,
         "max": 6
       }
@@ -1725,11 +1639,33 @@
     ],
     "requirements": [
       "Enchanting Level 10"
-    ],
-    "name": "Pesterminator",
-    "max_level": 6
+    ]
   },
   {
+    "name": "Petalfall",
+    "max_level": 5,
+    "sources": [
+      {
+        "name": "Miria's Shop (Level 3+)",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Axe"
+    ],
+    "requirements": [
+      "Enchanting Level 12"
+    ]
+  },
+  {
+    "name": "Piercing",
+    "max_level": 1,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1741,13 +1677,12 @@
       "Bow"
     ],
     "requirements": [
-      "Enchanting Level 17",
-      "20 Bookshelf Power"
-    ],
-    "name": "Piercing",
-    "max_level": 1
+      "Enchanting Level 17"
+    ]
   },
   {
+    "name": "Piscary",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1774,13 +1709,12 @@
       "Fishing Rod"
     ],
     "requirements": [
-      "Enchanting Level 8",
-      "6 Bookshelf Power"
-    ],
-    "name": "Piscary",
-    "max_level": 7
+      "Enchanting Level 8"
+    ]
   },
   {
+    "name": "Power",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1811,18 +1745,19 @@
     "applicable_to": [
       "Bow"
     ],
-    "name": "Power",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "Prismatic",
+    "max_level": 5,
     "sources": [
       {
-        "name": "Bazaar",
+        "name": "Gemstone Collection",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
-        "name": "Gemstone Collection",
+        "name": "Bazaar",
         "min": 1,
         "max": 5
       }
@@ -1834,11 +1769,11 @@
     ],
     "requirements": [
       "Enchanting Level 22"
-    ],
-    "name": "Prismatic",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Projectile Protection",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1864,10 +1799,11 @@
     "applicable_to": [
       "Armor"
     ],
-    "name": "Projectile Protection",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "Prosecute",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1894,13 +1830,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 25",
-      "12 Bookshelf Power"
-    ],
-    "name": "Prosecute",
-    "max_level": 6
+      "Enchanting Level 25"
+    ]
   },
   {
+    "name": "Prosperity",
+    "max_level": 5,
     "sources": [
       {
         "name": "Fishing",
@@ -1920,10 +1855,11 @@
       "Bracelet",
       "Cloak"
     ],
-    "name": "Prosperity",
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Protection",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1959,10 +1895,11 @@
     "applicable_to": [
       "Armor"
     ],
-    "name": "Protection",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "Punch",
+    "max_level": 2,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -1973,13 +1910,42 @@
     "applicable_to": [
       "Bow"
     ],
-    "requirements": [
-      "2 Bookshelf Power"
-    ],
-    "name": "Punch",
-    "max_level": 2
+    "requirements": []
   },
   {
+    "name": "Pyroclasm",
+    "max_level": 6,
+    "sources": [
+      {
+        "name": "Enchantment Table",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Bazaar",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Magma Pillar",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "applicable_to": [
+      "Fishing Rod",
+      "Sword",
+      "Longsword",
+      "Gauntlet"
+    ],
+    "requirements": [
+      "Enchanting Level 9"
+    ]
+  },
+  {
+    "name": "Quantum",
+    "min_level": 3,
+    "max_level": 5,
     "sources": [
       {
         "name": "Riftstalker Bloodfiend",
@@ -1995,11 +1961,11 @@
     "applicable_to": [
       "Necklace"
     ],
-    "name": "Quantum",
-    "min_level": 3,
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Quick Bite",
+    "max_level": 5,
     "sources": [
       {
         "name": "Fishing",
@@ -2017,11 +1983,11 @@
     ],
     "requirements": [
       "Enchanting Level 23"
-    ],
-    "name": "Quick Bite",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Rainbow",
+    "max_level": 3,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2043,13 +2009,12 @@
       "Shears"
     ],
     "requirements": [
-      "Enchanting Level 6",
-      "1 Bookshelf Power"
-    ],
-    "name": "Rainbow",
-    "max_level": 3
+      "Enchanting Level 6"
+    ]
   },
   {
+    "name": "Reflection",
+    "max_level": 5,
     "sources": [
       {
         "name": "Rift Mirrorverse",
@@ -2070,11 +2035,11 @@
     ],
     "requirements": [
       "Enchanting Level 24"
-    ],
-    "name": "Reflection",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Rejuvenate",
+    "max_level": 5,
     "sources": [
       {
         "name": "Catacombs",
@@ -2095,11 +2060,11 @@
     ],
     "requirements": [
       "Enchanting Level 10"
-    ],
-    "name": "Rejuvenate",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Replenish",
+    "max_level": 1,
     "sources": [
       {
         "name": "Bazaar",
@@ -2113,16 +2078,15 @@
       }
     ],
     "applicable_to": [
-      "Hoe",
-      "Axe"
+      "Farming Tool"
     ],
     "requirements": [
       "Enchanting Level 7"
-    ],
-    "name": "Replenish",
-    "max_level": 1
+    ]
   },
   {
+    "name": "Respiration",
+    "max_level": 4,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2130,7 +2094,7 @@
         "max": 3
       },
       {
-        "name": "Nemo\u0027s Shop",
+        "name": "Nemo's Shop",
         "min": 4,
         "max": 4
       },
@@ -2143,13 +2107,11 @@
     "applicable_to": [
       "Helmet"
     ],
-    "requirements": [
-      "1 Bookshelf Power"
-    ],
-    "name": "Respiration",
-    "max_level": 4
+    "requirements": []
   },
   {
+    "name": "Respite",
+    "max_level": 5,
     "sources": [
       {
         "name": "Bayou Sludge",
@@ -2175,11 +2137,11 @@
     ],
     "requirements": [
       "Enchanting Level 23"
-    ],
-    "name": "Respite",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Scavenger",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2218,22 +2180,26 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 1",
-      "3 Bookshelf Power"
-    ],
-    "name": "Scavenger",
-    "max_level": 6
+      "Enchanting Level 1"
+    ]
   },
   {
+    "name": "Scuba",
+    "max_level": 6,
     "sources": [
+      {
+        "name": "Sea Lumies Collection",
+        "min": 1,
+        "max": 1
+      },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
       },
       {
-        "name": "Sea Lumies Collection",
-        "min": 1,
+        "name": "Vibrant Coral",
+        "min": 5,
         "max": 5
       }
     ],
@@ -2242,11 +2208,11 @@
     ],
     "requirements": [
       "Enchanting Level 5"
-    ],
-    "name": "Scuba",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Sharpness",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2279,10 +2245,11 @@
       "Longsword",
       "Gauntlet"
     ],
-    "name": "Sharpness",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "Silk Touch",
+    "max_level": 1,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2297,13 +2264,12 @@
     "applicable_to": [
       "Tools"
     ],
-    "requirements": [
-      "5 Bookshelf Power"
-    ],
-    "name": "Silk Touch",
-    "max_level": 1
+    "requirements": []
   },
   {
+    "name": "Small Brain",
+    "min_level": 3,
+    "max_level": 5,
     "sources": [
       {
         "name": "Raffle of the Century",
@@ -2324,12 +2290,11 @@
     ],
     "requirements": [
       "Enchanting Level 21"
-    ],
-    "name": "Small Brain",
-    "min_level": 3,
-    "max_level": 5
+    ]
   },
   {
+    "name": "Smarty Pants",
+    "max_level": 5,
     "sources": [
       {
         "name": "Voidgloom Seraph",
@@ -2347,11 +2312,11 @@
     ],
     "requirements": [
       "Enchanting Level 21"
-    ],
-    "name": "Smarty Pants",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Smelting Touch",
+    "max_level": 1,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2365,15 +2330,15 @@
     "applicable_to": [
       "Shovel",
       "Pickaxe",
-      "Hoe",
       "Axe",
       "Drill",
       "Gauntlet"
     ],
-    "name": "Smelting Touch",
-    "max_level": 1
+    "requirements": []
   },
   {
+    "name": "Smite",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2386,6 +2351,11 @@
         "max": 6
       },
       {
+        "name": "Catacombs",
+        "min": 7,
+        "max": 7
+      },
+      {
         "name": "Severed Hand",
         "min": 7,
         "max": 7
@@ -2396,20 +2366,26 @@
       "Longsword",
       "Gauntlet"
     ],
-    "name": "Smite",
-    "max_level": 7
+    "requirements": []
   },
   {
+    "name": "Smoldering",
+    "max_level": 6,
     "sources": [
       {
-        "name": "Smoldering Blazes",
+        "name": "Enchantment Table",
         "min": 1,
-        "max": 1
+        "max": 5
+      },
+      {
+        "name": "Inferno Demonlord",
+        "min": 6,
+        "max": 6
       },
       {
         "name": "Bazaar",
-        "min": 1,
-        "max": 5
+        "min": 6,
+        "max": 6
       }
     ],
     "applicable_to": [
@@ -2420,11 +2396,11 @@
     ],
     "requirements": [
       "Enchanting Level 23"
-    ],
-    "name": "Smoldering",
-    "max_level": 5
+    ]
   },
   {
+    "name": "Snipe",
+    "max_level": 4,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2446,13 +2422,12 @@
       "Bow"
     ],
     "requirements": [
-      "Enchanting Level 6",
-      "8 Bookshelf Power"
-    ],
-    "name": "Snipe",
-    "max_level": 4
+      "Enchanting Level 6"
+    ]
   },
   {
+    "name": "Spiked Hook",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2479,13 +2454,12 @@
       "Fishing Rod"
     ],
     "requirements": [
-      "Enchanting Level 18",
-      "20 Bookshelf Power"
-    ],
-    "name": "Spiked Hook",
-    "max_level": 7
+      "Enchanting Level 18"
+    ]
   },
   {
+    "name": "Stealth",
+    "max_level": 6,
     "sources": [
       {
         "name": "Chillblade and Chillshot",
@@ -2495,16 +2469,22 @@
       {
         "name": "Bazaar",
         "min": 1,
-        "max": 1
+        "max": 5
+      },
+      {
+        "name": "Distant Echo",
+        "min": 6,
+        "max": 6
       }
     ],
     "applicable_to": [
       "Boots"
     ],
-    "name": "Stealth",
-    "max_level": 1
+    "requirements": []
   },
   {
+    "name": "Strong Vitality",
+    "max_level": 10,
     "sources": [
       {
         "name": "Kuudra",
@@ -2518,20 +2498,20 @@
       }
     ],
     "conflicts": [
-      "Hardened Mana",
-      "Ferocious Mana",
-      "Mana Vampire"
+      "Hardened Vitality",
+      "Vivacious Vitality",
+      "Vampiric Vitality"
     ],
     "applicable_to": [
       "Armor"
     ],
     "requirements": [
       "Enchanting Level 22"
-    ],
-    "name": "Strong Mana",
-    "max_level": 10
+    ]
   },
   {
+    "name": "Sugar Rush",
+    "max_level": 3,
     "sources": [
       {
         "name": "Spooky Festival",
@@ -2549,46 +2529,20 @@
     ],
     "requirements": [
       "Enchanting Level 7"
-    ],
-    "name": "Sugar Rush",
-    "max_level": 3
+    ]
   },
   {
+    "name": "Tabasco",
+    "min_level": 2,
+    "max_level": 3,
     "sources": [
-      {
-        "name": "SkyMart",
-        "min": 1,
-        "max": 1
-      },
-      {
-        "name": "Bazaar",
-        "min": 1,
-        "max": 6
-      },
-      {
-        "name": "Locust Pests",
-        "min": 6,
-        "max": 6
-      }
-    ],
-    "applicable_to": [
-      "Axe"
-    ],
-    "requirements": [
-      "Enchanting Level 2"
-    ],
-    "name": "Sunder",
-    "max_level": 6
-  },
-  {
-    "sources": [
-      {
-        "name": "Bazaar",
-        "min": 2,
-        "max": 3
-      },
       {
         "name": "Chili Pepper Collection",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "name": "Bazaar",
         "min": 2,
         "max": 3
       }
@@ -2601,16 +2555,21 @@
       "Gauntlet",
       "Bow"
     ],
-    "name": "Tabasco",
-    "min_level": 2,
-    "max_level": 3
+    "requirements": []
   },
   {
+    "name": "Thorns",
+    "max_level": 4,
     "sources": [
       {
         "name": "Enchantment Table",
         "min": 1,
         "max": 3
+      },
+      {
+        "name": "Prickly Creeper",
+        "min": 4,
+        "max": 4
       }
     ],
     "conflicts": [
@@ -2619,13 +2578,11 @@
     "applicable_to": [
       "Armor"
     ],
-    "requirements": [
-      "3 Bookshelf Power"
-    ],
-    "name": "Thorns",
-    "max_level": 3
+    "requirements": []
   },
   {
+    "name": "Thunderbolt",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2652,13 +2609,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 20",
-      "14 Bookshelf Power"
-    ],
-    "name": "Thunderbolt",
-    "max_level": 7
+      "Enchanting Level 20"
+    ]
   },
   {
+    "name": "Thunderlord",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2690,13 +2646,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 14",
-      "12 Bookshelf Power"
-    ],
-    "name": "Thunderlord",
-    "max_level": 7
+      "Enchanting Level 14"
+    ]
   },
   {
+    "name": "Tidal",
+    "max_level": 3,
     "sources": [
       {
         "name": "Lukas the Aquarist",
@@ -2714,11 +2669,11 @@
     ],
     "requirements": [
       "Enchanting Level 13"
-    ],
-    "name": "Tidal",
-    "max_level": 3
+    ]
   },
   {
+    "name": "Titan Killer",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2745,13 +2700,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 28",
-      "6 Bookshelf Power"
-    ],
-    "name": "Titan Killer",
-    "max_level": 7
+      "Enchanting Level 28"
+    ]
   },
   {
+    "name": "Toxophilite",
+    "max_level": 10,
     "sources": [
       {
         "name": "Community Shop",
@@ -2767,18 +2721,20 @@
     "applicable_to": [
       "Bow"
     ],
-    "name": "Toxophilite",
-    "max_level": 10
+    "requirements": []
   },
   {
+    "name": "Transylvanian",
+    "min_level": 4,
+    "max_level": 5,
     "sources": [
       {
-        "name": "Bazaar",
+        "name": "Hemovibe Collection",
         "min": 4,
-        "max": 5
+        "max": 4
       },
       {
-        "name": "Hemovibe Collection",
+        "name": "Bazaar",
         "min": 4,
         "max": 5
       }
@@ -2786,11 +2742,11 @@
     "applicable_to": [
       "Helmet"
     ],
-    "name": "Transylvanian",
-    "min_level": 4,
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Triple-Strike",
+    "max_level": 5,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -2817,13 +2773,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 19",
-      "7 Bookshelf Power"
-    ],
-    "name": "Triple-Strike",
-    "max_level": 5
+      "Enchanting Level 19"
+    ]
   },
   {
+    "name": "True Protection",
+    "max_level": 1,
     "sources": [
       {
         "name": "Old Shaman Nyko",
@@ -2841,212 +2796,433 @@
     ],
     "requirements": [
       "Enchanting Level 15"
-    ],
-    "name": "True Protection",
-    "max_level": 1
+    ]
   },
   {
-    "sources": [
-      {
-        "name": "Jacob\u0027s Farming Contest",
-        "min": 1,
-        "max": 5
-      },
-      {
-        "name": "Bazaar",
-        "min": 1,
-        "max": 5
-      }
-    ],
-    "applicable_to": [
-      "Hoe",
-      "Axe"
-    ],
     "name": "Turbo-Cacti",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Cane",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Carrot",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Axe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Cocoa",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Axe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Melon",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
+    "name": "Turbo-Moonflower",
+    "max_level": 7,
+    "sources": [
+      {
+        "name": "Jacob's Farming Contest",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Farming Tool"
+    ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Mushrooms",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Potato",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Axe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Pumpkin",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
+    "requirements": []
+  },
+  {
+    "name": "Turbo-Rose",
+    "max_level": 7,
+    "sources": [
+      {
+        "name": "Jacob's Farming Contest",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Farming Tool"
+    ],
+    "requirements": []
+  },
+  {
+    "name": "Turbo-Sunflower",
+    "max_level": 7,
+    "sources": [
+      {
+        "name": "Jacob's Farming Contest",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Farming Tool"
+    ],
+    "requirements": []
+  },
+  {
     "name": "Turbo-Warts",
-    "max_level": 5
-  },
-  {
+    "max_level": 7,
     "sources": [
       {
-        "name": "Jacob\u0027s Farming Contest",
+        "name": "Jacob's Farming Contest",
         "min": 1,
-        "max": 5
+        "max": 1
       },
       {
         "name": "Bazaar",
         "min": 1,
         "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
-      "Hoe"
+      "Farming Tool"
     ],
-    "name": "Turbo-Wheat",
-    "max_level": 5
+    "requirements": []
   },
   {
+    "name": "Turbo-Wheat",
+    "max_level": 7,
+    "sources": [
+      {
+        "name": "Jacob's Farming Contest",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      },
+      {
+        "name": "Turbo Gourd",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Enchanted Turbo Gourd",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "applicable_to": [
+      "Farming Tool"
+    ],
+    "requirements": []
+  },
+  {
+    "name": "Vampiric Vitality",
+    "max_level": 10,
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 10
+      }
+    ],
+    "conflicts": [
+      "Hardened Vitality",
+      "Vivacious Vitality",
+      "Strong Vitality"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 22"
+    ]
+  },
+  {
+    "name": "Vampirism",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
         "min": 1,
         "max": 5
-      },
-      {
-        "name": "Experiments",
-        "min": 6,
-        "max": 6
       },
       {
         "name": "Spooky Festival",
@@ -3065,13 +3241,12 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 15",
-      "15 Bookshelf Power"
-    ],
-    "name": "Vampirism",
-    "max_level": 6
+      "Enchanting Level 15"
+    ]
   },
   {
+    "name": "Venomous",
+    "max_level": 7,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -3100,13 +3275,13 @@
       "Gauntlet"
     ],
     "requirements": [
-      "Enchanting Level 17",
-      "20 Bookshelf Power"
-    ],
-    "name": "Venomous",
-    "max_level": 7
+      "Enchanting Level 17"
+    ]
   },
   {
+    "name": "Vicious",
+    "min_level": 3,
+    "max_level": 5,
     "sources": [
       {
         "name": "Dark Auction",
@@ -3127,12 +3302,38 @@
     ],
     "requirements": [
       "Enchanting Level 26"
-    ],
-    "name": "Vicious",
-    "min_level": 3,
-    "max_level": 5
+    ]
   },
   {
+    "name": "Vivacious Vitality",
+    "max_level": 10,
+    "sources": [
+      {
+        "name": "Kuudra",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 10
+      }
+    ],
+    "conflicts": [
+      "Hardened Vitality",
+      "Strong Vitality",
+      "Vampiric Vitality"
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 22"
+    ]
+  },
+  {
+    "name": "Woodsplitter",
+    "max_level": 6,
     "sources": [
       {
         "name": "Enchantment Table",
@@ -3145,7 +3346,12 @@
         "max": 6
       },
       {
-        "name": "Chillblade and Chillshot",
+        "name": "Bambuleaf",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Mochibear",
         "min": 6,
         "max": 6
       },
@@ -3160,11 +3366,12 @@
     ],
     "requirements": [
       "Enchanting Level 5"
-    ],
-    "name": "Woodsplitter",
-    "max_level": 6
+    ]
   },
   {
+    "name": "Bank",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3182,12 +3389,13 @@
     ],
     "requirements": [
       "Enchanting Level 16"
-    ],
-    "name": "Bank",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Bobbin' Time",
+    "min_level": 3,
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Fishing",
@@ -3205,13 +3413,12 @@
     ],
     "requirements": [
       "Enchanting Level 24"
-    ],
-    "name": "Bobbin\u0027 Time",
-    "min_level": 3,
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Chimera",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Mythological Event",
@@ -3231,12 +3438,12 @@
     ],
     "requirements": [
       "Enchanting Level 31"
-    ],
-    "name": "Chimera",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Combo",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3256,12 +3463,35 @@
     ],
     "requirements": [
       "Enchanting Level 24"
-    ],
-    "name": "Combo",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Crop Fever",
+    "max_level": 5,
+    "is_ultimate": true,
+    "sources": [
+      {
+        "name": "Moonflower Collection",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Farming Tool"
+    ],
+    "requirements": [
+      "Enchanting Level 32"
+    ]
+  },
+  {
+    "name": "Duplex",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Inferno Demonlord",
@@ -3279,12 +3509,12 @@
     ],
     "requirements": [
       "Enchanting Level 28"
-    ],
-    "name": "Duplex",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Fatal Tempo",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Kuudra",
@@ -3307,12 +3537,12 @@
     ],
     "requirements": [
       "Enchanting Level 37"
-    ],
-    "name": "Fatal Tempo",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "First Impression",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Tree Gifts",
@@ -3330,12 +3560,12 @@
     ],
     "requirements": [
       "Enchanting Level 14"
-    ],
-    "name": "First Impression",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Flash",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Fishing",
@@ -3353,12 +3583,12 @@
     ],
     "requirements": [
       "Enchanting Level 30"
-    ],
-    "name": "Flash",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Flowstate",
+    "max_level": 3,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Mining Events",
@@ -3378,20 +3608,21 @@
     ],
     "requirements": [
       "Enchanting Level 15"
-    ],
-    "name": "Flowstate",
-    "max_level": 3,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Habanero Tactics",
+    "min_level": 4,
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
-        "name": "Bazaar",
+        "name": "Chili Pepper Collection",
         "min": 4,
-        "max": 5
+        "max": 4
       },
       {
-        "name": "Chili Pepper Collection",
+        "name": "Bazaar",
         "min": 4,
         "max": 5
       }
@@ -3401,13 +3632,12 @@
     ],
     "requirements": [
       "Enchanting Level 28"
-    ],
-    "name": "Habanero Tactics",
-    "min_level": 4,
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Inferno",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Kuudra",
@@ -3430,12 +3660,12 @@
     ],
     "requirements": [
       "Enchanting Level 37"
-    ],
-    "name": "Inferno",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Last Stand",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3453,12 +3683,12 @@
     ],
     "requirements": [
       "Enchanting Level 30"
-    ],
-    "name": "Last Stand",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Legion",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3476,12 +3706,12 @@
     ],
     "requirements": [
       "Enchanting Level 34"
-    ],
-    "name": "Legion",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Missile",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Tree Gifts",
@@ -3499,12 +3729,12 @@
     ],
     "requirements": [
       "Enchanting Level 14"
-    ],
-    "name": "Missile",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "No Pain No Gain",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3522,12 +3752,12 @@
     ],
     "requirements": [
       "Enchanting Level 29"
-    ],
-    "name": "No Pain No Gain",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "One For All",
+    "max_level": 1,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3546,15 +3776,15 @@
     ],
     "requirements": [
       "Enchanting Level 38"
-    ],
-    "name": "One For All",
-    "max_level": 1,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Refrigerate",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
-        "name": "Einary\u0027s Shop",
+        "name": "Einary's Shop",
         "min": 1,
         "max": 1
       },
@@ -3569,12 +3799,12 @@
     ],
     "requirements": [
       "Enchanting Level 20"
-    ],
-    "name": "Refrigerate",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Rend",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3592,12 +3822,12 @@
     ],
     "requirements": [
       "Enchanting Level 32"
-    ],
-    "name": "Rend",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Soul Eater",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3617,12 +3847,35 @@
     ],
     "requirements": [
       "Enchanting Level 36"
-    ],
-    "name": "Soul Eater",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Sunset",
+    "max_level": 5,
+    "is_ultimate": true,
+    "sources": [
+      {
+        "name": "Lunar Moth Pest",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "name": "Bazaar",
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "applicable_to": [
+      "Armor"
+    ],
+    "requirements": [
+      "Enchanting Level 27"
+    ]
+  },
+  {
+    "name": "Swarm",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3642,12 +3895,13 @@
     ],
     "requirements": [
       "Enchanting Level 35"
-    ],
-    "name": "Swarm",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "The One",
+    "min_level": 4,
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Riftstalker Bloodfiend",
@@ -3665,13 +3919,12 @@
     ],
     "requirements": [
       "Enchanting Level 25"
-    ],
-    "name": "The One",
-    "min_level": 4,
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Ultimate Jerry",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3690,12 +3943,12 @@
     ],
     "requirements": [
       "Enchanting Level 18"
-    ],
-    "name": "Ultimate Jerry",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Ultimate Wise",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3713,11 +3966,11 @@
       "Wand",
       "Shovel",
       "Pickaxe",
-      "Hoe",
       "Drill",
       "Precursor Eye",
       "Shears",
       "Sword",
+      "Farming Tool",
       "Axe",
       "Longsword",
       "Gauntlet",
@@ -3725,12 +3978,12 @@
     ],
     "requirements": [
       "Enchanting Level 20"
-    ],
-    "name": "Ultimate Wise",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   },
   {
+    "name": "Wisdom",
+    "max_level": 5,
+    "is_ultimate": true,
     "sources": [
       {
         "name": "Catacombs",
@@ -3748,9 +4001,6 @@
     ],
     "requirements": [
       "Enchanting Level 27"
-    ],
-    "name": "Wisdom",
-    "max_level": 5,
-    "is_ultimate": true
+    ]
   }
 ]
