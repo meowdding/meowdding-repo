@@ -727,7 +727,7 @@
   },
   {
     "rarity": "LEGENDARY",
-    "item": "zombie_spawn_egg",
+    "item": "minecraft:zombie_head",
     "name": "Vargul",
     "id": "vargul_garden"
   },
