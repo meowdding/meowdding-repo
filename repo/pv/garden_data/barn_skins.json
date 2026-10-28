@@ -15,6 +15,10 @@
     "displayname": "<green>Sunny",
     "item": "RED_SANDSTONE"
   },
+  "cabin": {
+    "displayname": "<blue>Cabin",
+    "item": "STAINED_CLAY:3"
+  },
   "mansion_heights": {
     "displayname": "<purple>Mansion Heights",
     "item": "WOOD:1"
