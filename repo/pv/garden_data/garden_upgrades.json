@@ -106,88 +106,87 @@
       }
     ]
   },
-  {
-    "BETTER_ADVERTISING": {
-      "name": "<aqua>Better Advertising",
-      "type": "VISITOR",
-      "reward_formula": "level",
-      "format": "INTEGER",
-      "tooltip": "<gray>Reduces Visitor Cooldown by <aqua>%reward%</aqua> minute(s).",
-      "upgrades": [
-        {
-          "copper": 500,
-          "ENCHANTED_HAY_BALE": 3,
-          "ENCHANTED_GOLDEN_CARROT": 3,
-          "ENCHANTED_BAKED_POTATO": 3
-        },
-        {
-          "copper": 1000,
-          "CROPIE": 16,
-          "SQUASH": 8
-        },
-        {
-          "copper": 2000,
-          "FERMENTO": 8,
-          "DUSTGRAIN": 8,
-          "ASHWREATH": 8,
-          "SCOURROOT": 8,
-          "FLINT_AND_STEEL": 1
-        },
-        {
-          "copper": 3000,
-          "TOOL_EXP_CAPSULE": 8
-        },
-        {
-          "copper": 4000,
-          "MAGIC_JELLYBEAN": 8,
-          "BIOFUEL": 32
-        },
-        {
-          "copper": 5000,
-          "BOTROOT": 16,
-          "DEEPFRIES": 16,
-          "FEASTFUNGUS": 16
-        }
-      ]
-    },
-    "MAX_OCCUPANCY": {
-      "name": "<aqua>Max Occupancy",
-      "type": "VISITOR",
-      "reward_formula": "level",
-      "format": "INTEGER",
-      "tooltip": "<gray>Increases Visitor line cap by <aqua>%reward%</aqua>.",
-      "upgrades": [
-        {
-          "copper": 1000,
-          "ENCHANTED_RABBIT_HIDE": 16,
-          "BOOKWORM_BOOK": 3,
-          "ENCHANTED_PAPER": 48
-        },
-        {
-          "copper": 2000,
-          "ATMOSPHERIC_FILTER": 1,
-          "ENCHANTED_GLISTERING_MELON": 1,
-          "WRIGGLING_LARVA": 3,
-          "LOCUST_LARVA": 3
-        },
-        {
-          "copper": 3000,
-          "SQUEAKY_TOY": 5,
-          "BEADY_EYES": 5,
-          "CLIPPED_WINGS": 5
-        },
-        {
-          "copper": 4000,
-          "OVERGROWN_GRASS": 1,
-          "BURROWING_SPORES": 4,
-          "BOX_OF_SEEDS": 32
-        },
-        {
-          "copper": 5000,
-          "SUPER_JACOB_SYSTEM": 1,
-          "CHIRPING_STEREO": 3
-        }
-      ]
-    }
+  "BETTER_ADVERTISING": {
+    "name": "<aqua>Better Advertising",
+    "type": "VISITOR",
+    "reward_formula": "level",
+    "format": "INTEGER",
+    "tooltip": "<gray>Reduces Visitor Cooldown by <aqua>%reward%</aqua> minute(s).",
+    "upgrades": [
+      {
+        "copper": 500,
+        "ENCHANTED_HAY_BALE": 3,
+        "ENCHANTED_GOLDEN_CARROT": 3,
+        "ENCHANTED_BAKED_POTATO": 3
+      },
+      {
+        "copper": 1000,
+        "CROPIE": 16,
+        "SQUASH": 8
+      },
+      {
+        "copper": 2000,
+        "FERMENTO": 8,
+        "DUSTGRAIN": 8,
+        "ASHWREATH": 8,
+        "SCOURROOT": 8,
+        "FLINT_AND_STEEL": 1
+      },
+      {
+        "copper": 3000,
+        "TOOL_EXP_CAPSULE": 8
+      },
+      {
+        "copper": 4000,
+        "MAGIC_JELLYBEAN": 8,
+        "BIOFUEL": 32
+      },
+      {
+        "copper": 5000,
+        "BOTROOT": 16,
+        "DEEPFRIES": 16,
+        "FEASTFUNGUS": 16
+      }
+    ]
+  },
+  "MAX_OCCUPANCY": {
+    "name": "<aqua>Max Occupancy",
+    "type": "VISITOR",
+    "reward_formula": "level",
+    "format": "INTEGER",
+    "tooltip": "<gray>Increases Visitor line cap by <aqua>%reward%</aqua>.",
+    "upgrades": [
+      {
+        "copper": 1000,
+        "ENCHANTED_RABBIT_HIDE": 16,
+        "BOOKWORM_BOOK": 3,
+        "ENCHANTED_PAPER": 48
+      },
+      {
+        "copper": 2000,
+        "ATMOSPHERIC_FILTER": 1,
+        "ENCHANTED_GLISTERING_MELON": 1,
+        "WRIGGLING_LARVA": 3,
+        "LOCUST_LARVA": 3
+      },
+      {
+        "copper": 3000,
+        "SQUEAKY_TOY": 5,
+        "BEADY_EYES": 5,
+        "CLIPPED_WINGS": 5
+      },
+      {
+        "copper": 4000,
+        "OVERGROWN_GRASS": 1,
+        "BURROWING_SPORES": 4,
+        "BOX_OF_SEEDS": 32
+      },
+      {
+        "copper": 5000,
+        "SUPER_JACOB_SYSTEM": 1,
+        "CHIRPING_STEREO": 3
+      }
+    ]
   }
+}
 }
