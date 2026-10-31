@@ -150,7 +150,6 @@ object RemoteRepo {
 
     private fun HttpClient.getJsonObject(path: String) = get(path)?.let { gson.fromJson(it, JsonObject::class.java) }
     private fun HttpClient.get(path: String): String? = runCatching {
-        if ((1..10).random() <= 2) error("")
         send(
             HttpRequest.newBuilder(URI.create("https://" + (version?.let { "$it." } ?: "") + REMOTE_URL).resolve(path))
                 .method("GET", HttpRequest.BodyPublishers.noBody())
