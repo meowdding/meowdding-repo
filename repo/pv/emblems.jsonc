@@ -871,7 +871,7 @@
         }
     },
     {
-        "id": "SPARKLING_CRITTER_CATCHER", // U - 🚨🚨🚨 same id as above 🚨🚨🚨
+        "id": "GOLDEN_SPARKLING_CRITTER_CATCHER",
         "family": "ACHIEVEMENT",
         "name": "Sparkling Critter Catcher",
         "icon": {
