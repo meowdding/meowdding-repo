@@ -1478,7 +1478,7 @@
     ]
   },
   {
-    "id": "LOOTING",
+    "id": "LOOTING_NEW",
     "name": "Looting",
     "max_level": 7,
     "sources": [
