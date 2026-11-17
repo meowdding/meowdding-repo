@@ -282,34 +282,6 @@
     "requirements": []
   },
   {
-    "id": "CHANCE",
-    "name": "Chance",
-    "max_level": 5,
-    "sources": [
-      {
-        "name": "Enchantment Table",
-        "min": 1,
-        "max": 3
-      },
-      {
-        "name": "Experiments",
-        "min": 3,
-        "max": 5
-      },
-      {
-        "name": "Bazaar",
-        "min": 4,
-        "max": 5
-      }
-    ],
-    "applicable_to": [
-      "Bow"
-    ],
-    "requirements": [
-      "Enchanting Level 11"
-    ]
-  },
-  {
     "id": "CHARM",
     "name": "Charm",
     "max_level": 6,
@@ -596,30 +568,6 @@
     "requirements": []
   },
   {
-    "id": "DIVINE_GIFT",
-    "name": "Divine Gift",
-    "max_level": 3,
-    "sources": [
-      {
-        "name": "Regalia Room",
-        "min": 1,
-        "max": 1
-      },
-      {
-        "name": "Bazaar",
-        "min": 1,
-        "max": 3
-      }
-    ],
-    "applicable_to": [
-      "Sword",
-      "Longsword",
-      "Bow",
-      "Gauntlet"
-    ],
-    "requirements": []
-  },
-  {
     "id": "AIMING",
     "name": "Dragon Tracer",
     "max_level": 5,
@@ -798,8 +746,8 @@
     "applicable_to": [
       "Sword",
       "Pickaxe",
-      "Longsword",
       "Drill",
+      "Longsword",
       "Gauntlet"
     ],
     "requirements": []
@@ -885,7 +833,7 @@
         "max": 2
       },
       {
-        "name": "Inferno Demonlord",
+        "name": "Millennia-Aged Blazes",
         "min": 3,
         "max": 3
       },
@@ -1532,40 +1480,6 @@
   {
     "id": "LOOTING",
     "name": "Looting",
-    "max_level": 5,
-    "sources": [
-      {
-        "name": "Enchantment Table",
-        "min": 1,
-        "max": 3
-      },
-      {
-        "name": "Season of Jerry",
-        "min": 4,
-        "max": 4
-      },
-      {
-        "name": "Experiments",
-        "min": 4,
-        "max": 5
-      },
-      {
-        "name": "Bazaar",
-        "min": 4,
-        "max": 5
-      }
-    ],
-    "applicable_to": [
-      "Fishing Rod",
-      "Sword",
-      "Longsword",
-      "Gauntlet"
-    ],
-    "requirements": []
-  },
-  {
-    "id": "LUCK",
-    "name": "Luck",
     "max_level": 7,
     "sources": [
       {
@@ -1574,24 +1488,29 @@
         "max": 5
       },
       {
-        "name": "Season of Jerry",
+        "name": "Einary's Shop",
         "min": 6,
         "max": 6
-      },
-      {
-        "name": "Experiments",
-        "min": 6,
-        "max": 7
       },
       {
         "name": "Bazaar",
         "min": 6,
         "max": 7
+      },
+      {
+        "name": "Sphinx",
+        "min": 7,
+        "max": 7
       }
     ],
     "applicable_to": [
+      "Fishing Rod",
       "Sword",
+      "Pickaxe",
+      "Axe",
+      "Drill",
       "Longsword",
+      "Bow",
       "Gauntlet"
     ],
     "requirements": [
@@ -2080,12 +1999,12 @@
         "max": 5
       },
       {
-        "name": "Fishing",
+        "name": "Bazaar",
         "min": 6,
         "max": 6
       },
       {
-        "name": "Bazaar",
+        "name": "Magma Pillar",
         "min": 6,
         "max": 6
       }
@@ -2545,17 +2464,22 @@
   {
     "id": "SMOLDERING",
     "name": "Smoldering",
-    "max_level": 5,
+    "max_level": 6,
     "sources": [
       {
-        "name": "Smoldering Blazes",
+        "name": "Enchantment Table",
         "min": 1,
-        "max": 1
+        "max": 5
+      },
+      {
+        "name": "Inferno Demonlord",
+        "min": 6,
+        "max": 6
       },
       {
         "name": "Bazaar",
-        "min": 1,
-        "max": 5
+        "min": 6,
+        "max": 6
       }
     ],
     "applicable_to": [
@@ -2726,8 +2650,8 @@
     "applicable_to": [
       "Fishing Rod",
       "Sword",
-      "Longsword",
       "Axe",
+      "Longsword",
       "Bow",
       "Gauntlet"
     ],
@@ -3550,7 +3474,12 @@
         "max": 6
       },
       {
-        "name": "Chillblade and Chillshot",
+        "name": "Bambuleaf",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "name": "Mochibear",
         "min": 6,
         "max": 6
       },
@@ -3736,8 +3665,8 @@
     "applicable_to": [
       "Fishing Rod",
       "Sword",
-      "Longsword",
       "Axe",
+      "Longsword",
       "Bow",
       "Gauntlet"
     ],
@@ -3864,8 +3793,8 @@
     "applicable_to": [
       "Fishing Rod",
       "Sword",
-      "Longsword",
       "Axe",
+      "Longsword",
       "Bow",
       "Gauntlet"
     ],
@@ -4195,8 +4124,8 @@
       "Shears",
       "Sword",
       "Farming Tool",
-      "Longsword",
       "Axe",
+      "Longsword",
       "Bow",
       "Gauntlet"
     ],
