@@ -1,6 +1,4 @@
 {
   "family": "personal_compactor_mining",
-  "tiers": [
-    "item:personal_compactor_mining_4000"
-  ]
+  "tiers": "item:personal_compactor_mining_4000"
 }

@@ -1,6 +1,4 @@
 {
   "family": "personal_compactor_husbandry",
-  "tiers": [
-    "item:personal_compactor_husbandry_4000"
-  ]
+  "tiers": "item:personal_compactor_husbandry_4000"
 }
