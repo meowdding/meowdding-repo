@@ -1,5 +1,4 @@
 {
   "family": "cake_bag",
-  "tiers": "item:new_year_cake_bag",
-  "ignore_duplicates": true
+  "tiers": "item:new_year_cake_bag"
 }
